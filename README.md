@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Houvote
 
-Things you may want to cover:
+Get info on elected and unelected government
 
-* Ruby version
+## Structure
 
-* System dependencies
+governments
+  slug
+  name
+  level {special,city,county,state,federal}
+  start_date
+  end_date
+  geom
 
-* Configuration
+offices
+  government_slug
+  person_slug
+  name            # e.g. chair 1, optional
 
-* Database creation
+persons
+  slug
+  fname
+  mname
+  lname
+  born
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
