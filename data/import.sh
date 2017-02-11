@@ -1,12 +1,19 @@
 #!/bin/bash
 
-set -euo pipefail
+set -eo pipefail
 
 DBNAME=houvote_data
 DBHOST=db
 
 function sql () {
-  echo "$1" | psql -U postgres -h $DBHOST -d $DBNAME
+  CMD="$1"
+  psql -U postgres -h $DBHOST -d $DBNAME -c "$CMD"
+}
+
+function ssql () {
+  CMD=""
+  while read -r line; do CMD+="$line "; done;
+  psql -U postgres -h $DBHOST -d $DBNAME -c "$CMD"
 }
 
 function download_unzip () {
@@ -29,12 +36,14 @@ function shp_import () {
 # Create database
 # ===============
 
-echo "CREATE DATABASE $DBNAME;" | psql -U postgres -h $DBHOST
+psql -U postgres -h $DBHOST -c "DROP DATABASE $DBNAME;" || true
+psql -U postgres -h $DBHOST -c "CREATE DATABASE $DBNAME;"
 sql "CREATE EXTENSION postgis;"
-sql <<SQL
-CREATE TABLE IF NOT EXISTS areas (
+ssql <<SQL
+CREATE TABLE IF NOT EXISTS governments (
   slug varchar(255) not null primary key,
   name varchar(255),
+  level varchar(255),
   geom geometry(MultiPolygon,4269)
 );
 SQL
@@ -52,11 +61,20 @@ shp_import \
   "cb_2015_us_cd114_500k.shp" \
   4269
 
-# Copy Texas districts to areas
+# Copy Texas districts to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT CONCAT('us-house-district-', cd114fp) AS slub,
+    CONCAT('US house district ', cd114fp) AS name,
+    'federal' AS level,
+    geom
+  FROM us_house_districts
+  WHERE statefp = '48'
+);
+SQL
 
 
 
 
 
-
-pg_dump -U postgres -h $DBHOST -t areas -f areas.sql $DBNAME 
+sql "\\COPY governments TO governments.csv CSV HEADER"

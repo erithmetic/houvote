@@ -10,8 +10,6 @@ governments
   slug
   name
   level {special,city,county,state,federal}
-  start_date
-  end_date
   geom
 
 offices
