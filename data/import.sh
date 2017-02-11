@@ -44,13 +44,11 @@ CREATE TABLE IF NOT EXISTS governments (
   slug varchar(255) not null primary key,
   name varchar(255),
   level varchar(255),
-  geom geometry(MultiPolygon,4269)
+  geom geometry(MultiPolygon,4269),
+  start_date date,
+  end_date date
 );
 SQL
-
-# Import US Senate districts
-# ==========================
-
 
 # Import US house districts
 # =========================
@@ -64,17 +62,28 @@ shp_import \
 # Copy Texas districts to governments
 ssql <<SQL
 INSERT INTO governments (
-  SELECT CONCAT('us-house-district-', cd114fp) AS slub,
-    CONCAT('US house district ', cd114fp) AS name,
+  SELECT CONCAT('us-house-115-district-', cd114fp) AS slug,
+    CONCAT('115th Congress US house district ', cd114fp) AS name,
     'federal' AS level,
-    geom
+    geom,
+    '2017-01-03',
+    '2019-01-03'
   FROM us_house_districts
   WHERE statefp = '48'
 );
 SQL
 
 
+# "Import" US Senate districts
+# ==========================
 
+ssql <<SQL
+INSERT INTO governments
+(slug, name, level, start_date, end_date)
+VALUES
+('us-senate-seat-1', 'US Senate Seat 1', 'federal', '2012-01-03', '2018-01-03'),
+('us-senate-seat-2', 'US Senate Seat 2', 'federal', '2014-01-03', '2020-01-03');
+SQL
 
 
 sql "\\COPY governments TO governments.csv CSV HEADER"
