@@ -26,10 +26,19 @@ function download_unzip () {
 function shp_import () {
   URL=$1
   ZIP=$2
-  SHP=$3
-  SRID=$4
+  DIR=$3
+  SHP=$4
+  SRID=$5
+  TABLE=$6
   download_unzip $URL $ZIP
-  shp2pgsql -I -s $SRID out/$SHP us_house_districts | psql -U postgres -h $DBHOST -d $DBNAME
+
+  if [ -z "$DIR" ]; then
+    OUTPATH="out/$SHP"
+  else
+    OUTPATH="out/$DIR/$SHP"
+  fi
+
+  shp2pgsql -I -s $SRID $OUTPATH $TABLE | psql -U postgres -h $DBHOST -d $DBNAME
   rm -rf out
 }
 
@@ -44,9 +53,8 @@ CREATE TABLE IF NOT EXISTS governments (
   slug varchar(255) not null primary key,
   name varchar(255),
   level varchar(255),
-  geom geometry(MultiPolygon,4269),
-  start_date date,
-  end_date date
+  category varchar(255),
+  geom geometry(MultiPolygon,4269)
 );
 SQL
 
@@ -56,33 +64,57 @@ SQL
 shp_import \
   "http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_cd114_500k.zip" \
   "cb_2015_us_cd114_500k.zip" \
+  "" \
   "cb_2015_us_cd114_500k.shp" \
-  4269
+  4269 \
+  us_house_districts
 
-# Copy Texas districts to governments
+# Copy Texas house districts to governments
 ssql <<SQL
 INSERT INTO governments (
   SELECT CONCAT('us-house-115-district-', cd114fp) AS slug,
     CONCAT('115th Congress US house district ', cd114fp) AS name,
     'federal' AS level,
-    geom,
-    '2017-01-03',
-    '2019-01-03'
+    'US House' AS category,
+    geom
   FROM us_house_districts
   WHERE statefp = '48'
 );
 SQL
 
 
-# "Import" US Senate districts
+# Create US Senate districts
 # ==========================
 
 ssql <<SQL
 INSERT INTO governments
-(slug, name, level, start_date, end_date)
+(slug, name, level, category)
 VALUES
-('us-senate-seat-1', 'US Senate Seat 1', 'federal', '2012-01-03', '2018-01-03'),
-('us-senate-seat-2', 'US Senate Seat 2', 'federal', '2014-01-03', '2020-01-03');
+('us-senate-seat-1', 'US Senate Seat 1', 'federal', 'US Senate'),
+('us-senate-seat-2', 'US Senate Seat 2', 'federal', 'US Senate');
+SQL
+
+
+# Import TX Senate districts
+
+shp_import \
+  "ftp://ftpgis1.tlc.state.tx.us/DistrictViewer/Senate/PlanS172.zip" \
+  "PlanS172.zip" \
+  "PLANS172" \
+  "PLANS172.shp" \
+  4269 \
+  tx_senate_districts
+
+# Copy Texas senate districts to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT CONCAT('tx-senate-district-', district) AS slug,
+    CONCAT('Texas senate district ', district) AS name,
+    'state' AS level,
+    'Texas state senate' AS category,
+    geom
+  FROM tx_senate_districts
+);
 SQL
 
 
