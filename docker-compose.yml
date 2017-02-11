@@ -1,0 +1,53 @@
+version: "2"
+
+services:
+  app:
+    image: "houvote-test"
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    environment:
+      DATABASE_URL: postgres://postgres@db:5432/houvote_test
+      RAILS_ENV: test
+
+  test:
+    extends: app
+    volumes:
+      - .:/app
+
+  db:
+    image: "mdillon/postgis"
+    ports:
+      - "5432:5432"
+
+  postgis:
+    extends: db
+    command: bash
+    volumes:
+      - .:/app
+    links:
+      - db
+
+  prepare:
+    extends: test
+    command: rake db:setup
+    depends_on:
+      - db
+    links:
+      - db
+
+  dev:
+    extends: app
+    environment:
+      DATABASE_URL: postgres://postgres@db:5432/houvote_development
+      RAILS_ENV: development
+    ports:
+      - 3000:3000
+
+  devprepare:
+    extends: dev
+    command: rake db:setup
+    depends_on:
+      - db
+    links:
+      - db

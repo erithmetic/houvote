@@ -1,0 +1,15 @@
+FROM ruby:2.4.0
+
+RUN apt-get update && \
+    apt-get install -y unzip postgresql-client-9.4 postgis && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN gem install bundler
+
+WORKDIR /app
+
+ADD Gemfile /app/Gemfile
+ADD Gemfile.lock /app/Gemfile.lock
+RUN bundle install
+
+ADD . /app
