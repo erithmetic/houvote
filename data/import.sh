@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS governments (
   name varchar(255),
   level varchar(255),
   category varchar(255),
-  geom geometry(MultiPolygon,4269)
+  geom geometry(MultiPolygon,4326)
 );
 SQL
 
@@ -66,7 +66,7 @@ shp_import \
   "cb_2015_us_cd114_500k.zip" \
   "" \
   "cb_2015_us_cd114_500k.shp" \
-  4269 \
+  "4269:4326" \
   us_house_districts
 
 # Copy Texas house districts to governments
@@ -96,13 +96,14 @@ SQL
 
 
 # Import TX Senate districts
+# ==========================
 
 shp_import \
   "ftp://ftpgis1.tlc.state.tx.us/DistrictViewer/Senate/PlanS172.zip" \
   "PlanS172.zip" \
   "PLANS172" \
   "PLANS172.shp" \
-  4269 \
+  "4269:4326" \
   tx_senate_districts
 
 # Copy Texas senate districts to governments
@@ -114,6 +115,54 @@ INSERT INTO governments (
     'Texas state senate' AS category,
     geom
   FROM tx_senate_districts
+);
+SQL
+
+
+# Import TX House districts
+# =========================
+
+shp_import \
+  "ftp://ftpgis1.tlc.state.tx.us/DistrictViewer/House/PlanH358.zip" \
+  "PlanH358.zip" \
+  "PLANH358" \
+  "PLANH358.shp" \
+  "4269:4326" \
+  tx_house_districts
+
+# Copy Texas house districts to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT CONCAT('tx-house-district-', district) AS slug,
+    CONCAT('Texas house district ', district) AS name,
+    'state' AS level,
+    'Texas state house of representatives' AS category,
+    geom
+  FROM tx_house_districts
+);
+SQL
+
+
+# Import state board of education districts
+# =========================================
+
+shp_import \
+  "ftp://ftpgis1.tlc.state.tx.us/DistrictViewer/SBOE/PlanE120.zip" \
+  "PlanE120.zip" \
+  "PLANE120" \
+  "PLANE120.shp" \
+  "4269:4326" \
+  tx_sboe_districts
+
+# Copy Texas board of education districts to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT CONCAT('tx-sboe-district-', district) AS slug,
+    CONCAT('Texas board of education district ', district) AS name,
+    'state' AS level,
+    'Texas board of education' AS category,
+    geom
+  FROM tx_house_districts
 );
 SQL
 

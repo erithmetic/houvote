@@ -37,7 +37,7 @@ services:
       - db
 
   dev:
-    extends: app
+    extends: test
     environment:
       DATABASE_URL: postgres://postgres@db:5432/houvote_development
       RAILS_ENV: development

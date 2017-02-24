@@ -1,0 +1,37 @@
+<div class="page-header">
+  <%= link_to new_term_path, class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-plus"></span>
+    New Term
+  <% end %>
+  <h1>Listing terms</h1>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+            <th>Government slug</th>
+            <th>Person slug</th>
+            <th>Name</th>
+            <th>Start date</th>
+            <th>End date</th>
+            <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <%= content_tag_for(:tr, @terms) do |term| %>
+            <td><%= term.government_slug %></td>
+            <td><%= term.person_slug %></td>
+            <td><%= term.name %></td>
+            <td><%= term.start_date %></td>
+            <td><%= term.end_date %></td>
+            <td><%= link_to 'Show', term %></td>
+        <td><%= link_to 'Edit', edit_term_path(term) %></td>
+        <td><%= link_to 'Destroy', term, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <% end %>
+    </tbody>
+  </table>
+</div>

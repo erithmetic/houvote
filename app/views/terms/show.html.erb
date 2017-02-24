@@ -1,0 +1,29 @@
+<div class="page-header">
+  <%= link_to terms_path, class: 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Back
+  <% end %>
+  <%= link_to edit_term_path(@term), class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Edit
+  <% end %>
+  <h1>Show term</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Government slug:</dt>
+  <dd><%= @term.government_slug %></dd>
+
+  <dt>Person slug:</dt>
+  <dd><%= @term.person_slug %></dd>
+
+  <dt>Name:</dt>
+  <dd><%= @term.name %></dd>
+
+  <dt>Start date:</dt>
+  <dd><%= @term.start_date %></dd>
+
+  <dt>End date:</dt>
+  <dd><%= @term.end_date %></dd>
+
+</dl>

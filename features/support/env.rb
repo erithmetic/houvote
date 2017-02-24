@@ -4,6 +4,9 @@
 # instead of editing this one. Cucumber will automatically load all features/**/*.rb
 # files.
 
+ENV['SMARTYSTREETS_AUTH_ID'] = 'fake'
+ENV['SMARTYSTREETS_TOKEN'] = 'fake'
+
 require 'cucumber/rails'
 
 # Capybara defaults to CSS3 selectors rather than XPath.
