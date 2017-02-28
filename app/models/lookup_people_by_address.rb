@@ -29,9 +29,19 @@ class LookupPeopleByAddress
   end
 
   def location
-    @location ||= Geocoder.call street: address.house_number_and_street,
-      city: address.city,
-      zipcode: address.postal_code
+    @location ||= Rails.cache.fetch(location_cache_key) {
+      Geocoder.call(
+        street: address.house_number_and_street,
+        city: address.city,
+        zipcode: address.postal_code
+      )
+    }
+  end
+
+  def location_cache_key
+    [address.house_number_and_street, address.city, address.postal_code].map do |s|
+      s.downcase.strip.gsub(/\s+/, ' ')
+    end.join(' ')
   end
 
 end
