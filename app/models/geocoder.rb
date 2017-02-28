@@ -42,5 +42,3 @@ module Geocoder
   end
 
 end
-
-SmartyStreets.set_auth Geocoder.auth_id, Geocoder.auth_token
