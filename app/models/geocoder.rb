@@ -14,16 +14,14 @@ module Geocoder
     if auth_id == 'fake'
       Fake.call
     else
-      Live.call street: @address.house_number_and_street,
-          city: @address.city,
-          zipcode: @address.postal_code
+      Live.call street: street,
+          city: city,
+          zipcode: zipcode
     end
   end
 
   module Live
     def self.call(street:, city:, zipcode:)
-      SmartyStreets.set_auth Geocoder.auth_id, Geocoder.auth_token
-
       result = SmartyStreets::StreetAddressApi.call(
 				SmartyStreets::StreetAddressRequest.new(
 					input_id: "1",
@@ -33,7 +31,7 @@ module Geocoder
 					zipcode: zipcode
 				)
 			).first or raise "Failed getting smarty streets"
-      { latitude: result.latitude, longitude: result.longitude }
+      { latitude: result.metadata.latitude, longitude: result.metadata.longitude }
     end
   end
 
@@ -44,3 +42,5 @@ module Geocoder
   end
 
 end
+
+SmartyStreets.set_auth Geocoder.auth_id, Geocoder.auth_token
