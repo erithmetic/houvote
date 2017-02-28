@@ -9,5 +9,4 @@ Feature: Finding my reps
     When I go to the main page
     And I fill in "location" with "410 Sul Ross St 77006"
     And I click on "Submit"
-    And I debug
     Then I should see "Sylvester Turner"

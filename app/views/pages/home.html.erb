@@ -25,7 +25,7 @@
               <img src="<%= person.photo_url %>">
 							<div class="caption">
                 <h3><%= person.name %></h3>
-                <p><%= person.term.name %></p>
+                <p><%= person.terms.current&.name %></p>
 							</div>
 						</div>
           <% end %>
