@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -eo pipefail
-
 DBNAME=houvote_data
 DBHOST=db
 
@@ -168,3 +167,39 @@ SQL
 
 
 sql "\\COPY governments TO governments.csv CSV HEADER"
+
+
+# Import voting precincts
+# =======================
+shp_import \
+  "ftp://ftpgis1.tlc.state.tx.us/2011_Redistricting_Data/Precincts/Geography/Precincts.zip" \
+  "Precincts.zip" \
+  "." \
+  "Precincts.shp" \
+  "4269:4326" \
+  tx_precincts
+
+# Copy Texas board of education districts to governments
+#ssql <<SQL
+#INSERT INTO governments (
+  #SELECT CONCAT('tx-sboe-district-', district) AS slug,
+    #CONCAT('Texas board of education district ', district) AS name,
+    #'state' AS level,
+    #'Texas board of education' AS category,
+    #geom
+  #FROM tx_house_districts
+#);
+#SQL
+
+
+#sql "\\COPY governments TO governments.csv CSV HEADER"
+
+
+# Harris County 2016 precinct results
+wget --no-clobber http://www.harrisvotes.com/HISTORY/20161108/canvass/canvass.pdf
+pdftotext -layout canvass.pdf canvas.txt
+
+
+# Ft Bend results
+
+# curl -O http://results.enr.clarityelections.com/TX/Fort_Bend/64723/184359/reports/detailxls.zip
