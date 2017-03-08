@@ -45,8 +45,8 @@ while lines.any? do
 
   # GET SECTION NAME
   if row !~ /^\d/ && section.nil?
-    section = row.strip.downcase.gsub(/\s+/, '_')
-    sections[section] = []
+    section = row.strip.downcase.gsub(/[\s,_]+/, '_').gsub(/\./, '')
+    sections[section] ||= []
     next
   end
 
@@ -55,6 +55,8 @@ while lines.any? do
 
   # HEADERS OMFG
   if row !~ /^\d/
+    next if sections[section].any?
+
     cols = row.split(/\s{2,}/).map(&:strip).reject { |c| c.length < 1 }
     rest = row
     index = 0
@@ -81,7 +83,6 @@ while lines.any? do
   if headers.any?
     sections[section] << headers.map(&:title)
     headers = []
-    next
   end
 
   # PARSE DATA LINE
@@ -90,7 +91,7 @@ while lines.any? do
 end
 
 sections.each do |section, rows|
-  CSV.open("harris-#{section}.csv", 'w') do |csv|
+  CSV.open("harris_#{section}.csv", 'w') do |csv|
     rows.each do |row|
       csv << row
     end

@@ -166,11 +166,27 @@ INSERT INTO governments (
 SQL
 
 
-sql "\\COPY governments TO governments.csv CSV HEADER"
-
-
 # Import voting precincts
 # =======================
+wget --no-clobber ftp://ftpgis1.tlc.state.tx.us/2011_Redistricting_Data/Precincts/Data/Precinct_Districts.xlsx
+
+xlsx2csv Precinct_Districts.xlsx > precint_data.csv
+
+ssql <<SQL
+CREATE TABLE precinct_data (
+  fips VARCHAR(10), 
+  county VARCHAR(255),
+  prec VARCHAR(10), 
+  pctkey VARCHAR(20), 
+  planc VARCHAR(20), 
+  planh VARCHAR(20), 
+  plans VARCHAR(20), 
+  plane VARCHAR(20)
+);
+SQL
+
+sql "\\COPY precinct_data FROM precinct_data.csv CSV HEADER"
+
 shp_import \
   "ftp://ftpgis1.tlc.state.tx.us/2011_Redistricting_Data/Precincts/Geography/Precincts.zip" \
   "Precincts.zip" \
@@ -179,27 +195,32 @@ shp_import \
   "4269:4326" \
   tx_precincts
 
-# Copy Texas board of education districts to governments
-#ssql <<SQL
-#INSERT INTO governments (
-  #SELECT CONCAT('tx-sboe-district-', district) AS slug,
-    #CONCAT('Texas board of education district ', district) AS name,
-    #'state' AS level,
-    #'Texas board of education' AS category,
-    #geom
-  #FROM tx_house_districts
-#);
-#SQL
-
-
-#sql "\\COPY governments TO governments.csv CSV HEADER"
+# Copy voting precincts to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT CONCAT('tx-precinct-', pctkey) AS slug,
+    (SELECT CONCAT(INITCAP(LOWER(pd.county)), ' County Precinct ', prec)
+     FROM precinct_data pd
+     WHERE pd.pctkey = tp.pctkey) AS name,
+    'state' AS level,
+    'Voting Precinct' AS category,
+    geom
+  FROM tx_precincts tp
+);
+SQL
 
 
 # Harris County 2016 precinct results
+# ===================================
+
 wget --no-clobber http://www.harrisvotes.com/HISTORY/20161108/canvass/canvass.pdf
 pdftotext -layout canvass.pdf canvas.txt
+ruby parse_harris_election_results.rb
+
 
 
 # Ft Bend results
 
-# curl -O http://results.enr.clarityelections.com/TX/Fort_Bend/64723/184359/reports/detailxls.zip
+curl -O http://results.enr.clarityelections.com/TX/Fort_Bend/64723/184359/reports/detailxls.zip
+
+sql "\\COPY governments TO governments.csv CSV HEADER"
