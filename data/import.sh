@@ -237,6 +237,30 @@ INSERT INTO governments (
 SQL
 
 
+# Import Harris County Commissioners' Court Precincts
+# ===================================================
+
+shp_import \
+  "https://opendatahouston.s3.amazonaws.com/2013-05-14T23:06:32.088Z/precincts-harris.zip" \
+  "precincts-harris.zip" \
+  "" \
+  3081 \
+  harris_comm_precincts
+
+# Copy Texas counties to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT CONCAT('harris-county-commissioners-court-', district) AS slug,
+    CONCAT('Harris County Commissioners'' Court Distrct ', district) AS name,
+    'county' AS level,
+    'County' AS category,
+    geom
+  FROM tx_counties
+);
+SQL
+
+
+
 # Import voting precincts
 # =======================
 wget --no-clobber ftp://ftpgis1.tlc.state.tx.us/2011_Redistricting_Data/Precincts/Data/Precinct_Districts.xlsx
@@ -381,8 +405,8 @@ ssql <<SQL
 INSERT INTO governments (
   SELECT CONCAT('tx-hcc-', REGEXP_REPLACE(LOWER(name), '[^\w]', '-', 'g')) AS slug,
     name,
-    'state' AS level,
-    'School District' AS category,
+    'city' AS level,
+    'Community College' AS category,
     geom
   FROM hcc
   WHERE name is not null
@@ -409,7 +433,7 @@ pdftotext -layout canvass.pdf canvass.txt
 ruby parse_harris_election_results.rb harris/2016_11 canvass.txt
 ruby import_harris_candidates.rb harris/2016_11
 # => elections.csv
-# => people.csv
+# => officials.csv
 # => terms.csv
 
 
