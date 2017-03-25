@@ -1,12 +1,14 @@
 require 'csv'
 require 'pry'
 
+outdir, source = ARGV
+
 sections = {}
 section = nil
 headers = []
 $line = []
 
-lines = File.readlines 'canvass.txt', mode: 'r:UTF-8'
+lines = File.readlines source, mode: 'r:UTF-8'
 
 SKIPS = [
   /Total Number of Voters/,
@@ -91,7 +93,7 @@ while lines.any? do
 end
 
 sections.each do |section, rows|
-  CSV.open("harris_#{section}.csv", 'w') do |csv|
+  CSV.open("#{outdir}/#{section}.csv", 'w') do |csv|
     rows.each do |row|
       csv << row
     end
