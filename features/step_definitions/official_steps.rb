@@ -20,7 +20,7 @@ PLACES = {
 }
 
 Given %r{"(.*)" is mayor of "(.*)"} do |name, place|
-  mayor = Person.create slug: name.downcase.gsub(/\s+/, '-'), name: name
+  mayor = Official.create slug: name.downcase.gsub(/\s+/, '-'), name: name
 
   gov_slug = "#{place.downcase}-mayor"
   gov = Government.create slug: gov_slug,
@@ -36,7 +36,7 @@ Given %r{"(.*)" is mayor of "(.*)"} do |name, place|
     WHERE slug = '#{gov_slug}'
   SQL
 
-  term = Term.create person_slug: mayor.slug,
+  term = Term.create official_slug: mayor.slug,
     government_slug: gov.slug,
     start_date: 3.months.ago,
     end_date: 2.years.from_now

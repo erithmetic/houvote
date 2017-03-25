@@ -12,7 +12,7 @@ class LookupPeopleByAddress
 
   def call
     if address && location
-      Person.
+      Official.
         joins(terms: :government).
         where("ST_Contains(governments.geom, ST_Transform(ST_SetSRID(ST_MakePoint(?,?), 4326), 4326))",
               location[:longitude], location[:latitude]).

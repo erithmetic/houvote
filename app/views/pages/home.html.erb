@@ -14,18 +14,18 @@
 
 <% if @results %>
   <div class="list-group">
-    <% @results.each do |government, people| %>
+    <% @results.each do |government, officials| %>
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title"><%= government.name %></h3>
         </div>
         <div class="panel-body">
-          <% people.each do |person| %>
+          <% officials.each do |official| %>
 						<div class="thumbnail">
-              <img src="<%= person.photo_url %>">
+              <img src="<%= official.photo_url %>">
 							<div class="caption">
-                <h3><%= person.name %></h3>
-                <p><%= person.terms.current&.name %></p>
+                <h3><%= official.name %></h3>
+                <p><%= official.terms.current&.name %></p>
 							</div>
 						</div>
           <% end %>

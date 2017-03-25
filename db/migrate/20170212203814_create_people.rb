@@ -1,7 +1,7 @@
 class CreatePeople < ActiveRecord::Migration[5.0]
   def change
     execute <<-SQL
-      CREATE TABLE people (
+      CREATE TABLE officials (
         slug text NOT NULL PRIMARY KEY,
         name text,
         born date,
