@@ -311,3 +311,5 @@ ruby import_harris_candidates.rb harris/2016_11
 #unzip detailxls.zip
 
 sql "\\COPY governments TO governments.csv CSV HEADER"
+
+cat governments.csv | awk -F , '{ print $1; }' | tail -n +2 | xargs -I {} touch meta/{}.yml
