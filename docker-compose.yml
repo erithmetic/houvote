@@ -39,7 +39,7 @@ services:
   dev:
     extends: test
     env_file: .env
-    command: rails s
+    command: rails s -P /tmp/railsomg.pid
     environment:
       DATABASE_URL: postgres://postgres@db:5432/houvote_development
       RAILS_ENV: development
