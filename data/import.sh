@@ -18,23 +18,36 @@ function ssql () {
 function download_unzip () {
   URL=$1
   FILE=$2
-  wget --no-clobber $1
-  unzip $2 -d out
+
+  echo $URL
+  echo $FILE
+
+  if [ ! -e $FILE ]; then
+    echo "Downloading $URL"
+    curl -L "$URL" > "$FILE"
+  fi
+
+  echo "Unzipping $FILE"
+  unzip $FILE -d out
 }
 
 function shp_import () {
   URL=$1
   ZIP=$2
   DIR=$3
-  SHP=$4
-  SRID=$5
-  TABLE=$6
+  SRID=$4
+  TABLE=$5
+
+  rm -rf out/*
+
   download_unzip $URL $ZIP
 
+  CWD=$(pwd)
+
   if [ -z "$DIR" ]; then
-    OUTPATH="out/$SHP"
+    OUTPATH=$(ls $CWD/out/*.shp)
   else
-    OUTPATH="out/$DIR/$SHP"
+    OUTPATH=$(ls $CWD/out/$DIR/*.shp)
   fi
 
   shp2pgsql -I -s $SRID $OUTPATH $TABLE | psql -U postgres -h $DBHOST -d $DBNAME
@@ -57,6 +70,18 @@ CREATE TABLE IF NOT EXISTS governments (
 );
 SQL
 
+
+# Import US States
+# ================
+
+shp_import \
+  "http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_state_20m.zip" \
+  "cb_2015_us_state_20m.zip" \
+  "" \
+  "4269:4326" \
+  us_states
+
+
 # Import US house districts
 # =========================
 
@@ -64,7 +89,6 @@ shp_import \
   "http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_cd114_500k.zip" \
   "cb_2015_us_cd114_500k.zip" \
   "" \
-  "cb_2015_us_cd114_500k.shp" \
   "4269:4326" \
   us_house_districts
 
@@ -87,10 +111,27 @@ SQL
 
 ssql <<SQL
 INSERT INTO governments
-(slug, name, level, category)
+(slug, name, level, category, geom)
 VALUES
-('us-senate-seat-1', 'US Senate Seat 1', 'federal', 'US Senate'),
-('us-senate-seat-2', 'US Senate Seat 2', 'federal', 'US Senate');
+('us-senate-seat-1', 'US Senate Seat 1', 'federal', 'US Senate', (SELECT geom FROM us_states where statefp = '48')),
+('us-senate-seat-2', 'US Senate Seat 2', 'federal', 'US Senate', (SELECT geom FROM us_states where statefp = '48'));
+SQL
+
+
+# Create TX State positions
+# =========================
+
+ssql <<SQL
+INSERT INTO governments
+(slug, name, level, category, geom)
+VALUES
+('tx-governor', 'Governor of Texas', 'state', 'Governor', (SELECT geom FROM us_states where statefp = '48')),
+('tx-lt-governor', 'Lieutenant Governor of Texas', 'state', 'Governor', (SELECT geom FROM us_states where statefp = '48')),
+('tx-comptroller', 'Texas Comptroller of Public Accounts', 'state', 'Comptroller', (SELECT geom FROM us_states where statefp = '48')),
+('tx-attorney-general', 'Attorney General', 'state', 'Attorney General', (SELECT geom FROM us_states where statefp = '48')),
+('tx-general-land-office', 'Texas General Land Office', 'state', 'General Land Office', (SELECT geom FROM us_states where statefp = '48')),
+('tx-department-of-agriculture', 'Texas Department of Agriculture', 'state', 'Department of Agriculture', (SELECT geom FROM us_states where statefp = '48')),
+('tx-railroad-commission', 'Texas Railroad Commission', 'state', 'Railroad Commission', (SELECT geom FROM us_states where statefp = '48'));
 SQL
 
 
@@ -101,8 +142,7 @@ shp_import \
   "ftp://ftpgis1.tlc.state.tx.us/DistrictViewer/Senate/PlanS172.zip" \
   "PlanS172.zip" \
   "PLANS172" \
-  "PLANS172.shp" \
-  "4269:4326" \
+  "3081:4326" \
   tx_senate_districts
 
 # Copy Texas senate districts to governments
@@ -125,8 +165,7 @@ shp_import \
   "ftp://ftpgis1.tlc.state.tx.us/DistrictViewer/House/PlanH358.zip" \
   "PlanH358.zip" \
   "PLANH358" \
-  "PLANH358.shp" \
-  "4269:4326" \
+  "3081:4326" \
   tx_house_districts
 
 # Copy Texas house districts to governments
@@ -149,8 +188,7 @@ shp_import \
   "ftp://ftpgis1.tlc.state.tx.us/DistrictViewer/SBOE/PlanE120.zip" \
   "PlanE120.zip" \
   "PLANE120" \
-  "PLANE120.shp" \
-  "4269:4326" \
+  "3081:4326" \
   tx_sboe_districts
 
 # Copy Texas board of education districts to governments
@@ -161,7 +199,30 @@ INSERT INTO governments (
     'state' AS level,
     'Texas board of education' AS category,
     geom
-  FROM tx_house_districts
+  FROM tx_sboe_districts
+);
+SQL
+
+
+# Import counties
+# ===============
+
+shp_import \
+  "https://data.texas.gov/api/geospatial/48ag-x9aa?method=export&format=Shapefile" \
+  "TexasCounties.zip" \
+  "" \
+  "4269:4326" \
+  tx_counties
+
+# Copy Texas counties to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT CONCAT('tx-county-', fips_code) AS slug,
+    CONCAT(name, ' County') AS name,
+    'county' AS level,
+    'County' AS category,
+    geom
+  FROM tx_counties
 );
 SQL
 
@@ -190,9 +251,8 @@ sql "\\COPY precinct_data FROM precinct_data.csv CSV HEADER"
 shp_import \
   "ftp://ftpgis1.tlc.state.tx.us/2011_Redistricting_Data/Precincts/Geography/Precincts.zip" \
   "Precincts.zip" \
-  "." \
-  "Precincts.shp" \
-  "4269:4326" \
+  "" \
+  "3081:4326" \
   tx_precincts
 
 # Copy voting precincts to governments
@@ -210,17 +270,44 @@ INSERT INTO governments (
 SQL
 
 
+# Import ISDs
+# ===========
+
+shp_import \
+  "https://opendata.arcgis.com/datasets/e115fed14c0f4ca5b942dc3323626b1c_0.zip" \
+  "e115fed14c0f4ca5b942dc3323626b1c_0.zip" \
+  "" \
+  "4269:4326" \
+  tx_isds
+
+# Copy school districts to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT CONCAT('tx-isd-', LOWER(name2), '-', district) AS slug,
+    name,
+    'state' AS level,
+    'School District' AS category,
+    geom
+  FROM tx_isds tp
+);
+SQL
+
+
 # Harris County 2016 precinct results
 # ===================================
 
 wget --no-clobber http://www.harrisvotes.com/HISTORY/20161108/canvass/canvass.pdf
-pdftotext -layout canvass.pdf canvas.txt
-ruby parse_harris_election_results.rb
-
+pdftotext -layout canvass.pdf canvass.txt
+ruby parse_harris_election_results.rb harris/2016_11 canvass.txt
+ruby import_harris_candidates.rb harris/2016_11
+# => elections.csv
+# => people.csv
+# => terms.csv
 
 
 # Ft Bend results
 
-curl -O http://results.enr.clarityelections.com/TX/Fort_Bend/64723/184359/reports/detailxls.zip
+#wget --no-clobber http://results.enr.clarityelections.com/TX/Fort_Bend/64723/184359/reports/detailxls.zip
+#unzip detailxls.zip
 
 sql "\\COPY governments TO governments.csv CSV HEADER"
