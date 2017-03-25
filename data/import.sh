@@ -37,6 +37,7 @@ function shp_import () {
   DIR=$3
   SRID=$4
   TABLE=$5
+  SHPFILE=$6
 
   rm -rf out/*
 
@@ -44,13 +45,22 @@ function shp_import () {
 
   CWD=$(pwd)
 
-  if [ -z "$DIR" ]; then
-    OUTPATH=$(ls $CWD/out/*.shp)
+  BASEDIR=$CWD/out
+
+  if [ -n "$DIR" ]; then
+    BASEDIR=$BASEDIR/$DIR
+  fi
+  
+  if [ -z "$SHPFILE" ]; then
+    OUTPATH=$(ls $BASEDIR/*.shp)
   else
-    OUTPATH=$(ls $CWD/out/$DIR/*.shp)
+    OUTPATH=$BASEDIR/$SHPFILE
   fi
 
-  shp2pgsql -I -s $SRID $OUTPATH $TABLE | psql -U postgres -h $DBHOST -d $DBNAME
+  echo "BASEDIR $BASEDIR"
+  echo "OUTPATH $OUTPATH"
+
+  shp2pgsql -I -s "$SRID":4326 $OUTPATH $TABLE | psql -U postgres -h $DBHOST -d $DBNAME
   rm -rf out
 }
 
@@ -78,7 +88,7 @@ shp_import \
   "http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_state_20m.zip" \
   "cb_2015_us_state_20m.zip" \
   "" \
-  "4269:4326" \
+  "4269" \
   us_states
 
 
@@ -89,7 +99,7 @@ shp_import \
   "http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_cd114_500k.zip" \
   "cb_2015_us_cd114_500k.zip" \
   "" \
-  "4269:4326" \
+  4269 \
   us_house_districts
 
 # Copy Texas house districts to governments
@@ -142,7 +152,7 @@ shp_import \
   "ftp://ftpgis1.tlc.state.tx.us/DistrictViewer/Senate/PlanS172.zip" \
   "PlanS172.zip" \
   "PLANS172" \
-  "3081:4326" \
+  3081 \
   tx_senate_districts
 
 # Copy Texas senate districts to governments
@@ -165,7 +175,7 @@ shp_import \
   "ftp://ftpgis1.tlc.state.tx.us/DistrictViewer/House/PlanH358.zip" \
   "PlanH358.zip" \
   "PLANH358" \
-  "3081:4326" \
+  3081 \
   tx_house_districts
 
 # Copy Texas house districts to governments
@@ -188,7 +198,7 @@ shp_import \
   "ftp://ftpgis1.tlc.state.tx.us/DistrictViewer/SBOE/PlanE120.zip" \
   "PlanE120.zip" \
   "PLANE120" \
-  "3081:4326" \
+  3081 \
   tx_sboe_districts
 
 # Copy Texas board of education districts to governments
@@ -211,7 +221,7 @@ shp_import \
   "https://data.texas.gov/api/geospatial/48ag-x9aa?method=export&format=Shapefile" \
   "TexasCounties.zip" \
   "" \
-  "4269:4326" \
+  4269 \
   tx_counties
 
 # Copy Texas counties to governments
@@ -252,7 +262,7 @@ shp_import \
   "ftp://ftpgis1.tlc.state.tx.us/2011_Redistricting_Data/Precincts/Geography/Precincts.zip" \
   "Precincts.zip" \
   "" \
-  "3081:4326" \
+  3081 \
   tx_precincts
 
 # Copy voting precincts to governments
@@ -270,6 +280,69 @@ INSERT INTO governments (
 SQL
 
 
+# Import TX Cities
+# ================
+
+shp_import \
+  "https://tnris-datadownload.s3.amazonaws.com/d/political-bnd/state/tx/political-bnd_tx.zip" \
+  "political-bnd_tx.zip" \
+  "txdot-cities" \
+  4269 \
+  tx_cities \
+  txdot-2015-city-poly_tx.shp
+
+# Copy council districts to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT c.slug, 
+    CONCAT('City of ', c.name) AS name,
+    'city' AS level,
+    'City' AS category,
+    c.geom
+  FROM (
+    SELECT CONCAT('tx-city-', REGEXP_REPLACE(LOWER(TRIM(city_nm)), '[^\w]', '-', 'g')) AS slug,
+      city_nm AS name,
+      ST_MULTI(ST_UNION(geom)) AS geom
+    FROM tx_cities
+    GROUP BY slug, name
+  ) AS c
+);
+SQL
+
+
+# Import Houston City Council Districts
+# =====================================
+
+shp_import \
+  "https://opendata.arcgis.com/datasets/7237db114eeb416cb481f4450d8a0fa6_2.zip" \
+  "7237db114eeb416cb481f4450d8a0fa6_2.zip" \
+  "" \
+  4326 \
+  hou_city_council
+
+# Copy council districts to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT CONCAT('hou-city-council-', LOWER(district)) AS slug,
+    CONCAT('Houston City Council District ', district),
+    'city' AS level,
+    'Citcy Council' AS category,
+    geom
+  FROM hou_city_council hcc
+);
+SQL
+# Add at-large positions
+ssql <<SQL
+INSERT INTO governments
+(slug, name, level, category, geom)
+VALUES
+('hou-city-council-at-large-1', 'Houston City Council At-Large Position 1', 'city', 'City Council', (SELECT geom from governments WHERE slug = 'tx-city-houston')),
+('hou-city-council-at-large-2', 'Houston City Council At-Large Position 2', 'city', 'City Council', (SELECT geom from governments WHERE slug = 'tx-city-houston')),
+('hou-city-council-at-large-3', 'Houston City Council At-Large Position 3', 'city', 'City Council', (SELECT geom from governments WHERE slug = 'tx-city-houston')),
+('hou-city-council-at-large-4', 'Houston City Council At-Large Position 4', 'city', 'City Council', (SELECT geom from governments WHERE slug = 'tx-city-houston'))
+SQL
+
+
 # Import ISDs
 # ===========
 
@@ -277,7 +350,7 @@ shp_import \
   "https://opendata.arcgis.com/datasets/e115fed14c0f4ca5b942dc3323626b1c_0.zip" \
   "e115fed14c0f4ca5b942dc3323626b1c_0.zip" \
   "" \
-  "4269:4326" \
+  4269 \
   tx_isds
 
 # Copy school districts to governments
@@ -291,6 +364,41 @@ INSERT INTO governments (
   FROM tx_isds tp
 );
 SQL
+
+
+# Import HCC Districts
+# ================================
+
+shp_import \
+  "http://pdata.hcad.org/GIS/College.exe" \
+  "College.exe" \
+  "" \
+  4269 \
+  hcc
+
+# Copy school districts to governments
+ssql <<SQL
+INSERT INTO governments (
+  SELECT CONCAT('tx-hcc-', REGEXP_REPLACE(LOWER(name), '[^\w]', '-', 'g')) AS slug,
+    name,
+    'state' AS level,
+    'School District' AS category,
+    geom
+  FROM hcc
+  WHERE name is not null
+);
+SQL
+
+
+# TODO:
+# Super Neighborhoods
+# http://data.ohouston.org/dataset/city-of-houston-super-neighborhoods
+# Management/Utility Districts
+# http://data.ohouston.org/dataset/special-districts-in-harris-county
+# Other Managment Districts?
+# http://data.ohouston.org/dataset/management-districts
+# TIRZs
+# http://data.ohouston.org/dataset/city-tax-increment-reinvestment-zones-tirz
 
 
 # Harris County 2016 precinct results
