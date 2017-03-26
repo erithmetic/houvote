@@ -10,21 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170213031238) do
+ActiveRecord::Schema.define(version: 20170326021750) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
   enable_extension "postgis"
 
-# Could not dump table "governments" because of following StandardError
+# Could not dump table "divisions" because of following StandardError
 #   Unknown type 'geometry(MultiPolygon,4326)' for column 'geom'
 
-  create_table "people", primary_key: "slug", id: :text, force: :cascade do |t|
+  create_table "governments", primary_key: "slug", id: :text, force: :cascade do |t|
+    t.text "name"
+    t.index ["slug"], name: "index_governments_on_slug", unique: true, using: :btree
+  end
+
+  create_table "officials", primary_key: "slug", id: :text, force: :cascade do |t|
     t.text "name"
     t.date "born"
     t.text "photo"
     t.text "third_party_photo_url"
     t.text "url"
+    t.index ["slug"], name: "index_officials_on_slug", unique: true, using: :btree
   end
 
   create_table "spatial_ref_sys", primary_key: "srid", id: :integer, force: :cascade do |t|
@@ -35,13 +41,14 @@ ActiveRecord::Schema.define(version: 20170213031238) do
   end
 
   create_table "terms", force: :cascade do |t|
-    t.text     "government_slug"
-    t.text     "person_slug"
-    t.text     "name"
-    t.date     "start_date"
-    t.date     "end_date"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.text "division_slug"
+    t.text "official_slug"
+    t.text "name"
+    t.date "start_date"
+    t.date "end_date"
+    t.index ["division_slug", "official_slug"], name: "index_terms_on_division_slug_and_official_slug", using: :btree
+    t.index ["end_date"], name: "index_terms_on_end_date", using: :btree
+    t.index ["start_date"], name: "index_terms_on_start_date", using: :btree
   end
 
 end

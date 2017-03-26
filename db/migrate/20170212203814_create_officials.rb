@@ -1,4 +1,4 @@
-class CreatePeople < ActiveRecord::Migration[5.0]
+class CreateOfficials < ActiveRecord::Migration[5.0]
   def change
     execute <<-SQL
       CREATE TABLE officials (
@@ -10,5 +10,7 @@ class CreatePeople < ActiveRecord::Migration[5.0]
         url text
       )
     SQL
+
+    add_index :officials, :slug, unique: true
   end
 end

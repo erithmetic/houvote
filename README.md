@@ -9,26 +9,27 @@ Get info on elected and unelected government
 <pre>
 governments
   slug
+  name  {special,city,county,Texas,US}
+
+divisions
+  slug
   name
-  level {special,city,county,state,federal}
   geom
+  start_date
+  end_date
 
 terms
-  government_slug
-  person_slug
+  division_slug
+  official_slug
   name            # e.g. chair 1, optional
   start_date
   end_date
 
-people
+officials
   slug
-  photo_url
   name
+  photo_url
   born
-
-
-elections
-  government_slug
 </pre>
 
 

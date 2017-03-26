@@ -1,8 +1,12 @@
 #!/bin/bash
 
+export RAILS_ENV=${RAILS_ENV:-development}
+
 set -eo pipefail
-DBNAME=houvote_data
+DBNAME=houvote_development
 DBHOST=db
+
+export DATABASE_URL=postgres://postgres@db/houvote_$RAILS_ENV
 
 function sql () {
   CMD="$1"
@@ -67,18 +71,9 @@ function shp_import () {
 # Create database
 # ===============
 
-psql -U postgres -h $DBHOST -c "DROP DATABASE $DBNAME;" || true
-psql -U postgres -h $DBHOST -c "CREATE DATABASE $DBNAME;"
-sql "CREATE EXTENSION postgis;"
-ssql <<SQL
-CREATE TABLE IF NOT EXISTS governments (
-  slug varchar(255) not null primary key,
-  name varchar(255),
-  level varchar(255),
-  category varchar(255),
-  geom geometry(MultiPolygon,4326)
-);
-SQL
+rake db:drop
+rake db:create
+rake db:migrate
 
 
 # Import US States
@@ -91,6 +86,12 @@ shp_import \
   "4269" \
   us_states
 
+ssql <<SQL
+INSERT INTO governments (slug, name) VALUES
+('us', 'United States'),
+('tx', 'Texas');
+SQL
+
 
 # Import US house districts
 # =========================
@@ -102,13 +103,13 @@ shp_import \
   4269 \
   us_house_districts
 
-# Copy Texas house districts to governments
+# Copy Texas house districts to divisions
 ssql <<SQL
-INSERT INTO governments (
-  SELECT CONCAT('us-house-115-district-', cd114fp) AS slug,
-    CONCAT('115th Congress US house district ', cd114fp) AS name,
-    'federal' AS level,
-    'US House' AS category,
+INSERT INTO divisions (
+  SELECT CONCAT('us-house-115-tx-district-', cd114fp) AS slug,
+    'us' AS government_slug,
+    'House' AS category,
+    CONCAT('US house Texas district ', cd114fp) AS name,
     geom
   FROM us_house_districts
   WHERE statefp = '48'
@@ -120,11 +121,11 @@ SQL
 # ==========================
 
 ssql <<SQL
-INSERT INTO governments
-(slug, name, level, category, geom)
+INSERT INTO divisions
+(slug, government_slug, category, name, geom)
 VALUES
-('us-senate-seat-1', 'US Senate Seat 1', 'federal', 'US Senate', (SELECT geom FROM us_states where statefp = '48')),
-('us-senate-seat-2', 'US Senate Seat 2', 'federal', 'US Senate', (SELECT geom FROM us_states where statefp = '48'));
+('tx-us-senate-seat-1', 'us', 'Senate', 'Texas US Senate Seat 1', (SELECT geom FROM us_states where statefp = '48')),
+('tx-us-senate-seat-2', 'us', 'Senate', 'Texas US Senate Seat 2', (SELECT geom FROM us_states where statefp = '48'));
 SQL
 
 
@@ -132,16 +133,16 @@ SQL
 # =========================
 
 ssql <<SQL
-INSERT INTO governments
-(slug, name, level, category, geom)
+INSERT INTO divisions
+(slug, government_slug, category, name, geom)
 VALUES
-('tx-governor', 'Governor of Texas', 'state', 'Governor', (SELECT geom FROM us_states where statefp = '48')),
-('tx-lt-governor', 'Lieutenant Governor of Texas', 'state', 'Governor', (SELECT geom FROM us_states where statefp = '48')),
-('tx-comptroller', 'Texas Comptroller of Public Accounts', 'state', 'Comptroller', (SELECT geom FROM us_states where statefp = '48')),
-('tx-attorney-general', 'Attorney General', 'state', 'Attorney General', (SELECT geom FROM us_states where statefp = '48')),
-('tx-general-land-office', 'Texas General Land Office', 'state', 'General Land Office', (SELECT geom FROM us_states where statefp = '48')),
-('tx-department-of-agriculture', 'Texas Department of Agriculture', 'state', 'Department of Agriculture', (SELECT geom FROM us_states where statefp = '48')),
-('tx-railroad-commission', 'Texas Railroad Commission', 'state', 'Railroad Commission', (SELECT geom FROM us_states where statefp = '48'));
+('tx-governor', 'tx', 'Governor', 'Governor of Texas', (SELECT geom FROM us_states where statefp = '48')),
+('tx-lt-governor', 'tx', 'Lieutenant Governor', 'Lieutenant Governor of Texas', (SELECT geom FROM us_states where statefp = '48')),
+('tx-comptroller', 'tx', 'Comptroller', 'Texas Comptroller of Public Accounts', (SELECT geom FROM us_states where statefp = '48')),
+('tx-attorney-general', 'tx', 'Attorney General', 'Attorney General', (SELECT geom FROM us_states where statefp = '48')),
+('tx-general-land-office', 'tx', 'Texas General Land Office', 'General Land Office', (SELECT geom FROM us_states where statefp = '48')),
+('tx-department-of-agriculture', 'tx', 'Department of Agriculture', 'Texas Department of Agriculture', (SELECT geom FROM us_states where statefp = '48')),
+('tx-railroad-commission', 'tx', 'Railroad Commission', 'Texas Railroad Commission', (SELECT geom FROM us_states where statefp = '48'));
 SQL
 
 
@@ -155,13 +156,13 @@ shp_import \
   3081 \
   tx_senate_districts
 
-# Copy Texas senate districts to governments
+# Copy Texas senate districts to divisions
 ssql <<SQL
-INSERT INTO governments (
+INSERT INTO divisions (
   SELECT CONCAT('tx-senate-district-', district) AS slug,
-    CONCAT('Texas senate district ', district) AS name,
-    'state' AS level,
-    'Texas state senate' AS category,
+    'tx' AS government_slug,
+    'Senate' AS category,
+    CONCAT('Texas Senate District ', district) AS name,
     geom
   FROM tx_senate_districts
 );
@@ -178,13 +179,13 @@ shp_import \
   3081 \
   tx_house_districts
 
-# Copy Texas house districts to governments
+# Copy Texas house districts to districts
 ssql <<SQL
-INSERT INTO governments (
+INSERT INTO divisions (
   SELECT CONCAT('tx-house-district-', district) AS slug,
-    CONCAT('Texas house district ', district) AS name,
-    'state' AS level,
-    'Texas state house of representatives' AS category,
+    'tx' AS government_slug,
+    'House of Representatives' AS category,
+    CONCAT('Texas House District ', district) AS name,
     geom
   FROM tx_house_districts
 );
@@ -201,13 +202,13 @@ shp_import \
   3081 \
   tx_sboe_districts
 
-# Copy Texas board of education districts to governments
+# Copy Texas board of education districts to districts
 ssql <<SQL
-INSERT INTO governments (
+INSERT INTO divisions (
   SELECT CONCAT('tx-sboe-district-', district) AS slug,
-    CONCAT('Texas board of education district ', district) AS name,
-    'state' AS level,
-    'Texas board of education' AS category,
+    'tx' AS government_slug,
+    'State Board of Education' AS category,
+    CONCAT('Texas State Board of Education District ', district) AS name,
     geom
   FROM tx_sboe_districts
 );
@@ -217,6 +218,10 @@ SQL
 # Import counties
 # ===============
 
+ssql <<SQL
+INSERT INTO governments (slug, name) VALUES ('tx-county', 'County');
+SQL
+
 shp_import \
   "https://data.texas.gov/api/geospatial/48ag-x9aa?method=export&format=Shapefile" \
   "TexasCounties.zip" \
@@ -224,13 +229,13 @@ shp_import \
   4269 \
   tx_counties
 
-# Copy Texas counties to governments
+# Copy Texas counties to districts
 ssql <<SQL
-INSERT INTO governments (
+INSERT INTO divisions (
   SELECT CONCAT('tx-county-', fips_code) AS slug,
-    CONCAT(name, ' County') AS name,
-    'county' AS level,
+    'tx-county' AS government_slug,
     'County' AS category,
+    CONCAT(name, ' County') AS name,
     geom
   FROM tx_counties
 );
@@ -247,15 +252,15 @@ shp_import \
   3081 \
   harris_comm_precincts
 
-# Copy Texas counties to governments
+# Copy Texas counties to districts
 ssql <<SQL
-INSERT INTO governments (
+INSERT INTO divisions (
   SELECT CONCAT('harris-county-commissioners-court-', district) AS slug,
+    'tx-county' AS government_slug,
+    'County Commissioners'' Court' AS category,
     CONCAT('Harris County Commissioners'' Court Distrct ', district) AS name,
-    'county' AS level,
-    'County' AS category,
     geom
-  FROM tx_counties
+  FROM harris_comm_precincts
 );
 SQL
 
@@ -289,15 +294,15 @@ shp_import \
   3081 \
   tx_precincts
 
-# Copy voting precincts to governments
+# Copy voting precincts to districts
 ssql <<SQL
-INSERT INTO governments (
+INSERT INTO divisions (
   SELECT CONCAT('tx-precinct-', pctkey) AS slug,
+    'tx-county' AS government_slug,
+    'Voting Precint' AS category,
     (SELECT CONCAT(INITCAP(LOWER(pd.county)), ' County Precinct ', prec)
      FROM precinct_data pd
      WHERE pd.pctkey = tp.pctkey) AS name,
-    'state' AS level,
-    'Voting Precinct' AS category,
     geom
   FROM tx_precincts tp
 );
@@ -307,6 +312,10 @@ SQL
 # Import TX Cities
 # ================
 
+ssql <<SQL
+INSERT INTO governments (slug, name) VALUES ('tx-city', 'City');
+SQL
+
 shp_import \
   "https://tnris-datadownload.s3.amazonaws.com/d/political-bnd/state/tx/political-bnd_tx.zip" \
   "political-bnd_tx.zip" \
@@ -315,13 +324,13 @@ shp_import \
   tx_cities \
   txdot-2015-city-poly_tx.shp
 
-# Copy council districts to governments
+# Copy council districts to districts
 ssql <<SQL
-INSERT INTO governments (
+INSERT INTO divisions (
   SELECT c.slug, 
-    CONCAT('City of ', c.name) AS name,
-    'city' AS level,
+    'tx-city' AS government_slug,
     'City' AS category,
+    CONCAT('City of ', c.name) AS name,
     c.geom
   FROM (
     SELECT CONCAT('tx-city-', REGEXP_REPLACE(LOWER(TRIM(city_nm)), '[^\w]', '-', 'g')) AS slug,
@@ -344,26 +353,26 @@ shp_import \
   4326 \
   hou_city_council
 
-# Copy council districts to governments
+# Copy council districts to districts
 ssql <<SQL
-INSERT INTO governments (
+INSERT INTO divisions (
   SELECT CONCAT('hou-city-council-', LOWER(district)) AS slug,
+    'tx-city' AS government_slug,
+    'City Council' AS category,
     CONCAT('Houston City Council District ', district),
-    'city' AS level,
-    'Citcy Council' AS category,
     geom
   FROM hou_city_council hcc
 );
 SQL
 # Add at-large positions
 ssql <<SQL
-INSERT INTO governments
-(slug, name, level, category, geom)
+INSERT INTO divisions
+(slug, government_slug, category, name, geom)
 VALUES
-('hou-city-council-at-large-1', 'Houston City Council At-Large Position 1', 'city', 'City Council', (SELECT geom from governments WHERE slug = 'tx-city-houston')),
-('hou-city-council-at-large-2', 'Houston City Council At-Large Position 2', 'city', 'City Council', (SELECT geom from governments WHERE slug = 'tx-city-houston')),
-('hou-city-council-at-large-3', 'Houston City Council At-Large Position 3', 'city', 'City Council', (SELECT geom from governments WHERE slug = 'tx-city-houston')),
-('hou-city-council-at-large-4', 'Houston City Council At-Large Position 4', 'city', 'City Council', (SELECT geom from governments WHERE slug = 'tx-city-houston'))
+('hou-city-council-at-large-1', 'tx-city', 'City Council', 'Houston City Council At-Large Position 1', (SELECT geom from divisions WHERE slug = 'tx-city-houston')),
+('hou-city-council-at-large-2', 'tx-city', 'City Council', 'Houston City Council At-Large Position 2', (SELECT geom from divisions WHERE slug = 'tx-city-houston')),
+('hou-city-council-at-large-3', 'tx-city', 'City Council', 'Houston City Council At-Large Position 3', (SELECT geom from divisions WHERE slug = 'tx-city-houston')),
+('hou-city-council-at-large-4', 'tx-city', 'City Council', 'Houston City Council At-Large Position 4', (SELECT geom from divisions WHERE slug = 'tx-city-houston'))
 SQL
 
 
@@ -377,13 +386,13 @@ shp_import \
   4269 \
   tx_isds
 
-# Copy school districts to governments
+# Copy school districts to divisions
 ssql <<SQL
-INSERT INTO governments (
+INSERT INTO divisions (
   SELECT CONCAT('tx-isd-', LOWER(name2), '-', district) AS slug,
-    name,
-    'state' AS level,
+    'tx' AS government_slug,
     'School District' AS category,
+    name,
     geom
   FROM tx_isds tp
 );
@@ -400,13 +409,13 @@ shp_import \
   4269 \
   hcc
 
-# Copy school districts to governments
+# Copy school districts to divisions
 ssql <<SQL
-INSERT INTO governments (
+INSERT INTO divisions (
   SELECT CONCAT('tx-hcc-', REGEXP_REPLACE(LOWER(name), '[^\w]', '-', 'g')) AS slug,
-    name,
-    'city' AS level,
+    'tx-county' AS government_slug,
     'Community College' AS category,
+    name,
     geom
   FROM hcc
   WHERE name is not null
@@ -423,6 +432,9 @@ SQL
 # http://data.ohouston.org/dataset/management-districts
 # TIRZs
 # http://data.ohouston.org/dataset/city-tax-increment-reinvestment-zones-tirz
+
+sql "\\COPY divisions TO divisions.csv CSV HEADER"
+cat divisions.csv | awk -F , '{ print $1; }' | tail -n +2 | xargs -I {} touch meta/divisions/{}.yml
 
 
 # Harris County 2016 precinct results
@@ -441,7 +453,3 @@ ruby import_harris_candidates.rb harris/2016_11
 
 #wget --no-clobber http://results.enr.clarityelections.com/TX/Fort_Bend/64723/184359/reports/detailxls.zip
 #unzip detailxls.zip
-
-sql "\\COPY governments TO governments.csv CSV HEADER"
-
-cat governments.csv | awk -F , '{ print $1; }' | tail -n +2 | xargs -I {} touch meta/{}.yml

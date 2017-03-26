@@ -12,6 +12,7 @@ services:
 
   test:
     extends: app
+    env_file: .env
     volumes:
       - .:/app
 
