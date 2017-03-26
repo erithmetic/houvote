@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'bootstrap'
 gem 'bootstrap-generators'
 gem 'carrierwave'
+gem 'google-api-client'
 gem 'jquery-rails'
 gem 'materialize-rails'
 gem 'pg'
@@ -15,7 +16,7 @@ gem 'StreetAddress'
 gem 'turbolinks'
 
 group :development, :test do
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', require: false
   gem 'rspec-rails'
 end
 
