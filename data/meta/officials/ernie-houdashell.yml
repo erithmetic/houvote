@@ -1,0 +1,12 @@
+---
+name: Ernie Houdashell
+address:
+- line1: 501 16th Street,
+  city: Canyon
+  state: TX
+  zip: '79015'
+phones:
+- "(806) 468-5500"
+urls:
+- http://randallcounty.com/commish/Default.htm
+slug: ernie-houdashell

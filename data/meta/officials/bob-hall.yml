@@ -1,0 +1,19 @@
+---
+name: Bob Hall
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0102"
+urls:
+- http://www.senate.texas.gov/member.php?d=2
+photoUrl: http://www.senate.texas.gov/members/d02/img/headshot.jpg
+channels:
+- type: Twitter
+  id: votebobhall
+- type: Facebook
+  id: VoteBobHall
+slug: bob-hall

@@ -1,0 +1,13 @@
+---
+name: Chris Kirk
+address:
+- line1: 1700 Hwy 21 W.
+  city: Bryan
+  state: TX
+  zip: '77803'
+party: Republican
+phones:
+- "(979) 361-4900"
+urls:
+- https://www.brazoscountytx.gov/index.aspx?nid=205
+slug: chris-kirk

@@ -1,0 +1,13 @@
+---
+name: George P. Bush
+address:
+- line1: P.O. Box 12873
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-5256"
+urls:
+- http://www.glo.texas.gov/
+slug: george-p-bush

@@ -1,0 +1,23 @@
+---
+name: Louie Gohmert
+address:
+- line1: 2243 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-3035"
+urls:
+- http://gohmert.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/G/G000552.jpg
+channels:
+- type: Facebook
+  id: '50375006903'
+- type: Twitter
+  id: replouiegohmert
+- type: YouTube
+  id: GohmertTX01
+- type: GooglePlus
+  id: '103111883767474503920'
+slug: louie-gohmert

@@ -1,0 +1,13 @@
+---
+name: Linda Douglass
+address:
+- line1: 307 W. Court Street
+  line2: Suite 206
+  city: Seguin
+  state: TX
+  zip: '78155'
+phones:
+- "(830) 303-8868"
+urls:
+- http://www.co.guadalupe.tx.us/treasurer/treasurer.php
+slug: linda-douglass

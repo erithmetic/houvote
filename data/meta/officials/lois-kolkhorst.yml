@@ -1,0 +1,21 @@
+---
+name: Lois Kolkhorst
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0118"
+urls:
+- http://www.senate.texas.gov/member.php?d=18
+photoUrl: http://www.senate.texas.gov/members/d18/img/action.jpg
+channels:
+- type: Facebook
+  id: LoisKolkhorst
+- type: Twitter
+  id: loiskolkhorst
+- type: YouTube
+  id: UC0OGXTmaGtom-mTkGV1pimA
+slug: lois-kolkhorst

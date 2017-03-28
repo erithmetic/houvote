@@ -1,0 +1,23 @@
+---
+name: Pete Sessions
+address:
+- line1: 2233 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-2231"
+urls:
+- http://sessions.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/S/S000250.jpg
+channels:
+- type: Facebook
+  id: petesessions
+- type: Twitter
+  id: petesessions
+- type: YouTube
+  id: PeteSessions
+- type: GooglePlus
+  id: '113472709584662413712'
+slug: pete-sessions

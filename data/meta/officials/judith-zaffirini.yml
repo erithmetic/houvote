@@ -1,0 +1,22 @@
+---
+name: Judith Zaffirini
+address:
+- line1: 1407 WASHINGTON ST,
+  city: Laredo
+  state: TX
+  zip: '78040'
+party: Democratic
+phones:
+- "(956) 722-2293"
+urls:
+- http://www.senate.texas.gov/member.php?d=21
+- http://judithzaffirini.com/
+photoUrl: http://www.senate.texas.gov/members/d21/img/Zaffirini_2017.jpg
+emails:
+- Judith.zaffirini@senate.state.tx.us
+channels:
+- type: Twitter
+  id: judithzaffirini
+- type: YouTube
+  id: TXSD21
+slug: judith-zaffirini

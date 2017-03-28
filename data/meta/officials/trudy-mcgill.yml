@@ -1,0 +1,13 @@
+---
+name: Trudy McGill
+address:
+- line1: P.O. Box 758
+  city: Henderson
+  state: TX
+  zip: '75653'
+party: Republican
+phones:
+- "(903) 657-0330"
+urls:
+- http://www.co.rusk.tx.us/default.aspx?Rusk_County/County.Clerk
+slug: trudy-mcgill

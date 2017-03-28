@@ -1,0 +1,16 @@
+---
+name: Mike Knox
+address:
+- line1: 900 Bagby
+  line2: First Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(832) 393-3014"
+urls:
+- http://www.houstontx.gov/council/1/index.html
+photoUrl: http://www.houstontx.gov/council/1/images/knox.jpg
+emails:
+- atlarge1@houstontx.gov
+slug: mike-knox

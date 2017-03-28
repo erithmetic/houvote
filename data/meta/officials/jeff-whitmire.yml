@@ -1,0 +1,14 @@
+---
+name: Jeff Whitmire
+address:
+- line1: 100 W. Houston
+  city: Sherman
+  state: TX
+  zip: '75090'
+phones:
+- "(903) 813-4327"
+urls:
+- http://www.co.grayson.tx.us/default.aspx?name=comp1.home
+emails:
+- whitmirej@co.grayson.tx.us
+slug: jeff-whitmire

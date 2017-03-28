@@ -1,0 +1,14 @@
+---
+name: Wayne McDaniel
+address:
+- line1: 300 W Monroe Street
+  city: Kountze
+  state: TX
+  zip: '77625'
+phones:
+- "(409) 246-5120"
+urls:
+- http://www.co.hardin.tx.us/default.aspx?Hardin_County/County.Judge
+emails:
+- Wayne.McDaniel@Co.Hardin.TX.US
+slug: wayne-mcdaniel

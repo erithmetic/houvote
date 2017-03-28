@@ -1,0 +1,19 @@
+---
+name: Toni Rose
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0664"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=110
+photoUrl: http://www.house.state.tx.us/photos/members/2555.jpg
+emails:
+- Toni.Rose@house.state.tx.us
+channels:
+- type: Facebook
+  id: '341166615893555'
+slug: toni-rose

@@ -1,0 +1,21 @@
+---
+name: Gary VanDeaver
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0692"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=1
+photoUrl: http://www.house.state.tx.us/photos/members/2540.jpg
+emails:
+- george.lavender@house.state.tx.us
+channels:
+- type: Twitter
+  id: garyvandeaver
+- type: Facebook
+  id: garyvandeavercampaign
+slug: gary-vandeaver

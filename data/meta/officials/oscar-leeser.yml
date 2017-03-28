@@ -1,0 +1,15 @@
+---
+name: Oscar Leeser
+address:
+- line1: 300 N. Campbell
+  city: El Paso
+  state: TX
+  zip: '79901'
+phones:
+- "(915) 541-4145"
+urls:
+- https://www.elpasotexas.gov/mayor
+photoUrl: https://www.elpasotexas.gov/~/media/images/coep/mayor/mayor.ashx
+emails:
+- mayor@elpasotexas.gov
+slug: oscar-leeser

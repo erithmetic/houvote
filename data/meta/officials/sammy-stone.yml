@@ -1,0 +1,14 @@
+---
+name: Sammy Stone
+address:
+- line1: 699 FM 3244
+  city: Texarkana
+  state: TX
+  zip: '75501'
+phones:
+- "(903) 838-8691"
+urls:
+- http://tools.cira.state.tx.us/default.aspx?Bowie_County/Commissioners.Court
+emails:
+- sammy.stone@txkusa.org
+slug: sammy-stone

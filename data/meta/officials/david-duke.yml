@@ -1,0 +1,17 @@
+---
+name: David Duke
+address:
+- line1: 900 7th Street,
+  city: Wichita Falls
+  state: TX
+  zip: '76301'
+phones:
+- "(940) 766-8170"
+urls:
+- http://wichitacountysheriffsoffice.org
+emails:
+- david.duke@co.wichita.tx.us
+channels:
+- type: Facebook
+  id: '125237974176093'
+slug: david-duke

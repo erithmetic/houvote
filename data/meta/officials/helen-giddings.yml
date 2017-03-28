@@ -1,0 +1,19 @@
+---
+name: Helen Giddings
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0953"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=109
+photoUrl: http://www.house.state.tx.us/photos/members/2935.jpg
+emails:
+- helen.giddings@house.state.tx.us
+channels:
+- type: Facebook
+  id: '711095012341191'
+slug: helen-giddings

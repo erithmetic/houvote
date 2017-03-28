@@ -1,0 +1,15 @@
+---
+name: Gerald Daugherty
+address:
+- line1: PO Box 1748
+  city: Austin
+  state: TX
+  zip: '78767'
+party: Democratic
+phones:
+- "(512) 854-9333"
+urls:
+- https://www.traviscountytx.gov/commissioners-court/precinct-three
+emails:
+- Gerald.Daugherty@co.travis.tx.us
+slug: gerald-daugherty

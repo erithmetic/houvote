@@ -1,0 +1,20 @@
+---
+name: Javier Salazar
+address:
+- line1: 200 North Comal Street
+  city: San Antonio
+  state: TX
+  zip: '78207'
+party: Democratic
+phones:
+- "(210) 335-6010"
+urls:
+- http://www.bexar.org/600/Sheriffs-Office
+emails:
+- SheriffPIO@Bexar.org
+channels:
+- type: Facebook
+  id: BexarCountySheriff
+- type: Twitter
+  id: BexarCoSheriff
+slug: javier-salazar

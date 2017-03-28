@@ -1,0 +1,22 @@
+---
+name: John Whitmire
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Democratic
+phones:
+- "(512) 463-0115"
+urls:
+- http://www.senate.texas.gov/member.php?d=15
+- http://www.johnwhitmire.com/
+photoUrl: http://www.senate.texas.gov/members/d15/img/headshot.jpg
+emails:
+- john.whitmire@senate.state.tx.us
+channels:
+- type: Twitter
+  id: whitmire_john
+- type: Facebook
+  id: SenatorWhitmire
+slug: john-whitmire

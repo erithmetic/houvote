@@ -1,0 +1,23 @@
+---
+name: Amanda Edwards
+address:
+- line1: 900 Bagby
+  line2: First Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(832) 393-3012"
+urls:
+- http://www.houstontx.gov/council/4/index.html
+photoUrl: http://www.houstontx.gov/council/4/images/edwards.jpg
+emails:
+- atlarge4@houstontx.gov
+channels:
+- type: Twitter
+  id: amanda4houston
+- type: YouTube
+  id: UCBNJnm-EHeof6MrG_S2_dDg
+- type: Facebook
+  id: Amanda-Edwards-For-Houston-City-Council-389799254531374
+slug: amanda-edwards

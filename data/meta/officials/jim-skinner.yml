@@ -1,0 +1,20 @@
+---
+name: Jim Skinner
+address:
+- line1: 4300 Community Ave.
+  city: McKinney
+  state: TX
+  zip: '75071'
+party: Republican
+phones:
+- "(972) 547-5100"
+urls:
+- http://www.collincountytx.gov/sheriff/pages/default.aspx
+emails:
+- sheriffskinner@collincountytx.gov
+channels:
+- type: Facebook
+  id: CCSOTEXAS
+- type: Twitter
+  id: CollinCoSO
+slug: jim-skinner

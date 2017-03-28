@@ -1,0 +1,25 @@
+---
+name: Sylvester Turner
+address:
+- line1: P.O. Box 1562
+  city: Houston
+  state: TX
+  zip: '77251'
+party: Democrat
+phones:
+- "(713) 837-0311"
+urls:
+- http://www.houstontx.gov/mayor/index.html
+photoUrl: http://www.houstontx.gov/mayor/images/turner200x250.jpg
+emails:
+- mayor@houstontx.gov
+channels:
+- type: Facebook
+  id: sylvesterturner
+- type: Twitter
+  id: SylvesterTurner
+- type: YouTube
+  id: UC0Kn0kPLxNzl5LY8EML7aPA
+- type: Facebook
+  id: houstonmayor
+slug: sylvester-turner

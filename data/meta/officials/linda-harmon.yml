@@ -1,0 +1,14 @@
+---
+name: Linda Harmon
+address:
+- line1: P.O. Box 579
+  city: Bastrop
+  state: TX
+  zip: '78602'
+phones:
+- "(512) 581-7161"
+urls:
+- http://www.co.bastrop.tx.us/page/co.tax_assessor
+emails:
+- linda.harmon@co.bastrop.tx.us
+slug: linda-harmon

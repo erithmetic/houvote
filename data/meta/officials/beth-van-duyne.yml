@@ -1,0 +1,20 @@
+---
+name: Beth Van Duyne
+address:
+- line1: 825 W. Irving Blvd.
+  city: Irving
+  state: TX
+  zip: '75060'
+phones:
+- "(972) 721-2410"
+urls:
+- http://cityofirving.org/210/Meet-Your-Mayor-and-Council
+photoUrl: http://cityofirving.org/ImageRepository/Document?documentID=8499
+emails:
+- bvanduyne@cityofirving.org
+channels:
+- type: Facebook
+  id: Mayor-Beth-Van-Duyne-125468394263514
+- type: Twitter
+  id: IrvingMayor
+slug: beth-van-duyne

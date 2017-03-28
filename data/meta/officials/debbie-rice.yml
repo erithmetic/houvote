@@ -1,0 +1,14 @@
+---
+name: Debbie Rice
+address:
+- line1: 2 N. Main St.
+  city: Cleburne
+  state: TX
+  zip: '76033'
+phones:
+- "(817) 556-6340"
+urls:
+- http://www.johnsoncountytx.org/government/county-treasurer
+emails:
+- drice@johnsoncountytx.org
+slug: debbie-rice

@@ -1,0 +1,19 @@
+---
+name: K. Michael Conaway
+address:
+- line1: 2430 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-3605"
+urls:
+- http://conaway.house.gov/
+photoUrl: http://conaway.house.gov/UploadedPhotos/MediumResolution/090ebe8e-41f1-4043-8148-07a276d2488d.jpg
+channels:
+- type: Facebook
+  id: mike.conaway
+- type: Twitter
+  id: ConawayTX11
+slug: k-michael-conaway

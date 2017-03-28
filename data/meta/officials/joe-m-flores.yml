@@ -1,0 +1,14 @@
+---
+name: Joe M. Flores
+address:
+- line1: P.O. Box 607
+  city: Mission
+  state: TX
+  zip: '78574'
+phones:
+- "(956) 585-4509"
+urls:
+- http://www.co.hidalgo.tx.us/index.aspx?nid=106
+emails:
+- commissioner3@co.hidalgo.tx.us
+slug: joe-m-flores

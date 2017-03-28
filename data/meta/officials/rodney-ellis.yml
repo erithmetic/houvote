@@ -1,0 +1,17 @@
+---
+name: Rodney Ellis
+address:
+- line1: 1001 Preston
+  line2: 9th Fl.
+  city: Houston
+  state: TX
+  zip: '77002'
+party: Democratic
+phones:
+- "(713) 755-6111"
+urls:
+- http://hcp1.net/
+channels:
+- type: Facebook
+  id: CommissionerPrecinctOne
+slug: rodney-ellis

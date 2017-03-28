@@ -1,0 +1,21 @@
+---
+name: Marc A. Veasey
+address:
+- line1: 1519 Longworth House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Democratic
+phones:
+- "(202) 225-9897"
+urls:
+- http://veasey.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/V/V000131.jpg
+channels:
+- type: Facebook
+  id: CongressmanMarcVeasey
+- type: Twitter
+  id: RepVeasey
+- type: YouTube
+  id: marcveasey
+slug: marc-a-veasey

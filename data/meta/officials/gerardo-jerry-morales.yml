@@ -1,0 +1,15 @@
+---
+name: Gerardo "Jerry" Morales
+address:
+- line1: 1508 Las Quintas Blvd.
+  city: Eagle Pass
+  state: TX
+  zip: '78852'
+party: Democratic
+phones:
+- "(830) 773-7262"
+urls:
+- http://www.co.maverick.tx.us/default.aspx?Maverick_County/Commissioners.Court
+emails:
+- commissioner.pct1@co.maverick.tx.us
+slug: gerardo-jerry-morales

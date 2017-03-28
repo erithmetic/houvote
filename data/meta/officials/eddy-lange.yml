@@ -1,0 +1,15 @@
+---
+name: Eddy Lange
+address:
+- line1: 104 S. Main St.
+  city: Belton
+  state: TX
+  zip: '76513'
+phones:
+- "(254) 933-5410"
+urls:
+- http://www.bellcountytx.com/county_government/sheriff/index.php
+channels:
+- type: Facebook
+  id: BCSD13
+slug: eddy-lange

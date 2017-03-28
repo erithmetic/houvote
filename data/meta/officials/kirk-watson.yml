@@ -1,0 +1,22 @@
+---
+name: Kirk Watson
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Democratic
+phones:
+- "(512) 463-0114"
+urls:
+- http://www.senate.texas.gov/member.php?d=14
+- http://www.kirkwatson.com/
+photoUrl: http://www.senate.texas.gov/members/d14/img/headshot.jpg
+emails:
+- kirk.watson@senate.state.tx.us
+channels:
+- type: Twitter
+  id: KirkPWatson
+- type: Facebook
+  id: KirkPWatson
+slug: kirk-watson

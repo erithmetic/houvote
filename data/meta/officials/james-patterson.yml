@@ -1,0 +1,14 @@
+---
+name: James Patterson
+address:
+- line1: 12919 Dairy Ashford Road,
+  city: Sugar Land
+  state: TX
+  zip: '77478'
+phones:
+- "(281) 980-2235"
+urls:
+- http://www.fortbendcountytx.gov/index.aspx?page=51
+emails:
+- commpct4@fortbendcountytx.gov
+slug: james-patterson

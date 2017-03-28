@@ -1,0 +1,11 @@
+---
+name: Vacant
+address:
+- line1: P.O. Box 9277
+  city: Corpus Christi
+  state: TX
+  zip: '78469'
+party: Nonpartisan
+phones:
+- "(361) 826-3100"
+slug: vacant

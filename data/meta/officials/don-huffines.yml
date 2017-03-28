@@ -1,0 +1,22 @@
+---
+name: Don Huffines
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0116"
+urls:
+- http://www.senate.texas.gov/member.php?d=16
+- http://www.donhuffines.com/
+photoUrl: http://www.senate.texas.gov/members/d16/img/action.jpg
+channels:
+- type: YouTube
+  id: donhuffines
+- type: Twitter
+  id: DonHuffines
+- type: Facebook
+  id: DonForTexas
+slug: don-huffines

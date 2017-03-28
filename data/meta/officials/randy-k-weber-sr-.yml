@@ -1,0 +1,21 @@
+---
+name: Randy K. Weber Sr.
+address:
+- line1: 1708 Longworth House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-2831"
+urls:
+- http://weber.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/W/W000814.jpg
+channels:
+- type: Facebook
+  id: TXRandy14
+- type: Twitter
+  id: TXRandy14
+- type: YouTube
+  id: TXRandy14
+slug: randy-k-weber-sr-

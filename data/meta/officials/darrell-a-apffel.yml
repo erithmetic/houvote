@@ -1,0 +1,16 @@
+---
+name: Darrell A. Apffel
+address:
+- line1: 722 Moody
+  line2: 1st Floor
+  city: Galveston
+  state: TX
+  zip: '77550'
+party: Republican
+phones:
+- "(409) 770-5474"
+urls:
+- http://www.galvestoncountytx.gov/CO1/Pages/default.aspx
+emails:
+- Darrell.Apffel@co.galveston.tx.us
+slug: darrell-a-apffel

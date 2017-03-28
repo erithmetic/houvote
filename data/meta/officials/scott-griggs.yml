@@ -1,0 +1,22 @@
+---
+name: Scott Griggs
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5FS
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-0776"
+urls:
+- http://dallascityhall.com/government/citycouncil/district1/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district1/PublishingImages/Pages/default/Griggs%20Photo%20-%20Low%20Res.JPG
+emails:
+- scott.griggs@dallascityhall.com
+channels:
+- type: Twitter
+  id: scottgriggsdal
+- type: Facebook
+  id: ScottGriggsDallas
+slug: scott-griggs

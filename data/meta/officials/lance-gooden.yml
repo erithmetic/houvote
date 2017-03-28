@@ -1,0 +1,23 @@
+---
+name: Lance Gooden
+address:
+- line1: State Capitol
+  line2: Room E1.204
+  line3: P.O. Box 2910
+  city: Austin
+  state: TX
+  zip: 78768-2910
+- line1: 100 East Corsicana Street
+  line2: Suite 205
+  line3: ''
+  city: Athens
+  state: TX
+  zip: '75751'
+party: Republican
+phones:
+- "(512) 463-0458"
+- "(903) 675-7138"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=4
+photoUrl: http://www.house.state.tx.us/photos/members/2020.jpg
+slug: lance-gooden

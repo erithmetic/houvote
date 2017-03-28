@@ -1,0 +1,15 @@
+---
+name: Robert Shepard
+address:
+- line1: P.O. Box 90231
+  city: Arlington
+  state: TX
+  zip: '76004'
+phones:
+- "(817) 459-6122"
+urls:
+- http://www.arlington-tx.gov/citycouncil/council-member-district-6/
+photoUrl: http://www.arlington-tx.gov/citycouncil/wp-content/uploads/sites/18/2014/05/councilmember_RobertShepard.jpg
+emails:
+- Robert.Shepard@arlingtontx.gov
+slug: robert-shepard

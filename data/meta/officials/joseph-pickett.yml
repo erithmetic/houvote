@@ -1,0 +1,16 @@
+---
+name: Joseph Pickett
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0596"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=79
+photoUrl: http://www.house.state.tx.us/photos/members/4180.jpg
+emails:
+- Joe.Pickett@house.state.tx.us
+slug: joseph-pickett

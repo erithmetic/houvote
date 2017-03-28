@@ -1,0 +1,20 @@
+---
+name: Casey Thomas, II
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5FS
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-0777"
+urls:
+- http://dallascityhall.com/government/citycouncil/district3/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district3/PublishingImages/casey-thomas.jpg
+channels:
+- type: Facebook
+  id: teamthomas2015
+- type: YouTube
+  id: UCRYj8CtIzQqFrKSsdBIGbAg
+slug: casey-thomas-ii

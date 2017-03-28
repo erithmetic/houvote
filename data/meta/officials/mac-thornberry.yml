@@ -1,0 +1,21 @@
+---
+name: Mac Thornberry
+address:
+- line1: 2208 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-3706"
+urls:
+- http://thornberry.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/T/T000238.jpg
+channels:
+- type: Facebook
+  id: repmacthornberry
+- type: Twitter
+  id: MacTXPress
+- type: YouTube
+  id: RepMacThornberry
+slug: mac-thornberry

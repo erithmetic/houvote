@@ -1,0 +1,15 @@
+---
+name: Paul Elizondo
+address:
+- line1: 101 W. Nueva
+  line2: 10th Floor
+  city: San Antonio
+  state: TX
+  zip: '78205'
+phones:
+- "(210) 335-2612"
+urls:
+- http://home.bexar.org/elizondo/
+emails:
+- mpulido@bexar.org
+slug: paul-elizondo

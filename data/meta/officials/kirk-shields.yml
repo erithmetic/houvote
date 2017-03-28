@@ -1,0 +1,14 @@
+---
+name: Kirk Shields
+address:
+- line1: 101 E. Methvin
+  line2: Suite 215
+  city: Longview
+  state: TX
+  zip: '75601'
+party: Republican
+phones:
+- "(903) 237-2552"
+emails:
+- Kirk.Shields@co.gregg.tx.us
+slug: kirk-shields

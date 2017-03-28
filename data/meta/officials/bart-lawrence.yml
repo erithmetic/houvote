@@ -1,0 +1,14 @@
+---
+name: Bart Lawrence
+address:
+- line1: 100 W. Houston
+  city: Sherman
+  state: TX
+  zip: '75090'
+phones:
+- "(903) 813-4318"
+urls:
+- http://www.co.grayson.tx.us/default.aspx?name=comp4.home
+emails:
+- lawrenceb@co.grayson.tx.us
+slug: bart-lawrence

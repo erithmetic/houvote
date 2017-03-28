@@ -1,0 +1,21 @@
+---
+name: Robert Gallegos
+address:
+- line1: 900 Bagby
+  line2: First Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(832) 393-3011"
+urls:
+- http://www.houstontx.gov/council/i/index.html
+photoUrl: http://www.houstontx.gov/council/i/images/gallegos.jpg
+emails:
+- districti@houstontx.gov
+channels:
+- type: Twitter
+  id: RobertGallegosI
+- type: Facebook
+  id: CouncilmemberGallegos
+slug: robert-gallegos

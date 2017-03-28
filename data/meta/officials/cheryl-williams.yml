@@ -1,0 +1,18 @@
+---
+name: Cheryl Williams
+address:
+- line1: 2300 Bloomdale Rd.,
+  city: McKinney
+  state: TX
+  zip: '75071'
+party: Republican
+phones:
+- "(972) 424-1460 ext. 4626"
+urls:
+- http://www.collincountytx.gov/commissioners_court/pages/williams.aspx
+emails:
+- cdwilliams@collincountytx.gov
+channels:
+- type: Facebook
+  id: profile.php
+slug: cheryl-williams

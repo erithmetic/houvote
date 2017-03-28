@@ -1,0 +1,12 @@
+---
+name: Mark Benton
+address:
+- line1: 501 16th Street,
+  city: Canyon
+  state: TX
+  zip: '79015'
+phones:
+- "(806) 681-8338"
+urls:
+- http://randallcounty.com/commish/Default.htm
+slug: mark-benton

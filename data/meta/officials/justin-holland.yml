@@ -1,0 +1,16 @@
+---
+name: Justin Holland
+address:
+- line1: State Capitol
+  line2: Room E2.804
+  line3: P.O. Box 2910
+  city: Austin
+  state: TX
+  zip: 78768-2910
+party: Republican
+phones:
+- "(512) 463-0484"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=33
+photoUrl: http://www.house.state.tx.us/photos/members/3205.jpg
+slug: justin-holland

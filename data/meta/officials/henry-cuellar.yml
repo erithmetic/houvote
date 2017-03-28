@@ -1,0 +1,23 @@
+---
+name: Henry Cuellar
+address:
+- line1: 2209 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Democratic
+phones:
+- "(202) 225-1640"
+urls:
+- http://cuellar.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/C/C001063.jpg
+channels:
+- type: GooglePlus
+  id: '109262346633410634165'
+- type: Facebook
+  id: '152569121550'
+- type: Twitter
+  id: RepCuellar
+- type: YouTube
+  id: henrycuellar
+slug: henry-cuellar

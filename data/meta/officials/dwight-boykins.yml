@@ -1,0 +1,21 @@
+---
+name: Dwight Boykins
+address:
+- line1: 900 Bagby
+  line2: First Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(832) 393-3001"
+urls:
+- http://www.houstontx.gov/council/d/index.html
+photoUrl: http://www.houstontx.gov/council/d/images/boykins.jpg
+emails:
+- districtd@houstontx.gov
+channels:
+- type: Facebook
+  id: '197441293783519'
+- type: Twitter
+  id: DwightBoykins
+slug: dwight-boykins

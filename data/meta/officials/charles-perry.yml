@@ -1,0 +1,20 @@
+---
+name: Charles Perry
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0128"
+urls:
+- http://www.senate.texas.gov/member.php?d=28
+- http://electcharlesperry.com/
+photoUrl: http://www.senate.texas.gov/members/d28/img/action.jpg
+channels:
+- type: Twitter
+  id: electcharles
+- type: Facebook
+  id: ElectCharlesPerry
+slug: charles-perry

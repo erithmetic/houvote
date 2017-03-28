@@ -1,0 +1,17 @@
+---
+name: Larry R. Smith
+address:
+- line1: 227 N. Spring Street
+  city: Tyler
+  state: TX
+  zip: '75702'
+phones:
+- "(903) 590-2661"
+urls:
+- http://www.smith-county.com/Law/Sheriff/Default.aspx
+channels:
+- type: Facebook
+  id: '145385946351'
+- type: Twitter
+  id: SmithCSO
+slug: larry-r-smith

@@ -1,0 +1,15 @@
+---
+name: Mark L. Davis
+address:
+- line1: PO Box 1990
+  city: Kountze
+  state: TX
+  zip: '77625'
+party: Republican
+phones:
+- "(409) 246-3441"
+urls:
+- http://www.co.hardin.tx.us/default.aspx?Hardin_County/Sheriff
+emails:
+- Mark.Davis@Co.Hardin.TX.US
+slug: mark-l-davis

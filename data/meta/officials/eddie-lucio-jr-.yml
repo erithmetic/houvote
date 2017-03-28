@@ -1,0 +1,22 @@
+---
+name: Eddie Lucio, Jr.
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Democratic
+phones:
+- "(512) 463-0127"
+urls:
+- http://www.senate.texas.gov/member.php?d=27
+- http://www.senatoreddielucio.com/
+photoUrl: http://www.senate.texas.gov/members/d27/img/headshot.jpg
+emails:
+- eddie.lucio@senate.state.tx.us
+channels:
+- type: Facebook
+  id: SenatorLucio
+- type: Twitter
+  id: senatorlucio
+slug: eddie-lucio-jr-

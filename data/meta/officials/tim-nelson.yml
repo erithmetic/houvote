@@ -1,0 +1,15 @@
+---
+name: Tim Nelson
+address:
+- line1: 6101 Frisco Square Blvd
+  city: Frisco
+  state: TX
+  zip: '75034'
+phones:
+- "(972) 292-5055"
+emails:
+- tnelson@friscotexas.gov
+channels:
+- type: Facebook
+  id: votefortim
+slug: tim-nelson

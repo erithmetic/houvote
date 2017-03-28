@@ -1,0 +1,15 @@
+---
+name: Tommy Smyth
+address:
+- line1: PO Box 1471
+  city: Wichita Falls
+  state: TX
+  zip: '76307'
+party: Republican
+phones:
+- "(940) 766-8200"
+urls:
+- http://www.wichitatax.com/
+emails:
+- tommy.smyth@co.wichita.tx.us
+slug: tommy-smyth

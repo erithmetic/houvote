@@ -1,0 +1,19 @@
+---
+name: Walter "Four" Price
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0470"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=87
+photoUrl: http://www.house.state.tx.us/photos/members/2185.jpg
+emails:
+- four.price@house.state.tx.us
+channels:
+- type: Facebook
+  id: FourPriceForTexas
+slug: walter-four-price

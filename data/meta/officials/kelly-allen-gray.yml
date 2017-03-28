@@ -1,0 +1,20 @@
+---
+name: Kelly Allen Gray
+address:
+- line1: 1000 Throckmorton St.
+  city: Fort Worth
+  state: TX
+  zip: '76102'
+phones:
+- "(817) 392-8808"
+urls:
+- http://fortworthtexas.gov/district8
+photoUrl: http://fortworthtexas.gov/uploadedImages/Mayor_and_City_Council/districts/8/Kelly-Gray-Bio_8.jpg
+emails:
+- district8@fortworthtexas.gov
+channels:
+- type: Twitter
+  id: KellyAllenGray
+- type: Facebook
+  id: kelly.a.gray.50
+slug: kelly-allen-gray

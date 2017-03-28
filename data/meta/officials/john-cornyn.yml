@@ -1,0 +1,21 @@
+---
+name: John Cornyn
+address:
+- line1: 517 Hart Senate Office Building
+  city: Washington
+  state: DC
+  zip: '20510'
+party: Republican
+phones:
+- "(202) 224-2934"
+urls:
+- http://www.cornyn.senate.gov/public/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/C/C001056.jpg
+channels:
+- type: Facebook
+  id: Sen.JohnCornyn
+- type: Twitter
+  id: JohnCornyn
+- type: YouTube
+  id: SenJohnCornyn
+slug: john-cornyn

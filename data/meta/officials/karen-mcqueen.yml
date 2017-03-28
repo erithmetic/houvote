@@ -1,0 +1,14 @@
+---
+name: Karen McQueen
+address:
+- line1: 300 E. 26th Street
+  city: Bryan
+  state: TX
+  zip: '77803'
+phones:
+- "(979) 361-4128"
+urls:
+- https://www.brazoscountytx.gov/index.aspx?nid=114
+emails:
+- kmcqueen@brazoscountytx.gov
+slug: karen-mcqueen

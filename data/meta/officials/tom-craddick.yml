@@ -1,0 +1,16 @@
+---
+name: Tom Craddick
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0500"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=82
+photoUrl: http://www.house.state.tx.us/photos/members/2610.jpg
+emails:
+- tom.craddick@house.state.tx.us
+slug: tom-craddick

@@ -1,0 +1,15 @@
+---
+name: Kevin C. Walsh
+address:
+- line1: 722 Moody Avenue
+  line2: 4th Floor
+  city: Galveston
+  state: TX
+  zip: '77550'
+phones:
+- "(409) 770-5395"
+urls:
+- http://www.galvestoncountytx.gov/tr/Pages/default.aspx
+emails:
+- galvestoncountytreasurer@co.galveston.tx.us
+slug: kevin-c-walsh

@@ -1,0 +1,14 @@
+---
+name: Kyle Deaver
+address:
+- line1: PO Box
+  line2: 2570 300 Austin Ave.
+  city: Waco
+  state: TX
+  zip: '76702'
+party: Nonpartisan
+urls:
+- http://www.waco-texas.com/mayor.asp
+emails:
+- Kyle.Deaver@wacotx.gov
+slug: kyle-deaver

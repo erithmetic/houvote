@@ -1,0 +1,15 @@
+---
+name: Sarah Eckhardt
+address:
+- line1: PO Box 1748
+  city: Austin
+  state: TX
+  zip: '78767'
+phones:
+- "(512) 854-9555"
+urls:
+- https://www.traviscountytx.gov/commissioners-court/county-judge
+channels:
+- type: Twitter
+  id: JudgeEckhardt
+slug: sarah-eckhardt

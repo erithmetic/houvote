@@ -1,0 +1,15 @@
+---
+name: Ryan Cade
+address:
+- line1: 21017 CR 171
+  city: Angleton
+  state: TX
+  zip: '77515'
+phones:
+- "(979) 864-1548"
+urls:
+- http://brazoriacountytx.gov/government/commissioners-court/commissioner-precinct-2
+channels:
+- type: Twitter
+  id: MattSebesta
+slug: ryan-cade

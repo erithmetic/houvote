@@ -1,0 +1,17 @@
+---
+name: Cesar de Leon
+address:
+- line1: 1001 E Elizabeth St,
+  city: Brownsville
+  state: TX
+  zip: '78520'
+phones:
+- "(956) 548-6001"
+urls:
+- http://comission.cob.us/
+emails:
+- cesar.deleon@cob.us
+channels:
+- type: Facebook
+  id: Cesar-de-Leon-770455386382643
+slug: cesar-de-leon

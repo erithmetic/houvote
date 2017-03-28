@@ -1,0 +1,15 @@
+---
+name: Theresa Daniel
+address:
+- line1: 411 Elm St.
+  line2: 2nd Floor
+  city: Dallas
+  state: TX
+  zip: '75202'
+phones:
+- "(214) 653-6668"
+urls:
+- http://www.dallascounty.org/department/comcrt/district1/home.php
+emails:
+- Theresa.Daniel@dallascounty.org
+slug: theresa-daniel

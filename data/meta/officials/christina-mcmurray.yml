@@ -1,0 +1,15 @@
+---
+name: Christina McMurray
+address:
+- line1: PO Box 9514
+  city: Amarillo
+  state: TX
+  zip: '79105'
+party: Republican
+phones:
+- "(806) 468-5654"
+urls:
+- http://www.randallcounty.org/tax/default.html
+emails:
+- taxes@randallcounty.org
+slug: christina-mcmurray

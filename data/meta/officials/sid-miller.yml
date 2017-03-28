@@ -1,0 +1,18 @@
+---
+name: Sid Miller
+address:
+- line1: P.O. Box 12847
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-1408"
+urls:
+- http://www.texasagriculture.gov/Home.aspx
+channels:
+- type: Facebook
+  id: Texas-Department-of-Agriculture
+- type: Twitter
+  id: TexasDeptofAg
+slug: sid-miller

@@ -1,0 +1,17 @@
+---
+name: Arturo Guajardo, Jr.
+address:
+- line1: P.O. Box 58
+  city: Edinburg
+  state: TX
+  zip: '78539'
+phones:
+- "(956) 318-2100"
+emails:
+- aguajardo@hidalgocountyclerk.us
+channels:
+- type: Facebook
+  id: hidalgocountyclerk
+- type: Twitter
+  id: HidalgoClerk
+slug: arturo-guajardo-jr-

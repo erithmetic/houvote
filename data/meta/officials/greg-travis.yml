@@ -1,0 +1,21 @@
+---
+name: Greg Travis
+address:
+- line1: 900 Bagby
+  line2: First Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(832) 393-3007"
+urls:
+- http://www.houstontx.gov/council/g/index.html
+photoUrl: http://www.houstontx.gov/council/g/images/travis150.jpg
+emails:
+- districtg@houstontx.gov
+channels:
+- type: Facebook
+  id: Greg-Travis-1625124334370431
+- type: Twitter
+  id: TravisDistrictG
+slug: greg-travis

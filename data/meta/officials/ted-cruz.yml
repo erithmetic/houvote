@@ -1,0 +1,23 @@
+---
+name: Ted Cruz
+address:
+- line1: 404 Russell Senate Office Building
+  city: Washington
+  state: DC
+  zip: '20510'
+party: Republican
+phones:
+- "(202) 224-5922"
+urls:
+- http://www.cruz.senate.gov/
+photoUrl: http://www.cruz.senate.gov/files/images/OfficialPortrait.jpg
+channels:
+- type: Facebook
+  id: SenatorTedCruz
+- type: Twitter
+  id: SenTedCruz
+- type: YouTube
+  id: TedCruzforSenate
+- type: YouTube
+  id: SenTedCruz
+slug: ted-cruz

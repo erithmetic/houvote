@@ -1,0 +1,14 @@
+---
+name: Roger Harmon
+address:
+- line1: 2 N. Main St
+  city: Cleburne
+  state: TX
+  zip: '76033'
+phones:
+- "(817) 556-6360"
+urls:
+- http://www.johnsoncountytx.org/government/county-judge
+emails:
+- countyjudge@johnsoncountytx.org
+slug: roger-harmon

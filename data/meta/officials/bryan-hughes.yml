@@ -1,0 +1,29 @@
+---
+name: Bryan Hughes
+address:
+- line1: P.O. Box 12068
+  line2: Capitol Station
+  line3: ''
+  city: Austin
+  state: TX
+  zip: '78711'
+- line1: Gregg County Courthouse
+  line2: 101 E. Methvin
+  line3: Suite 301
+  city: Longview
+  state: TX
+  zip: '75601'
+party: Republican
+phones:
+- "(512) 463-0101"
+- "(903) 753-8137"
+- "(903) 923-0404"
+urls:
+- http://www.senate.texas.gov/member.php?d=1
+photoUrl: http://www.senate.texas.gov/members/d01/img/hughes-initial.jpg
+channels:
+- type: Facebook
+  id: BryanHughesTX
+- type: Twitter
+  id: RepHughes
+slug: bryan-hughes

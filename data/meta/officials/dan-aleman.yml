@@ -1,0 +1,14 @@
+---
+name: Dan Aleman
+address:
+- line1: P.O. Box 850137
+  city: Mesquite
+  state: TX
+  zip: '75185'
+phones:
+- "(972) 288-5459"
+urls:
+- http://www.cityofmesquite.com/directory.aspx?EID=6
+emails:
+- daleman@cityofmesquite.com
+slug: dan-aleman

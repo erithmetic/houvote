@@ -1,0 +1,19 @@
+---
+name: Tim Funchess
+address:
+- line1: 1149 Pearl Street
+  line2: Basement
+  city: Beaumont
+  state: TX
+  zip: '77701'
+party: Unknown
+phones:
+- "(409) 835-8509"
+urls:
+- http://www.co.jefferson.tx.us/treasurer/main.htm
+emails:
+- tfunchess@co.jefferson.tx.us
+channels:
+- type: Facebook
+  id: '153901207973378'
+slug: tim-funchess

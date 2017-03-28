@@ -1,0 +1,17 @@
+---
+name: Mike Cantrell
+address:
+- line1: 1701 N. Collins Blvd,
+  city: Richardson
+  state: TX
+  zip: '75080'
+phones:
+- "(214) 589-7060"
+urls:
+- http://www.dallascounty.org/department/comcrt/district2/cantrell.php
+emails:
+- Mike.Cantrell@dallascounty.org
+channels:
+- type: Facebook
+  id: commissioner.mikecantrell
+slug: mike-cantrell

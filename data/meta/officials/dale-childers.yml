@@ -1,0 +1,14 @@
+---
+name: Dale Childers
+address:
+- line1: 1010 East 8th Street
+  city: Odessa
+  state: TX
+  zip: '79761'
+phones:
+- "(432) 498-4003"
+urls:
+- http://www.co.ector.tx.us/default.aspx?Ector_County/Commissioners.Court
+emails:
+- dale.childers@ectorcountytx.gov
+slug: dale-childers

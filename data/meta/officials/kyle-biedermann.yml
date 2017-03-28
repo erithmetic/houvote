@@ -1,0 +1,22 @@
+---
+name: Kyle Biedermann
+address:
+- line1: State Capitol
+  line2: Room E1.412
+  line3: P.O. Box 2910
+  city: Austin
+  state: TX
+  zip: 78768-2910
+- line1: 616 W. Main St.
+  line2: Suite 101, 101A, 102
+  line3: ''
+  city: Fredericksburg
+  state: TX
+  zip: '78624'
+party: Republican
+phones:
+- "(512) 463-0325"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=73
+photoUrl: http://www.house.state.tx.us/photos/members/3575.jpg
+slug: kyle-biedermann

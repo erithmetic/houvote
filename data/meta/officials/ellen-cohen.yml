@@ -1,0 +1,21 @@
+---
+name: Ellen Cohen
+address:
+- line1: 900 Bagby
+  line2: First Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(832) 393-3004"
+urls:
+- http://www.houstontx.gov/council/c/index.html
+photoUrl: http://www.houstontx.gov/council/c/images/cohen.jpg
+emails:
+- districtc@houstontx.gov
+channels:
+- type: Twitter
+  id: Ellencohen1
+- type: Facebook
+  id: RepEllenCohen
+slug: ellen-cohen

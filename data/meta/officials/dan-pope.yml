@@ -1,0 +1,15 @@
+---
+name: Dan Pope
+address:
+- line1: P.O. Box 2000
+  city: Lubbock
+  state: TX
+  zip: '79457'
+party: Nonpartisan
+phones:
+- "(806) 775-2010"
+urls:
+- http://www.ci.lubbock.tx.us/city-council/mayor
+emails:
+- dpope@mylubbock.us
+slug: dan-pope

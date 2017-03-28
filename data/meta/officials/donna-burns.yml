@@ -1,0 +1,12 @@
+---
+name: Donna Burns
+address:
+- line1: 710 James Bowie Drive
+  city: New Boston
+  state: TX
+  zip: '75570'
+phones:
+- "(903) 628-6721"
+urls:
+- http://tools.cira.state.tx.us/default.aspx?Bowie_County/County.Treasurer
+slug: donna-burns

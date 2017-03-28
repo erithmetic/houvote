@@ -1,0 +1,14 @@
+---
+name: Clara Beckett
+address:
+- line1: 1624 NE Loop 230
+  city: Smithville
+  state: TX
+  zip: '78957'
+phones:
+- "(512) 581-4002"
+urls:
+- http://www.co.bastrop.tx.us/page/com.pct_2
+emails:
+- clara.beckett@co.bastrop.tx.us
+slug: clara-beckett

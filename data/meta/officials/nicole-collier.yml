@@ -1,0 +1,21 @@
+---
+name: Nicole Collier
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0716"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=95
+photoUrl: http://www.house.state.tx.us/photos/members/2360.jpg
+emails:
+- Nicole.Collier@house.state.tx.us
+channels:
+- type: Facebook
+  id: NicoleCollierTX
+- type: Twitter
+  id: NicoleCollier95
+slug: nicole-collier

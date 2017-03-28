@@ -1,0 +1,14 @@
+---
+name: Laura Taylor Davis
+address:
+- line1: 200 S. Texas Ave.
+  city: Bryan
+  state: TX
+  zip: '77803'
+phones:
+- "(979) 361-4340"
+urls:
+- https://www.brazoscountytx.gov/index.aspx?nid=142
+emails:
+- ldavis@brazoscountytx.gov
+slug: laura-taylor-davis

@@ -1,0 +1,14 @@
+---
+name: Joel Hale
+address:
+- line1: 115 North Main Street,
+  city: Henderson
+  state: TX
+  zip: '75652'
+phones:
+- "(903) 657-0302"
+urls:
+- http://www.co.rusk.tx.us/default.aspx?Rusk_County/County.Judge
+emails:
+- joel.hale@co.rusk.tx.us
+slug: joel-hale

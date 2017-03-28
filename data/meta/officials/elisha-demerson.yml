@@ -1,0 +1,15 @@
+---
+name: Elisha Demerson
+address:
+- line1: City Hall
+  line2: "- 509 S.E. Seventh Avenue"
+  city: Amarillo
+  state: TX
+  zip: '79101'
+phones:
+- "(806) 353-2360"
+urls:
+- http://www.amarillo.gov/?page_id=87
+emails:
+- Place1@amarillo.gov
+slug: elisha-demerson

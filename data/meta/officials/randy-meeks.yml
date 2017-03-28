@@ -1,0 +1,12 @@
+---
+name: Randy Meeks
+address:
+- line1: 2801 Stuart St.
+  city: Greenville
+  state: TX
+  zip: '75401'
+phones:
+- "(903) 453-6800"
+urls:
+- http://www.huntcounty.net/index.aspx?nid=882
+slug: randy-meeks

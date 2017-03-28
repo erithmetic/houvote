@@ -1,0 +1,18 @@
+---
+name: Chris Hill
+address:
+- line1: 2300 Bloomdale Rd.,
+  city: McKinney
+  state: TX
+  zip: '75071'
+party: Republican
+phones:
+- "(972) 424-1460 ext. 4631"
+urls:
+- http://www.collincountytx.gov/commissioners_court/pages/hill.aspx
+emails:
+- chill@collincountytx.gov
+channels:
+- type: Facebook
+  id: votechrishill
+slug: chris-hill

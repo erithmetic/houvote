@@ -1,0 +1,12 @@
+---
+name: Alison Haley
+address:
+- line1: PO Box 1350
+  city: Midland
+  state: TX
+  zip: '79702'
+phones:
+- "(432) 688-4402"
+urls:
+- http://www.co.midland.tx.us/departments/cc/Pages/default.aspx
+slug: alison-haley

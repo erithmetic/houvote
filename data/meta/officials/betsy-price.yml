@@ -1,0 +1,21 @@
+---
+name: Betsy Price
+address:
+- line1: 1000 Throckmorton St.
+  city: Fort Worth
+  state: TX
+  zip: '76102'
+party: Republican
+phones:
+- "(817) 392-6118"
+urls:
+- http://fortworthtexas.gov/mayor/
+photoUrl: http://fortworthtexas.gov/uploadedImages/Government/Council_Pages/Price_thumb.jpg
+emails:
+- Betsy.Price@fortworthtexas.gov
+channels:
+- type: Facebook
+  id: BetsyPriceFW
+- type: Twitter
+  id: betsy_price
+slug: betsy-price

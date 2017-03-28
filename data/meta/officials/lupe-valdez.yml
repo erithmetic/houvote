@@ -1,0 +1,17 @@
+---
+name: Lupe Valdez
+address:
+- line1: 900 Jackson St,
+  city: Dallas
+  state: TX
+  zip: '75202'
+phones:
+- "(214) 653-2901"
+urls:
+- http://www.dallascounty.org/department/sheriff/sheriff_index.php
+channels:
+- type: Facebook
+  id: Dallas.Sheriff.Dept
+- type: Twitter
+  id: Dallas_Sheriff
+slug: lupe-valdez

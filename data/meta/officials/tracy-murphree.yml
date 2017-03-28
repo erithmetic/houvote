@@ -1,0 +1,18 @@
+---
+name: Tracy Murphree
+address:
+- line1: 127 N. Woodrow Lane,
+  city: Denton
+  state: TX
+  zip: '76205'
+party: Republican
+phones:
+- "(972) 434-5500"
+urls:
+- http://dentoncounty.com/Departments/Sheriff.aspx
+channels:
+- type: Facebook
+  id: DentonCoSheriff
+- type: Twitter
+  id: DentonCoSheriff
+slug: tracy-murphree

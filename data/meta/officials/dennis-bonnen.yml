@@ -1,0 +1,21 @@
+---
+name: Dennis Bonnen
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0564"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=25
+photoUrl: http://www.house.state.tx.us/photos/members/2250.jpg
+emails:
+- dennis.bonnen@house.state.tx.us
+channels:
+- type: Facebook
+  id: '273023971533'
+- type: Twitter
+  id: DBonnen
+slug: dennis-bonnen

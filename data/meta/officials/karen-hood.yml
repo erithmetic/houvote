@@ -1,0 +1,12 @@
+---
+name: Karen Hood
+address:
+- line1: 2110 North "A" St.
+  city: Midland
+  state: TX
+  zip: '79705'
+phones:
+- "(432) 688-4810"
+urls:
+- http://www.co.midland.tx.us/departments/tax/Pages/default.aspx
+slug: karen-hood

@@ -1,0 +1,10 @@
+---
+name: Jim Darling
+address:
+- line1: 1300 Houston Avenue
+  city: McAllen
+  state: TX
+  zip: '78501'
+phones:
+- "(956) 681-3111"
+slug: jim-darling

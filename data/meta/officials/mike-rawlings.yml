@@ -1,0 +1,22 @@
+---
+name: Mike Rawlings
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5EN
+  city: Dallas
+  state: TX
+  zip: '75201'
+phones:
+- "(214) 671-8257"
+urls:
+- http://dallascityhall.com/government/citymayor/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/PublishingImages/mayor-rawlings.jpg
+emails:
+- mayor.rawlings@gmail.com
+channels:
+- type: Facebook
+  id: MayorMikeRawlings
+- type: Twitter
+  id: Mike_Rawlings
+slug: mike-rawlings

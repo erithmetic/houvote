@@ -1,0 +1,20 @@
+---
+name: Lee M. Kleinman
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5FS
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-7817"
+urls:
+- http://dallascityhall.com/government/citycouncil/district11/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district11/PublishingImages/Pages/default/Lee%20Kleinman%20District%2011.jpg
+channels:
+- type: Facebook
+  id: leekleinmanfordallas
+- type: Twitter
+  id: LeeforDallas
+slug: lee-m-kleinman

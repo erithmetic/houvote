@@ -1,0 +1,19 @@
+---
+name: Dan Patrick
+address:
+- line1: P.O. Box 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0001"
+urls:
+- http://www.ltgov.state.tx.us/
+photoUrl: https://www.ltgov.state.tx.us/wp-content/uploads/2015/02/dan_patrick.jpg
+channels:
+- type: Facebook
+  id: ltgovtx
+- type: Twitter
+  id: LtGovTX
+slug: dan-patrick

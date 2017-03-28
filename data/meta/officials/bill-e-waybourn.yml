@@ -1,0 +1,19 @@
+---
+name: Bill E Waybourn
+address:
+- line1: 200 Taylor Street
+  line2: 7th Floor
+  city: Fort Worth
+  state: TX
+  zip: '76196'
+party: Republican
+phones:
+- "(817) 884-3099"
+urls:
+- http://access.tarrantcounty.com/en/sheriff.html?linklocation=supermenu&linkname=Sheriff
+channels:
+- type: Facebook
+  id: tarrantcountysheriff
+- type: Twitter
+  id: tarrantcountyso
+slug: bill-e-waybourn

@@ -1,0 +1,21 @@
+---
+name: Ron Reynolds
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0494"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=27
+photoUrl: http://www.house.state.tx.us/photos/members/2040.jpg
+emails:
+- ron.reynolds@house.state.tx.us
+channels:
+- type: Twitter
+  id: ronereynolds
+- type: Facebook
+  id: ron.reynolds.315
+slug: ron-reynolds

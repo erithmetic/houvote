@@ -1,0 +1,14 @@
+---
+name: David Magness
+address:
+- line1: 101 E Rusk Street
+  city: Rockwall
+  state: TX
+  zip: '75087'
+phones:
+- "(972) 204-6000"
+urls:
+- http://www.rockwallcountytexas.com/251/Precinct-4
+emails:
+- dmagness@rockwallcountytexas.com
+slug: david-magness

@@ -1,0 +1,21 @@
+---
+name: Terry Canales
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0426"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=40
+photoUrl: http://www.house.state.tx.us/photos/members/2340.jpg
+emails:
+- Terry.Canales@house.state.tx.us
+channels:
+- type: Facebook
+  id: RepTerryCanales
+- type: Twitter
+  id: TerryCanales40
+slug: terry-canales

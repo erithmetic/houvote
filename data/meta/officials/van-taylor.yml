@@ -1,0 +1,20 @@
+---
+name: Van Taylor
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0108"
+urls:
+- http://www.senate.texas.gov/member.php?d=8
+- http://www.vantaylor.com/
+photoUrl: http://www.senate.texas.gov/members/d08/img/action.jpg
+channels:
+- type: Twitter
+  id: VanTaylorTX
+- type: Facebook
+  id: VanForTexas
+slug: van-taylor

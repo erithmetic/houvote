@@ -1,0 +1,13 @@
+---
+name: Bobbie Koepp
+address:
+- line1: 150 N. Seguin
+  line2: Suite 101
+  city: New Braunfels
+  state: TX
+  zip: '78130'
+phones:
+- "(830) 221-1230"
+urls:
+- http://www.co.comal.tx.us/CC.htm
+slug: bobbie-koepp

@@ -1,0 +1,20 @@
+---
+name: Brigid Shea
+address:
+- line1: PO Box 1748
+  city: Austin
+  state: TX
+  zip: '78767'
+party: Democratic
+phones:
+- "(512) 854-9222"
+urls:
+- https://www.traviscountytx.gov/commissioners-court/precinct-two
+emails:
+- Comm2@traviscountytx.gov
+channels:
+- type: Facebook
+  id: CommishShea
+- type: Twitter
+  id: Commish_Shea
+slug: brigid-shea

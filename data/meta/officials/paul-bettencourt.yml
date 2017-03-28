@@ -1,0 +1,18 @@
+---
+name: Paul Bettencourt
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0107"
+urls:
+- http://www.senate.texas.gov/member.php?d=7
+- http://www.paulbettencourt.com/
+photoUrl: http://www.senate.texas.gov/members/d07/img/action.jpg
+channels:
+- type: Facebook
+  id: VoteBettencourt
+slug: paul-bettencourt

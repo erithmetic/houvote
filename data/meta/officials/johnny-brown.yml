@@ -1,0 +1,15 @@
+---
+name: Johnny Brown
+address:
+- line1: 300 S. Jackson Street
+  city: Waxahachie
+  state: TX
+  zip: '75165'
+phones:
+- "(972) 825-4901"
+urls:
+- http://elliscountysheriff.com/
+channels:
+- type: Facebook
+  id: '190081201037757'
+slug: johnny-brown

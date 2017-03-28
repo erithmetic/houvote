@@ -1,0 +1,22 @@
+---
+name: Jane Nelson
+address:
+- line1: 1235 S MAIN ST
+  city: Grapevine
+  state: TX
+  zip: '76051'
+party: Republican
+phones:
+- "(817) 424-3446"
+urls:
+- http://www.senate.texas.gov/member.php?d=12
+- http://www.janenelson.org/
+photoUrl: http://www.senate.texas.gov/members/d12/img/headshot.jpg
+emails:
+- jane.nelson@senate.tx.state.us
+channels:
+- type: Facebook
+  id: SenatorJaneNelson
+- type: Twitter
+  id: SenJaneNelson
+slug: jane-nelson

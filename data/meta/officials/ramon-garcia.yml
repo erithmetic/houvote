@@ -1,0 +1,14 @@
+---
+name: Ramon Garcia
+address:
+- line1: 100 E. Cano St. 2nd Floor
+  city: Edinburg
+  state: TX
+  zip: '78539'
+phones:
+- "(956) 318-2600"
+urls:
+- https://tx-hidalgocounty.civicplus.com/index.aspx?nid=70
+emails:
+- countyjudge@co.hidalgo.tx.us
+slug: ramon-garcia

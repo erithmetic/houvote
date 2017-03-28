@@ -1,0 +1,15 @@
+---
+name: Bill Woodard
+address:
+- line1: 6101 Frisco Square Blvd
+  city: Frisco
+  state: TX
+  zip: '75034'
+party: Nonpartisan
+phones:
+- "(972) 292-5054"
+urls:
+- http://www.friscotexas.gov/1298/Bill-Woodard
+emails:
+- bwoodard@friscotexas.gov
+slug: bill-woodard

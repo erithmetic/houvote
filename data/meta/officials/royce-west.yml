@@ -1,0 +1,22 @@
+---
+name: Royce West
+address:
+- line1: 5787 S HAMPTON RD
+  city: Dallas
+  state: TX
+  zip: '75232'
+party: Democratic
+phones:
+- "(214) 467-0123"
+urls:
+- http://www.senate.texas.gov/member.php?d=23
+- http://royce-west.org/
+photoUrl: http://www.senate.texas.gov/members/d23/img/headshot.jpg
+emails:
+- Royce.West@senate.state.tx.us
+channels:
+- type: Twitter
+  id: SenRoyceWest
+- type: Facebook
+  id: '139832989413284'
+slug: royce-west

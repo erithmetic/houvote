@@ -1,0 +1,21 @@
+---
+name: Steve Le
+address:
+- line1: 900 Bagby
+  line2: First Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(832) 393-3002"
+urls:
+- http://www.houstontx.gov/council/f/index.html
+photoUrl: http://www.houstontx.gov/council/f/images/le.jpg
+emails:
+- districtf@houstontx.gov
+channels:
+- type: Twitter
+  id: SteveLeHTX
+- type: Facebook
+  id: Steve-Le-for-Houston-City-Council-District-F-482174378598172
+slug: steve-le

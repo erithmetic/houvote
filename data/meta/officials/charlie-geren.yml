@@ -1,0 +1,21 @@
+---
+name: Charlie Geren
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0610"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=99
+photoUrl: http://www.house.state.tx.us/photos/members/2945.jpg
+emails:
+- charlie.geren@house.state.tx.us
+channels:
+- type: Facebook
+  id: '117956368577'
+- type: Twitter
+  id: charliegeren
+slug: charlie-geren

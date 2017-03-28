@@ -1,0 +1,17 @@
+---
+name: Douglas Athas
+address:
+- line1: 200 N. Fifth StreetGarland
+  city: ''
+  state: TX
+  zip: '75040'
+phones:
+- "(972) 205-2400"
+urls:
+- https://www.garlandtx.gov/gov/cd/council/bio/mayor.asp
+emails:
+- mayor@garlandtx.gov
+channels:
+- type: Facebook
+  id: MayorDouglasAthas
+slug: douglas-athas

@@ -1,0 +1,19 @@
+---
+name: Zena Stephens
+address:
+- line1: '1001'
+  line2: "# 103, Pearl St"
+  city: Beaumont
+  state: TX
+  zip: '77701'
+party: Democratic
+phones:
+- "(409) 835-8411"
+urls:
+- http://www.co.jefferson.tx.us/Sheriff/mission_2009.htm
+emails:
+- sheriffs@co.jefferson.tx.us
+channels:
+- type: Facebook
+  id: '505743002773770'
+slug: zena-stephens

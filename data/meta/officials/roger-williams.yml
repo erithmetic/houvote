@@ -1,0 +1,21 @@
+---
+name: Roger Williams
+address:
+- line1: 1323 Longworth House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-9896"
+urls:
+- http://williams.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/W/W000816.jpg
+channels:
+- type: Facebook
+  id: RepRogerWilliams
+- type: Twitter
+  id: RepRWilliams
+- type: YouTube
+  id: UCBtfmMMQarjtLB9U_pWMOhw
+slug: roger-williams

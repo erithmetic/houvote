@@ -1,0 +1,21 @@
+---
+name: Kenny Marchant
+address:
+- line1: 2369 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-6605"
+urls:
+- http://marchant.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/M/M001158.jpg
+channels:
+- type: Facebook
+  id: RepKennyMarchant
+- type: Twitter
+  id: repkenmarchant
+- type: YouTube
+  id: RepKennyMarchant
+slug: kenny-marchant

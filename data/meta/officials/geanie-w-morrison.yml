@@ -1,0 +1,16 @@
+---
+name: Geanie W. Morrison
+address:
+- line1: 1100 S CONGRESS AVE RM 1N.9
+  city: Austin
+  state: TX
+  zip: '78704'
+party: Republican
+phones:
+- "(512) 463-0456"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=30
+photoUrl: http://www.house.state.tx.us/photos/members/3870.jpg
+emails:
+- Geanie.Morrison@house.state.tx.us
+slug: geanie-w-morrison

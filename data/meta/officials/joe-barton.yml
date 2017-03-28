@@ -1,0 +1,21 @@
+---
+name: Joe Barton
+address:
+- line1: 2107 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-2002"
+urls:
+- http://joebarton.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/B/B000213.jpg
+channels:
+- type: Facebook
+  id: RepJoeBarton
+- type: Twitter
+  id: RepJoeBarton
+- type: YouTube
+  id: RepJoeBarton
+slug: joe-barton

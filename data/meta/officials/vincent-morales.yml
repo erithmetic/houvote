@@ -1,0 +1,18 @@
+---
+name: Vincent Morales
+address:
+- line1: 301 Jackson
+  city: Richmond
+  state: TX
+  zip: '77469'
+party: Republican
+phones:
+- "(281) 344-9400"
+urls:
+- http://www.fortbendcountytx.gov/index.aspx?page=32
+emails:
+- commpct1@fortbendcountytx.gov
+channels:
+- type: Twitter
+  id: precinct1
+slug: vincent-morales

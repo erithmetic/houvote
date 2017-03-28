@@ -1,0 +1,11 @@
+---
+name: Wayne Christian
+address:
+- line1: P.O. Drawer 12967
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-7133"
+slug: wayne-christian

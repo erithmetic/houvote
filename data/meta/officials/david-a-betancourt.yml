@@ -1,0 +1,14 @@
+---
+name: David A. Betancourt
+address:
+- line1: 1100 E. Monroe St.
+  city: Brownsville
+  state: TX
+  zip: '78520'
+phones:
+- "(956) 544-0819"
+urls:
+- http://www.co.cameron.tx.us/administration/county_treasurer/index.php
+emails:
+- david.betancourt@co.cameron.tx.us
+slug: david-a-betancourt

@@ -1,0 +1,14 @@
+---
+name: Greg Taylor
+address:
+- line1: 1200 E. Lacy Street
+  city: Palestine
+  state: TX
+  zip: '75801'
+phones:
+- "(903) 729-6068"
+urls:
+- http://www.co.anderson.tx.us/default.aspx?Anderson_County/Sheriff
+emails:
+- gtaylor@co.anderson.tx.us
+slug: greg-taylor

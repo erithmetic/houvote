@@ -1,0 +1,21 @@
+---
+name: Rene O. Oliveira
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0640"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=37
+photoUrl: http://www.house.state.tx.us/photos/members/3880.jpg
+emails:
+- Rene.Oliveira@house.state.tx.us
+channels:
+- type: Twitter
+  id: ReneOOliveira
+- type: Facebook
+  id: RepReneOliveira
+slug: rene-o-oliveira

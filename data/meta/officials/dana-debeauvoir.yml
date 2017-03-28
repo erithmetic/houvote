@@ -1,0 +1,17 @@
+---
+name: Dana DeBeauvoir
+address:
+- line1: PO Box 149325
+  city: Austin
+  state: TX
+  zip: '78714'
+phones:
+- "(512) 854-9188"
+urls:
+- http://traviscountyclerk.org/eclerk/
+channels:
+- type: Facebook
+  id: traviscountyclerk
+- type: Twitter
+  id: TravisCoClerk
+slug: dana-debeauvoir

@@ -1,0 +1,15 @@
+---
+name: David Gibbons
+address:
+- line1: 200 N. Fifth StreetGarland
+  city: ''
+  state: TX
+  zip: '75040'
+party: Nonpartisan
+phones:
+- "(214) 497-7121"
+urls:
+- https://www.garlandtx.gov/gov/cd/council/bio/district1.asp
+emails:
+- Council1@GarlandTX.gov
+slug: david-gibbons

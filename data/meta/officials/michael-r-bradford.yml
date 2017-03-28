@@ -1,0 +1,14 @@
+---
+name: Michael R. Bradford
+address:
+- line1: 500 N. Loraine St.,
+  city: Midland
+  state: TX
+  zip: '79701'
+phones:
+- "(432) 688-4310"
+urls:
+- https://www.co.midland.tx.us/departments/cj/Pages/default.aspx
+emails:
+- CJ101@co.midland.tx.us
+slug: michael-r-bradford

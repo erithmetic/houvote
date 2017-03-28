@@ -1,0 +1,21 @@
+---
+name: Bill Flores
+address:
+- line1: 2440 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-6105"
+urls:
+- http://flores.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/F/F000461.jpg
+channels:
+- type: Facebook
+  id: RepBillFlores
+- type: Twitter
+  id: RepBillFlores
+- type: YouTube
+  id: RepBillFlores
+slug: bill-flores

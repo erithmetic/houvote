@@ -1,0 +1,15 @@
+---
+name: Luanne Caraway
+address:
+- line1: 712 S Stagecoach Trail
+  city: San Marcos
+  state: TX
+  zip: '78666'
+party: Republican
+phones:
+- "(512) 393-5545"
+urls:
+- http://hayscountytax.com/
+emails:
+- luanne@co.hays.tx.us
+slug: luanne-caraway

@@ -1,0 +1,13 @@
+---
+name: Andy Eads
+address:
+- line1: 110 W. Hickory St
+  line2: 3rd Floor
+  city: Denton
+  state: TX
+  zip: '76201'
+phones:
+- "(940) 349-2801"
+urls:
+- http://dentoncounty.com/Departments/Commissioners/Commissioner-Pct4.aspx
+slug: andy-eads

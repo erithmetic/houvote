@@ -1,0 +1,14 @@
+---
+name: Roger Deeds
+address:
+- line1: 400 Deputy Larry Miller Dr.
+  city: Granbury
+  state: TX
+  zip: '76048'
+phones:
+- "(817) 579-3316"
+urls:
+- http://www.co.hood.tx.us/67/Sheriff
+emails:
+- rdeeds@co.hood.tx.us
+slug: roger-deeds

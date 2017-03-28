@@ -1,0 +1,15 @@
+---
+name: Cindy Yeatts Brown
+address:
+- line1: 401 W. Hickory St.,
+  city: Denton
+  state: TX
+  zip: '76201'
+phones:
+- "(940) 349-3150"
+urls:
+- http://dentoncounty.com/Departments/County-Treasurer.aspx
+channels:
+- type: Twitter
+  id: cybrowndct
+slug: cindy-yeatts-brown

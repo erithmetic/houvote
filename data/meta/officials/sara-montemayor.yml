@@ -1,0 +1,14 @@
+---
+name: Sara Montemayor
+address:
+- line1: 500 Quarry Street,
+  city: Eagle Pass
+  state: TX
+  zip: '78852'
+phones:
+- "(830) 773-2829"
+urls:
+- http://www.co.maverick.tx.us/default.aspx?Maverick_County/County.Clerk
+emails:
+- sara.montemayor@co.maverick.tx.us
+slug: sara-montemayor

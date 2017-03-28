@@ -32,7 +32,6 @@ Dir[File.expand_path('../meta/divisions/harris-county-commissioners-court-*.yml'
 end
 
 
-
 # Houston City Council
 
 Dir[File.expand_path('../meta/divisions/hou-city-council-*.yml', __FILE__)].each do |f|

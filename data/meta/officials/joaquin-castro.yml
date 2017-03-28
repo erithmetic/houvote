@@ -1,0 +1,21 @@
+---
+name: Joaquin Castro
+address:
+- line1: 1221 Longworth House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Democratic
+phones:
+- "(202) 225-3236"
+urls:
+- http://castro.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/C/C001091.jpg
+channels:
+- type: Facebook
+  id: '326420614138023'
+- type: Twitter
+  id: JoaquinCastrotx
+- type: YouTube
+  id: JoaquinCastroTX
+slug: joaquin-castro

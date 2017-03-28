@@ -1,0 +1,21 @@
+---
+name: Joe Deshotel
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0662"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=22
+photoUrl: http://www.house.state.tx.us/photos/members/2690.jpg
+emails:
+- joe.deshotel@house.state.tx.us
+channels:
+- type: Facebook
+  id: '138565989536021'
+- type: Twitter
+  id: RepJoeDeshotel
+slug: joe-deshotel

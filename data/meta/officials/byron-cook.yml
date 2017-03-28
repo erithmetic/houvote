@@ -1,0 +1,19 @@
+---
+name: Byron Cook
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(800) 643-7026"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=8
+photoUrl: http://www.house.state.tx.us/photos/members/2450.jpg
+emails:
+- byron.cook@house.state.tx.us
+channels:
+- type: Facebook
+  id: byroncookcampaign
+slug: byron-cook

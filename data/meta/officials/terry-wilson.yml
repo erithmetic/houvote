@@ -1,0 +1,16 @@
+---
+name: Terry Wilson
+address:
+- line1: State Capitol
+  line2: Room E2.702
+  line3: P.O. Box 2910
+  city: Austin
+  state: TX
+  zip: 78768-2910
+party: Republican
+phones:
+- "(512) 463-0309"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=20
+photoUrl: http://www.house.state.tx.us/photos/members/3525.jpg
+slug: terry-wilson

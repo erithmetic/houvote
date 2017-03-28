@@ -1,0 +1,19 @@
+---
+name: Steve Adler
+address:
+- line1: P.O. Box 1088
+  city: Austin
+  state: TX
+  zip: '78767'
+party: Democrat
+phones:
+- "(512) 974-2250"
+urls:
+- http://austintexas.gov/department/mayor
+photoUrl: http://www.austintexas.gov/sites/default/files/images/10-one/Adler_Headshot.jpg
+channels:
+- type: Facebook
+  id: adlerforaustin
+- type: Twitter
+  id: AdlerForAustin
+slug: steve-adler

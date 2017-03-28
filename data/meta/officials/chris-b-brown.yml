@@ -1,0 +1,20 @@
+---
+name: Chris B. Brown
+address:
+- line1: 901 Bagby
+  line2: 6th Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(832) 393-3460"
+urls:
+- http://www.houstontx.gov/controller/index.html
+emails:
+- controllers@houstontx.gov
+channels:
+- type: Facebook
+  id: '265830498389'
+- type: Twitter
+  id: COHController
+slug: chris-b-brown

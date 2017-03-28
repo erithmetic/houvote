@@ -1,0 +1,18 @@
+---
+name: Mike Gallagher
+address:
+- line1: P.O. Box 839966
+  city: San Antonio
+  state: TX
+  zip: '78283'
+phones:
+- "(210) 207-7276"
+urls:
+- http://www.sanantonio.gov/council/d10.aspx
+photoUrl: http://www.sanantonio.gov/portals/0/Images/Council/D10/Banner-D10-MikeGallagher.jpg
+emails:
+- district10@sanantonio.gov
+channels:
+- type: Twitter
+  id: d10gallagher
+slug: mike-gallagher

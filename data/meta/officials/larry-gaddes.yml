@@ -1,0 +1,12 @@
+---
+name: Larry Gaddes
+address:
+- line1: 904 S. Main Street
+  city: Georgetown
+  state: TX
+  zip: '78626'
+phones:
+- "(512) 943-1602"
+emails:
+- proptax@wilco.org
+slug: larry-gaddes

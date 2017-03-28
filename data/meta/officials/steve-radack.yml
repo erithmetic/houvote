@@ -1,0 +1,15 @@
+---
+name: Steve Radack
+address:
+- line1: 1001 Preston
+  line2: 9th Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(713) 755-6306"
+urls:
+- http://www.pct3.hctx.net/
+emails:
+- pct3@hctx.net
+slug: steve-radack

@@ -1,0 +1,14 @@
+---
+name: Laura Richard
+address:
+- line1: 301 Jackson Street
+  city: Richmond
+  state: TX
+  zip: '77469'
+phones:
+- "(281) 341-8652"
+urls:
+- http://www.fortbendcountytx.gov/index.aspx?page=107
+emails:
+- cclerk@fortbendcountytx.gov
+slug: laura-richard

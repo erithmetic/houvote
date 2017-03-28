@@ -1,0 +1,22 @@
+---
+name: Kelly Hancock
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0109"
+urls:
+- http://www.senate.texas.gov/member.php?d=9
+- http://www.kellyhancock.com/
+photoUrl: http://www.senate.texas.gov/members/d09/img/action.jpg
+emails:
+- kelly.hancock@senate.state.tx.us
+channels:
+- type: Twitter
+  id: Khancock4TX
+- type: Facebook
+  id: TexansForKellyHancock
+slug: kelly-hancock

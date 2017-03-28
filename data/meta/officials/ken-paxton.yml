@@ -1,0 +1,16 @@
+---
+name: Ken Paxton
+address:
+- line1: P.O. Box 12548
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-2100"
+urls:
+- https://www.oag.state.tx.us/
+channels:
+- type: Facebook
+  id: TexasAttorneyGeneral
+slug: ken-paxton

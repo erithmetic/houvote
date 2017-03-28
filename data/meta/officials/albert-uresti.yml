@@ -1,0 +1,14 @@
+---
+name: Albert Uresti
+address:
+- line1: 233 N. Pecos La Trinidad
+  city: San Antonio
+  state: TX
+  zip: '78207'
+phones:
+- "(210) 335-2251"
+urls:
+- http://www.bexar.org/tax/index.html
+emails:
+- taxoffice@bexar.org
+slug: albert-uresti

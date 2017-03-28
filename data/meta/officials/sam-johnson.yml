@@ -1,0 +1,21 @@
+---
+name: Sam Johnson
+address:
+- line1: 2304 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-4201"
+urls:
+- http://samjohnson.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/J/J000174.jpg
+channels:
+- type: Facebook
+  id: RepSamJohnson
+- type: Twitter
+  id: SamsPressShop
+- type: YouTube
+  id: RepSamJohnson
+slug: sam-johnson

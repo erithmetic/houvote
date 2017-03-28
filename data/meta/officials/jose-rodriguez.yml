@@ -1,0 +1,20 @@
+---
+name: Jose Rodriguez
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Democratic
+phones:
+- "(512) 463-0129"
+urls:
+- http://www.senate.texas.gov/member.php?d=29
+- http://senatorjoserodriguez.com/
+photoUrl: http://www.senate.texas.gov/members/d29/img/action.jpg
+emails:
+- jose.rodriguez@senate.state.tx.us
+channels:
+- type: Twitter
+  id: JoseforTexas
+slug: jose-rodriguez

@@ -1,0 +1,14 @@
+---
+name: Tom Whitten
+address:
+- line1: 3404 FM 559
+  city: Texarkana
+  state: TX
+  zip: '75503'
+phones:
+- "(903) 838-6171"
+urls:
+- http://tools.cira.state.tx.us/default.aspx?Bowie_County/Commissioners.Court
+emails:
+- tom.whitten@txkusa.org
+slug: tom-whitten

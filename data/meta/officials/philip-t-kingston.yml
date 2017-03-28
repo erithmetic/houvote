@@ -1,0 +1,22 @@
+---
+name: Philip T. Kingston
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5FN
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-5415"
+urls:
+- http://dallascityhall.com/government/citycouncil/district14/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district14/PublishingImages/Pages/default/Philip%20Kingston%20District%2014.jpg
+emails:
+- Philip.Kingston@dallascityhall.com
+channels:
+- type: Facebook
+  id: PhilipTKingston
+- type: Twitter
+  id: PhilipTKingston
+slug: philip-t-kingston

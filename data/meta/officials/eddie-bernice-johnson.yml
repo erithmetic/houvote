@@ -1,0 +1,21 @@
+---
+name: Eddie Bernice Johnson
+address:
+- line1: 2468 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Democratic
+phones:
+- "(202) 225-8885"
+urls:
+- http://ebjohnson.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/J/J000126.jpg
+channels:
+- type: Facebook
+  id: CongresswomanEBJtx30
+- type: Twitter
+  id: RepEBJ
+- type: YouTube
+  id: RepEddieBJohnson
+slug: eddie-bernice-johnson

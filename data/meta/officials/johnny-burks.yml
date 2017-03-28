@@ -1,0 +1,14 @@
+---
+name: Johnny Burks
+address:
+- line1: 510 Leon Street
+  city: Gatesville
+  state: TX
+  zip: '76528'
+phones:
+- "(254) 865-7201"
+urls:
+- http://www.coryellcountysheriff.com
+emails:
+- sheriffburks@sheriff.co.coryell.tx.us
+slug: johnny-burks

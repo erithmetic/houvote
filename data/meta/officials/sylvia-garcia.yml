@@ -1,0 +1,22 @@
+---
+name: Sylvia Garcia
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Democratic
+phones:
+- "(512) 463-0106"
+urls:
+- http://www.senate.texas.gov/member.php?d=6
+- http://www.sylviaforsenate.com/
+photoUrl: http://www.senate.texas.gov/members/d06/img/headshot.jpg
+emails:
+- sylvia.garcia@senate.state.tx.us
+channels:
+- type: Twitter
+  id: senatorsylvia
+- type: Facebook
+  id: SylviaRGarcia
+slug: sylvia-garcia

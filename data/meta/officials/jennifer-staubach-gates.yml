@@ -1,0 +1,20 @@
+---
+name: Jennifer Staubach Gates
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5FS
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-3816"
+urls:
+- http://dallascityhall.com/government/citycouncil/district13/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district13/PublishingImages/Pages/default/Jennifer%20Gates.%20District%2013.jpg
+channels:
+- type: Facebook
+  id: JenniferStaubachGates
+- type: Twitter
+  id: cmjsgates
+slug: jennifer-staubach-gates

@@ -1,0 +1,19 @@
+---
+name: Veronica Escobar
+address:
+- line1: 500 E. San Antonio
+  city: El Paso
+  state: TX
+  zip: '79901'
+phones:
+- "(915) 546-2098"
+urls:
+- http://www.epcounty.com/judge/
+emails:
+- CountyJudge@epcounty.com
+channels:
+- type: Facebook
+  id: ElPasoCountyJudge
+- type: Twitter
+  id: vgescobar
+slug: veronica-escobar

@@ -1,0 +1,19 @@
+---
+name: Pete Olson
+address:
+- line1: 2133 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-5951"
+urls:
+- http://olson.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/O/O000168.jpg
+channels:
+- type: Facebook
+  id: '20718168936'
+- type: Twitter
+  id: OlsonPressShop
+slug: pete-olson

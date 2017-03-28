@@ -1,0 +1,15 @@
+---
+name: Jeff Casper
+address:
+- line1: P.O. Box 850137
+  city: Mesquite
+  state: TX
+  zip: '75185'
+phones:
+- "(214) 577-2018"
+emails:
+- jcasper@cityofmesquite.com
+channels:
+- type: Facebook
+  id: CasperforCouncil
+slug: jeff-casper

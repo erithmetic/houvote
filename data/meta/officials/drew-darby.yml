@@ -1,0 +1,23 @@
+---
+name: Drew Darby
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0331"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=72
+photoUrl: http://www.house.state.tx.us/photos/members/2645.jpg
+emails:
+- drew.darby@house.state.tx.us
+channels:
+- type: GooglePlus
+  id: '107463039580935565306'
+- type: Twitter
+  id: drewdarby4Tx
+- type: Facebook
+  id: DrewDarbyforTexas
+slug: drew-darby

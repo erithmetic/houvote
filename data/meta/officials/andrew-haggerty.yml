@@ -1,0 +1,14 @@
+---
+name: Andrew Haggerty
+address:
+- line1: 500 E. San Antonio
+  city: El Paso
+  state: TX
+  zip: '79901'
+phones:
+- "(915) 546-2044"
+urls:
+- http://www.epcounty.com/Comm4
+emails:
+- commissioner4@epcounty.com
+slug: andrew-haggerty

@@ -1,0 +1,19 @@
+---
+name: Troy E. Nehls
+address:
+- line1: 1410 Williams Way Blvd.
+  city: Richmond
+  state: TX
+  zip: '77469'
+phones:
+- "(281) 341-4704"
+urls:
+- http://www.fortbendcountytx.gov/index.aspx?page=300
+emails:
+- Bob.Haenel@fortbendcountytx.gov
+channels:
+- type: Facebook
+  id: FortBendCountySheriffsOffice
+- type: Twitter
+  id: FBCSO
+slug: troy-e-nehls

@@ -1,0 +1,21 @@
+---
+name: Carol Alvarado
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0732"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=145
+photoUrl: http://www.house.state.tx.us/photos/members/2135.jpg
+emails:
+- carol.alvarado@house.state.tx.us
+channels:
+- type: Twitter
+  id: RepAlvarado145
+- type: Facebook
+  id: '129686713774598'
+slug: carol-alvarado

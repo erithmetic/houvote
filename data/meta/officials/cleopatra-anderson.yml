@@ -1,0 +1,14 @@
+---
+name: Cleopatra Anderson
+address:
+- line1: 1010 East Eighth Street,
+  city: Odessa
+  state: TX
+  zip: '79761'
+phones:
+- "(432) 498-4060"
+urls:
+- http://www.co.ector.tx.us/default.aspx?Ector_County/County.Treasurer
+emails:
+- cleopatra.anderson@ectorcountytx.gov
+slug: cleopatra-anderson

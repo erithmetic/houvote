@@ -1,0 +1,15 @@
+---
+name: Bill Stoudt
+address:
+- line1: 101 E. Methvin
+  line2: Suite 300
+  city: Longview
+  state: TX
+  zip: '75601'
+phones:
+- "(903) 236-8420"
+urls:
+- http://www.co.gregg.tx.us/county-judge
+emails:
+- Diane.Pearson@co.gregg.tx.us
+slug: bill-stoudt

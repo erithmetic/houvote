@@ -1,0 +1,12 @@
+---
+name: Valerie Covey
+address:
+- line1: 3010 Williams Dr.
+  city: Georgetown
+  state: TX
+  zip: '78628'
+phones:
+- "(512) 943-3370"
+emails:
+- comm3@wilco.org
+slug: valerie-covey

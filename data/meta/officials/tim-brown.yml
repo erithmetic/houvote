@@ -1,0 +1,14 @@
+---
+name: Tim Brown
+address:
+- line1: P.O. Box 768
+  city: Belton
+  state: TX
+  zip: '76513'
+phones:
+- "(254) 933-5102"
+urls:
+- http://www.bellcountytx.com/county_government/commissioners_court/precinct_2.php
+emails:
+- tim.brown@co.bell.tx.us
+slug: tim-brown

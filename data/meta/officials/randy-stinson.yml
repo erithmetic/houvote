@@ -1,0 +1,15 @@
+---
+name: Randy Stinson
+address:
+- line1: P.O. Box 536
+  city: Palmer
+  state: TX
+  zip: '75152'
+party: Republican
+phones:
+- "(972) 825-5330"
+urls:
+- http://www.co.ellis.tx.us/index.aspx?NID=124
+emails:
+- randy.stinson@co.ellis.tx.us
+slug: randy-stinson

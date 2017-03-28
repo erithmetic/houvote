@@ -1,0 +1,14 @@
+---
+name: Randy Pogue
+address:
+- line1: 222 N. Tennessee St.
+  city: McKinney
+  state: TX
+  zip: '75069'
+phones:
+- "(972) 547-7501"
+urls:
+- http://www.mckinneytexas.org/Directory.aspx?EID=431
+emails:
+- rpogue@mckinneytexas.org
+slug: randy-pogue

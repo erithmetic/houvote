@@ -1,0 +1,22 @@
+---
+name: Joan Huffman
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0117"
+urls:
+- http://www.senate.texas.gov/member.php?d=17
+- http://www.electjoanhuffman.com/
+photoUrl: http://www.senate.texas.gov/members/d17/img/action.jpg
+emails:
+- joan.huffman@senate.state.tx.us
+channels:
+- type: Facebook
+  id: senatorjoanhuffman
+- type: Twitter
+  id: joanhuffman
+slug: joan-huffman

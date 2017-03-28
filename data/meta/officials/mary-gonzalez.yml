@@ -1,0 +1,21 @@
+---
+name: Mary Gonzalez
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0613"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=75
+photoUrl: http://www.house.state.tx.us/photos/members/2410.jpg
+emails:
+- mary.gonzales@house.state.tx.us
+channels:
+- type: Facebook
+  id: MaryGonzalezHD75
+- type: Twitter
+  id: RepMaryGonzalez
+slug: mary-gonzalez

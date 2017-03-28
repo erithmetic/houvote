@@ -1,0 +1,19 @@
+---
+name: Jose Menendez
+address:
+- line1: 4522 FREDERICKSBURG RD A-3
+  city: San Antonio
+  state: TX
+  zip: '78201'
+party: Democratic
+phones:
+- "(210) 733-6604"
+urls:
+- http://www.senate.texas.gov/member.php?d=26
+photoUrl: http://www.senate.texas.gov/members/d26/img/headshot.jpg
+channels:
+- type: Twitter
+  id: Menendez4Texas
+- type: Facebook
+  id: Menendez4Texas
+slug: jose-menendez

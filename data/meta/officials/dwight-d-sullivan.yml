@@ -1,0 +1,15 @@
+---
+name: Dwight D. Sullivan
+address:
+- line1: P.O. Box 17253
+  city: Galveston
+  state: TX
+  zip: '77552'
+phones:
+- "(409) 766-2200"
+urls:
+- http://www.galvestoncountytx.gov/cc/Pages/default.aspx
+channels:
+- type: Twitter
+  id: dwightsullivan
+slug: dwight-d-sullivan

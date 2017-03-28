@@ -1,0 +1,15 @@
+---
+name: Kenneth L. Maun
+address:
+- line1: P.O. Box 8006
+  city: McKinney
+  state: TX
+  zip: '75070'
+party: Republican
+phones:
+- "(972) 547-5020"
+urls:
+- http://www.collincountytx.gov/tax_assessor/pages/default.aspx
+emails:
+- taxassessor@collincountytx.gov
+slug: kenneth-l-maun

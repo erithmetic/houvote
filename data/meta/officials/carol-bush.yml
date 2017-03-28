@@ -1,0 +1,14 @@
+---
+name: Carol Bush
+address:
+- line1: 101 W. Main St.
+  city: Waxahachie
+  state: TX
+  zip: '75165'
+phones:
+- "(972) 825-5011"
+urls:
+- http://www.co.ellis.tx.us/index.aspx?NID=128
+emails:
+- countyjudge@co.ellis.tx.us
+slug: carol-bush

@@ -1,0 +1,15 @@
+---
+name: Teri Garvey
+address:
+- line1: 703 N. Mallard Street,
+  city: Palestine
+  state: TX
+  zip: '75801'
+party: Republican
+phones:
+- "(903) 723-7423"
+urls:
+- http://www.co.anderson.tx.us/default.aspx?Anderson_County/County.Assessor.Collector
+emails:
+- tgarvey@co.anderson.tx.us
+slug: teri-garvey

@@ -1,0 +1,17 @@
+---
+name: Gary Cutler
+address:
+- line1: 1307 Uhland Road
+  city: San Marcos
+  state: TX
+  zip: '78666'
+phones:
+- "(512) 393-7800"
+urls:
+- http://www.co.hays.tx.us/sheriff.aspx
+channels:
+- type: Facebook
+  id: hayscountysheriffsoffice
+- type: Twitter
+  id: hayssheriff
+slug: gary-cutler

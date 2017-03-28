@@ -1,0 +1,19 @@
+---
+name: Wayne Faircloth
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0502"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=23
+photoUrl: http://www.house.state.tx.us/photos/members/2955.jpg
+channels:
+- type: Twitter
+  id: WayneFaircloth
+- type: Facebook
+  id: VoteFaircloth
+slug: wayne-faircloth

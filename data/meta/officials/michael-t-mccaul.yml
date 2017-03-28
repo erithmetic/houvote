@@ -1,0 +1,21 @@
+---
+name: Michael T. McCaul
+address:
+- line1: 2001 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-2401"
+urls:
+- http://mccaul.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/M/M001157.jpg
+channels:
+- type: Facebook
+  id: michaeltmccaul
+- type: Twitter
+  id: McCaulPressShop
+- type: YouTube
+  id: MichaelTMcCaul
+slug: michael-t-mccaul

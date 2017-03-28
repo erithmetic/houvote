@@ -1,0 +1,18 @@
+---
+name: Sally Hernandez
+address:
+- line1: P.O. Box 1748
+  city: Austin
+  state: TX
+  zip: '78767'
+party: Democratic
+phones:
+- "(512) 854-9770"
+urls:
+- https://www.tcsheriff.org/
+channels:
+- type: Facebook
+  id: TravisCOSheriff
+- type: Twitter
+  id: TravisCoSheriff
+slug: sally-hernandez

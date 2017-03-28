@@ -1,0 +1,14 @@
+---
+name: Parnell Mcnamara
+address:
+- line1: 901 Washington Ave.
+  city: Waco
+  state: TX
+  zip: '76701'
+party: Republican
+phones:
+- "(254) 757-5000"
+channels:
+- type: Facebook
+  id: McLennanCountySheriff
+slug: parnell-mcnamara

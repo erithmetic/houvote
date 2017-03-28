@@ -1,0 +1,14 @@
+---
+name: Brian Loughmiller
+address:
+- line1: 222 N. Tennessee St.
+  city: McKinney
+  state: TX
+  zip: '75069'
+phones:
+- "(972) 547-7507"
+urls:
+- https://www.mckinneytexas.org/index.aspx?NID=138
+emails:
+- bloughmiller@mckinneytexas.org
+slug: brian-loughmiller

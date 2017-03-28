@@ -1,0 +1,13 @@
+---
+name: Adam King
+address:
+- line1: 1102 E. Kilpatrick
+  city: Cleburne
+  state: TX
+  zip: '76031'
+party: Republican
+phones:
+- "(817) 556-6058"
+urls:
+- http://www.jctxsheriff.org/
+slug: adam-king

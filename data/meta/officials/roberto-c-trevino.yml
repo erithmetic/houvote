@@ -1,0 +1,20 @@
+---
+name: Roberto C. Trevino
+address:
+- line1: P.O. Box 839966
+  city: San Antonio
+  state: TX
+  zip: '78283'
+phones:
+- "(210) 207-7279"
+urls:
+- http://www.sanantonio.gov/council/d1.aspx
+photoUrl: https://www.sanantonio.gov/portals/0/Images/Council/d1/RobertoCTrevino.jpg
+emails:
+- district10@sanantonio.gov
+channels:
+- type: Facebook
+  id: District1SATX
+- type: Twitter
+  id: rtrevino_d1
+slug: roberto-c-trevino

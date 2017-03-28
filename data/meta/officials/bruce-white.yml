@@ -1,0 +1,15 @@
+---
+name: Bruce White
+address:
+- line1: 1410 W. Pearl St.
+  city: Granbury
+  state: TX
+  zip: '76048'
+party: Republican
+phones:
+- "(817) 579-3300"
+urls:
+- http://www.co.hood.tx.us/168/Precinct-Three-Commissioner
+emails:
+- bwhite@co.hood.tx.us
+slug: bruce-white

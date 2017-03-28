@@ -1,0 +1,19 @@
+---
+name: Bruce Elfant
+address:
+- line1: 5501 Airport Blvd.
+  city: Austin
+  state: TX
+  zip: '78751'
+phones:
+- "(512) 854-9473"
+urls:
+- https://tax-office.traviscountytx.gov/
+emails:
+- TaxOffice@traviscountytx.gov
+channels:
+- type: Facebook
+  id: TravisCountyTaxOffice
+- type: Twitter
+  id: TravisCountyTax
+slug: bruce-elfant

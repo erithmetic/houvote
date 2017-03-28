@@ -1,0 +1,12 @@
+---
+name: Bill Porter
+address:
+- line1: P.O. Box 850137
+  city: Mesquite
+  state: TX
+  zip: '75185'
+phones:
+- "(972) 882-5487"
+urls:
+- http://www.cityofmesquite.com/directory.aspx?EID=3
+slug: bill-porter

@@ -1,0 +1,14 @@
+---
+name: Donna Medford
+address:
+- line1: 800 East Main Street
+  city: Gatesville
+  state: TX
+  zip: '76528'
+phones:
+- "(254) 865-5911 ext. 2225"
+urls:
+- http://www.coryellcounty.org/government/county-treasurer
+emails:
+- county_treasurer@coryellcounty.org
+slug: donna-medford

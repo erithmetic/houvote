@@ -1,0 +1,12 @@
+---
+name: Jim Latham
+address:
+- line1: 2507 Lee St.,
+  city: Greenville
+  state: TX
+  zip: '75401'
+phones:
+- "(903) 408-4195"
+urls:
+- http://www.huntcounty.net/index.aspx?NID=948
+slug: jim-latham

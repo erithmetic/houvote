@@ -1,0 +1,16 @@
+---
+name: Diana Mcrae
+address:
+- line1: 1301 Sam Houston Ave.
+  line2: Ste 100
+  city: Huntsville
+  state: TX
+  zip: '77340'
+party: Republican
+phones:
+- "(936) 436-4950"
+urls:
+- http://www.co.walker.tx.us/department/index.php?fDD=17-0
+emails:
+- dianamcrae@co.walker.tx.us
+slug: diana-mcrae

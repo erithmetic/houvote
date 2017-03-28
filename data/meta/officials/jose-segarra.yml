@@ -1,0 +1,15 @@
+---
+name: Jose Segarra
+address:
+- line1: PO Box 1329
+  city: Killeen
+  state: TX
+  zip: '76540'
+party: Nonpartisan
+phones:
+- "(254) 290-0548"
+urls:
+- http://www.killeentexas.gov/index.php?section=21
+emails:
+- mayor@killeentexas.gov
+slug: jose-segarra

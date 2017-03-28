@@ -1,0 +1,15 @@
+---
+name: Delia Briones
+address:
+- line1: 500 E. San Antonio
+  city: El Paso
+  state: TX
+  zip: '79901'
+party: Unknown
+phones:
+- "(915) 546-2071"
+urls:
+- http://www.epcounty.com/clerk/
+emails:
+- countyclerk@epcounty.com
+slug: delia-briones

@@ -1,0 +1,13 @@
+---
+name: Ed Emmett
+address:
+- line1: 1001 Preston
+  line2: Ste. 911
+  city: Houston
+  state: ''
+  zip: '77002'
+phones:
+- "(713) 274-7000"
+urls:
+- http://www.judgeemmett.org/
+slug: ed-emmett

@@ -1,0 +1,20 @@
+---
+name: Mark Clayton
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5FN
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-4069"
+urls:
+- http://dallascityhall.com/government/citycouncil/district9/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district9/PublishingImages/Mark-Clayton.jpg
+channels:
+- type: Twitter
+  id: VoteMarkClayton
+- type: Facebook
+  id: markclaytonfordistrict9
+slug: mark-clayton

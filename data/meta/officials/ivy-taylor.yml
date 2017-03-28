@@ -1,0 +1,20 @@
+---
+name: Ivy Taylor
+address:
+- line1: P.O. Box 839966
+  city: San Antonio
+  state: TX
+  zip: '78283'
+phones:
+- "(210) 207-8998"
+urls:
+- http://www.sanantonio.gov/mayor
+photoUrl: https://www.sanantonio.gov/portals/0/Images/Commpa/Taylor2015.jpg
+emails:
+- mayorjuliancastro@sanantonio.gov
+channels:
+- type: Facebook
+  id: MayorJulianCastro
+- type: Twitter
+  id: juliancastro
+slug: ivy-taylor

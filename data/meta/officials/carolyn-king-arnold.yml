@@ -1,0 +1,18 @@
+---
+name: Carolyn King Arnold
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5FS
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-0781"
+urls:
+- http://dallascityhall.com/government/citycouncil/district4/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district4/PublishingImages/Carolyn-k-Arnold.jpg
+channels:
+- type: Twitter
+  id: CKArnold2015
+slug: carolyn-king-arnold

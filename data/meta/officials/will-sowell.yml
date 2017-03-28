@@ -1,0 +1,15 @@
+---
+name: Will Sowell
+address:
+- line1: 6101 Frisco Square Blvd
+  city: Frisco
+  state: TX
+  zip: '75034'
+phones:
+- "(972) 292-5053"
+emails:
+- wsowell@friscotexas.gov
+channels:
+- type: Facebook
+  id: willsowell
+slug: will-sowell

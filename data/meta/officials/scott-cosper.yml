@@ -1,0 +1,23 @@
+---
+name: Scott Cosper
+address:
+- line1: State Capitol
+  line2: Room E2.816
+  line3: P.O. Box 2910
+  city: Austin
+  state: TX
+  zip: 78768-2910
+- line1: 2916 Illinois Ave.
+  line2: ''
+  line3: ''
+  city: Killeen
+  state: TX
+  zip: '76543'
+party: Republican
+phones:
+- "(512) 463-0684"
+- "(254) 680-5568"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=54
+photoUrl: http://www.house.state.tx.us/photos/members/3215.jpg
+slug: scott-cosper

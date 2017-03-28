@@ -1,0 +1,16 @@
+---
+name: Briscoe Cain
+address:
+- line1: State Capitol
+  line2: Room E1.418
+  line3: P.O. Box 2910
+  city: Austin
+  state: TX
+  zip: 78768-2910
+party: Republican
+phones:
+- "(512) 463-0733"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=128
+photoUrl: http://www.house.state.tx.us/photos/members/3265.jpg
+slug: briscoe-cain

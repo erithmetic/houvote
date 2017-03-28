@@ -1,0 +1,17 @@
+---
+name: Martin Cuellar
+address:
+- line1: 902 Victoria Street
+  city: Laredo
+  state: TX
+  zip: '78040'
+phones:
+- "(956) 523-4500"
+urls:
+- http://www.webbcountytx.gov/Sheriff/index1.html
+emails:
+- sheriff@webbcountytx.gov
+channels:
+- type: Twitter
+  id: SheriffCuellar
+slug: martin-cuellar

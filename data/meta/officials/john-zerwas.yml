@@ -1,0 +1,19 @@
+---
+name: John Zerwas
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0657"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=28
+photoUrl: http://www.house.state.tx.us/photos/members/5170.jpg
+emails:
+- John.Zerwas@house.state.tx.us
+channels:
+- type: Facebook
+  id: johnzerwas
+slug: john-zerwas

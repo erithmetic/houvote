@@ -1,0 +1,22 @@
+---
+name: Larry Taylor
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0111"
+urls:
+- http://www.senate.texas.gov/member.php?d=11
+- http://www.larrytaylor.com/
+photoUrl: http://www.senate.texas.gov/members/d11/img/action.jpg
+emails:
+- larry.taylor@senate.state.tx.us
+channels:
+- type: Facebook
+  id: larry.taylor.3956
+- type: Twitter
+  id: Taylor4Senate
+slug: larry-taylor

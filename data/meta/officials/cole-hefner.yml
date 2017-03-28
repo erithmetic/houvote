@@ -1,0 +1,22 @@
+---
+name: Cole Hefner
+address:
+- line1: State Capitol
+  line2: Room E1.416
+  line3: P.O. Box 2910
+  city: Austin
+  state: TX
+  zip: 78768-2910
+- line1: 115 W. 1st
+  line2: ''
+  line3: ''
+  city: Mount Pleasant
+  state: TX
+  zip: '75455'
+party: Republican
+phones:
+- "(512) 463-0271"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=5
+photoUrl: http://www.house.state.tx.us/photos/members/3505.jpg
+slug: cole-hefner

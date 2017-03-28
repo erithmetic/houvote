@@ -1,0 +1,15 @@
+---
+name: Bill McCay
+address:
+- line1: 904 Broadway
+  line2: Suite 101
+  city: Lubbock
+  state: TX
+  zip: '79401'
+phones:
+- "(806) 775-1335"
+urls:
+- http://www.co.lubbock.tx.us/department/?fDD=39-0
+emails:
+- bmccay@co.lubbock.tx.us
+slug: bill-mccay

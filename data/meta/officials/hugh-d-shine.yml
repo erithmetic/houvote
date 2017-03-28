@@ -1,0 +1,22 @@
+---
+name: Hugh D. Shine
+address:
+- line1: State Capitol
+  line2: Room E2.806
+  line3: P.O. Box 2910
+  city: Austin
+  state: TX
+  zip: 78768-2910
+- line1: 4 South 1st
+  line2: ''
+  line3: ''
+  city: Temple
+  state: TX
+  zip: '76501'
+party: Republican
+phones:
+- "(512) 463-0630"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=55
+photoUrl: http://www.house.state.tx.us/photos/members/4455.jpg
+slug: hugh-d-shine

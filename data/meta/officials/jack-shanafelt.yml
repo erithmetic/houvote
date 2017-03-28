@@ -1,0 +1,14 @@
+---
+name: Jack Shanafelt
+address:
+- line1: 101 E. COURT STREET
+  city: Seguin
+  state: TX
+  zip: '78155'
+phones:
+- "(830) 303-8857"
+urls:
+- http://www.co.guadalupe.tx.us/comm2/comm2.php
+emails:
+- jack.shanafelt@co.guadalupe.tx.us
+slug: jack-shanafelt

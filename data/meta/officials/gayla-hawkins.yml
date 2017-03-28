@@ -1,0 +1,15 @@
+---
+name: Gayla Hawkins
+address:
+- line1: 100 W. Houston
+  line2: A-2-2
+  city: Sherman
+  state: TX
+  zip: '75090'
+phones:
+- "(903) 813-4252"
+urls:
+- http://www.co.grayson.tx.us/default.aspx?name=tre.home
+emails:
+- hawkinsg@co.grayson.tx.us
+slug: gayla-hawkins

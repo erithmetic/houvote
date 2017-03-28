@@ -1,0 +1,21 @@
+---
+name: Joseph Moody
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0728"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=78
+photoUrl: http://www.house.state.tx.us/photos/members/3850.jpg
+emails:
+- Joe.Moody@house.state.tx.us
+channels:
+- type: Twitter
+  id: moodyforelpaso
+- type: Facebook
+  id: moodyforelpaso
+slug: joseph-moody

@@ -1,0 +1,14 @@
+---
+name: Ken Clark
+address:
+- line1: 174 Calder Road
+  city: League City
+  state: TX
+  zip: '77573'
+phones:
+- "(281) 316-8744"
+urls:
+- http://www.galvestoncountytx.gov/CO4/Pages/default.aspx
+emails:
+- Ken.Clark@co.galveston.tx.us
+slug: ken-clark

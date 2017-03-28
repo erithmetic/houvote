@@ -1,0 +1,15 @@
+---
+name: Dennis Webb
+address:
+- line1: 825 W. Irving Blvd.
+  city: Irving
+  state: TX
+  zip: '75060'
+phones:
+- "(214) 490-9749"
+urls:
+- http://cityofirving.org/210/Meet-Your-Mayor-and-Council
+photoUrl: http://cityofirving.org/ImageRepository/Document?documentID=8508
+emails:
+- denniswebb@cityofirving.org
+slug: dennis-webb

@@ -1,0 +1,15 @@
+---
+name: Bert Cobb
+address:
+- line1: 111 E. San Antonio St.,
+  city: San Marcos
+  state: TX
+  zip: '78666'
+party: Republican
+phones:
+- "(512) 393-2205"
+urls:
+- http://www.co.hays.tx.us/county-judge.aspx
+emails:
+- bert.cobb@co.hays.tx.us
+slug: bert-cobb

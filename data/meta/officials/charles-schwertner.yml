@@ -1,0 +1,22 @@
+---
+name: Charles Schwertner
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0105"
+urls:
+- http://www.senate.texas.gov/member.php?d=5
+- http://www.drschwertner.com/
+photoUrl: http://www.senate.texas.gov/members/d05/img/headshot.jpg
+emails:
+- Charles.Schwertner@senate.state.tx.us
+channels:
+- type: Twitter
+  id: DrSchwertner
+- type: Facebook
+  id: drschwertner
+slug: charles-schwertner

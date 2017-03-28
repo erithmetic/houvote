@@ -1,0 +1,20 @@
+---
+name: Jack Cagle
+address:
+- line1: 1001 Preston
+  line2: Suite 950
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(281) 353-8424"
+urls:
+- http://www.hcp4.net/
+emails:
+- commissionercagle@hcp4.net
+channels:
+- type: Facebook
+  id: HCPrecinct4
+- type: Twitter
+  id: HCPrecinct4
+slug: jack-cagle

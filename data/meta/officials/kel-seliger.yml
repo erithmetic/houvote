@@ -1,0 +1,22 @@
+---
+name: Kel Seliger
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(432) 268-9909"
+urls:
+- http://www.senate.texas.gov/member.php?d=31
+- http://kelseliger.com/
+photoUrl: http://www.senate.texas.gov/members/d31/img/headshot.jpg
+emails:
+- kel.seliger@senate.state.tx.us
+channels:
+- type: Twitter
+  id: kseliger
+- type: Facebook
+  id: SenatorKelSeliger
+slug: kel-seliger

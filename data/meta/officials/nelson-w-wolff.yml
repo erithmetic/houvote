@@ -1,0 +1,15 @@
+---
+name: Nelson W. Wolff
+address:
+- line1: 101 W Nueva
+  line2: 10 Flr
+  city: San Antonio
+  state: TX
+  zip: '78205'
+phones:
+- "(210) 335-2626"
+urls:
+- http://www.bexar.org/1127/County-Judge-Nelson-W-Wolff
+emails:
+- nwolff@Bexar.org
+slug: nelson-w-wolff

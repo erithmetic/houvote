@@ -1,0 +1,12 @@
+---
+name: Andy Vinson
+address:
+- line1: 115 North Main Street
+  city: Henderson
+  state: TX
+  zip: '75652'
+phones:
+- "(903) 657-0352"
+urls:
+- http://www.co.rusk.tx.us/default.aspx?Rusk_County/County.Treasurer
+slug: andy-vinson

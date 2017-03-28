@@ -1,0 +1,16 @@
+---
+name: Tom Schmerber
+address:
+- line1: 1051 Balboa-Jones
+  line2: Memorial Blvd.
+  city: Eagle Pass
+  state: TX
+  zip: '78852'
+party: Democratic
+phones:
+- "(830) 773-2321"
+urls:
+- http://www.co.maverick.tx.us/default.aspx?Maverick_County/Sheriff
+emails:
+- sheriffschmerber@co.maverick.tx.us
+slug: tom-schmerber

@@ -1,0 +1,14 @@
+---
+name: Lee Gilbert
+address:
+- line1: 101 E Rusk Street
+  city: Rockwall
+  state: TX
+  zip: '75087'
+phones:
+- "(972) 204-6000"
+urls:
+- http://www.rockwallcountytexas.com/103/Precinct-2
+emails:
+- lgilbert@rockwallcountytexas.com
+slug: lee-gilbert

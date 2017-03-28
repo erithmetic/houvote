@@ -1,0 +1,17 @@
+---
+name: Juan Rivera
+address:
+- line1: PO Box 1329
+  city: Killeen
+  state: TX
+  zip: '76540'
+phones:
+- "(254) 251-7149"
+urls:
+- http://www.killeentexas.gov/index.php?section=21
+emails:
+- jrrivera@killeentexas.gov
+channels:
+- type: Facebook
+  id: JuanRiveraforKilleenCityCouncilAtLarge
+slug: juan-rivera

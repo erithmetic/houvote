@@ -1,0 +1,16 @@
+---
+name: Maurice Cook
+address:
+- line1: 200 Jackson Street
+  city: Bastrop
+  state: TX
+  zip: '78602'
+party: Republican
+phones:
+- "(512) 549-5100"
+urls:
+- http://www.co.bastrop.tx.us/site/content/sheriff
+channels:
+- type: Facebook
+  id: BastropCountySO
+slug: maurice-cook

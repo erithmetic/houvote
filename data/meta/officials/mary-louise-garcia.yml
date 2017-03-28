@@ -1,0 +1,17 @@
+---
+name: Mary Louise Garcia
+address:
+- line1: 100 West Weatherford
+  city: Fort Worth
+  state: TX
+  zip: '76196'
+phones:
+- "(817) 884-1195"
+urls:
+- http://www.tarrantcounty.com/en/county-clerk.html?linklocation=supermenu&linkname=County%20Clerk
+channels:
+- type: Facebook
+  id: TarrantCountyClerk
+- type: Twitter
+  id: TarrantCoClerk
+slug: mary-louise-garcia

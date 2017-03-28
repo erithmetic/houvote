@@ -1,0 +1,21 @@
+---
+name: John R. Carter
+address:
+- line1: 2110 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-3864"
+urls:
+- http://carter.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/C/C001051.jpg
+channels:
+- type: Facebook
+  id: judgecarter
+- type: Twitter
+  id: judgecarter
+- type: YouTube
+  id: RepJohnCarter
+slug: john-r-carter

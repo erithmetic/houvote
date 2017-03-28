@@ -1,0 +1,17 @@
+---
+name: Rodney Anderson
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0641"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=105
+photoUrl: http://www.house.state.tx.us/photos/members/2215.jpg
+channels:
+- type: Twitter
+  id: rodneyanderson
+slug: rodney-anderson

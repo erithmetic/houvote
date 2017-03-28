@@ -1,0 +1,22 @@
+---
+name: Ray Lopez
+address:
+- line1: P.O. Box 839966
+  city: San Antonio
+  state: TX
+  zip: '78283'
+phones:
+- "(210) 207-7065"
+urls:
+- http://www.sanantonio.gov/council/d6.aspx
+photoUrl: http://www.sanantonio.gov/portals/0/Images/Council/d6/D6BannerLopez_small.jpg
+emails:
+- district6@sanantonio.gov
+channels:
+- type: Twitter
+  id: cmraylopez
+- type: YouTube
+  id: UC2nC6-NZen0i_pHUvqBjfww
+- type: Facebook
+  id: councilmanraylopezD6
+slug: ray-lopez

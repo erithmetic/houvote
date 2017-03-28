@@ -1,0 +1,14 @@
+---
+name: Bill Magers
+address:
+- line1: 100 W. Houston
+  city: Sherman
+  state: TX
+  zip: '75090'
+phones:
+- "(903) 813-4228"
+urls:
+- http://www.co.grayson.tx.us/default.aspx?name=cj.home
+emails:
+- bmagers@co.grayson.tx.us
+slug: bill-magers

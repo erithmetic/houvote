@@ -1,0 +1,17 @@
+---
+name: Joel W. Richardson
+address:
+- line1: 9100 S. Georgia
+  city: Amarillo
+  state: TX
+  zip: '79110'
+phones:
+- "(806) 468-5800"
+urls:
+- http://www.rc-sheriff.com/
+channels:
+- type: Facebook
+  id: randallcountyso
+- type: Twitter
+  id: RandallCountySO
+slug: joel-w-richardson

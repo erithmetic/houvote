@@ -1,0 +1,13 @@
+---
+name: Phillip A. Martin
+address:
+- line1: 2507 Lee St.,
+  city: Greenville
+  state: TX
+  zip: '75401'
+party: Republican
+phones:
+- "(903) 408-4195"
+urls:
+- http://www.huntcounty.net/index.aspx?NID=947
+slug: phillip-a-martin

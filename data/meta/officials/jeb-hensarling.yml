@@ -1,0 +1,21 @@
+---
+name: Jeb Hensarling
+address:
+- line1: 2228 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-3484"
+urls:
+- http://hensarling.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/H/H001036.jpg
+channels:
+- type: Facebook
+  id: RepHensarling
+- type: Twitter
+  id: RepHensarling
+- type: YouTube
+  id: RepJebHensarling
+slug: jeb-hensarling

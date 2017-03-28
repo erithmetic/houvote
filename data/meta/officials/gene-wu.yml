@@ -1,0 +1,21 @@
+---
+name: Gene Wu
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0492"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=137
+photoUrl: http://www.house.state.tx.us/photos/members/2865.jpg
+emails:
+- Gene.Wu@house.state.tx.us
+channels:
+- type: Twitter
+  id: GeneforTexas
+- type: Facebook
+  id: votewu
+slug: gene-wu

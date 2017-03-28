@@ -1,0 +1,22 @@
+---
+name: Ernest Bailes
+address:
+- line1: State Capitol
+  line2: Room E1.316
+  line3: P.O. Box 2910
+  city: Austin
+  state: TX
+  zip: 78768-2910
+- line1: P.O. Box 1116
+  line2: ''
+  line3: ''
+  city: Shepherd
+  state: TX
+  zip: '77371'
+party: Republican
+phones:
+- "(512) 463-0570"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=18
+photoUrl: http://www.house.state.tx.us/photos/members/3200.jpg
+slug: ernest-bailes

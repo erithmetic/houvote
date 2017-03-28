@@ -1,0 +1,21 @@
+---
+name: Blake Farenthold
+address:
+- line1: 2331 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-7742"
+urls:
+- http://farenthold.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/F/F000460.jpg
+channels:
+- type: Facebook
+  id: BlakeFarenthold
+- type: Twitter
+  id: farenthold
+- type: YouTube
+  id: BlakeFarenthold
+slug: blake-farenthold

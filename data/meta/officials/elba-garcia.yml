@@ -1,0 +1,15 @@
+---
+name: Elba Garcia
+address:
+- line1: 411 Elm Street
+  line2: 2nd Floor
+  city: Dallas
+  state: TX
+  zip: '75202'
+phones:
+- "(214) 653-6670"
+urls:
+- http://www.dallascounty.org/department/comcrt/district4/home.php
+emails:
+- Elba.GarciaDDS@dallascounty.org
+slug: elba-garcia

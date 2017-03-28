@@ -1,0 +1,13 @@
+---
+name: Kevin Stofle
+address:
+- line1: 301 SE Inner Loop Annex
+  line2: Suite 102
+  city: Georgetown
+  state: TX
+  zip: '78626'
+phones:
+- "(512) 943-1434"
+emails:
+- const3mail@wilco.org
+slug: kevin-stofle

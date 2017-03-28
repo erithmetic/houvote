@@ -1,0 +1,18 @@
+---
+name: Clint McRae
+address:
+- line1: 717 FM 2821 West
+  city: Huntsville
+  state: TX
+  zip: '77320'
+party: Republican
+phones:
+- "(936) 435-2400"
+urls:
+- http://www.co.walker.tx.us/department/index.php?fDD=16-0
+emails:
+- sheriff@co.walker.tx.us
+channels:
+- type: Twitter
+  id: WalkerSO
+slug: clint-mcrae

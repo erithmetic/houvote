@@ -1,0 +1,21 @@
+---
+name: Kay Granger
+address:
+- line1: 1026 Longworth House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-5071"
+urls:
+- http://kaygranger.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/G/G000377.jpg
+channels:
+- type: Facebook
+  id: RepKayGranger
+- type: Twitter
+  id: RepKayGranger
+- type: YouTube
+  id: RepKayGranger
+slug: kay-granger

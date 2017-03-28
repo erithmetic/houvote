@@ -1,0 +1,19 @@
+---
+name: Will Metcalf
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0726"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=16
+photoUrl: http://www.house.state.tx.us/photos/members/2900.jpg
+channels:
+- type: Twitter
+  id: willmetcalftx
+- type: Facebook
+  id: WillMetcalfHD16
+slug: will-metcalf

@@ -1,0 +1,12 @@
+---
+name: John R. Ames
+address:
+- line1: 500 Elm St.,
+  city: Dallas
+  state: TX
+  zip: '75202'
+phones:
+- "(214) 653-7811"
+urls:
+- http://www.dallascounty.org/department/tax/taxoffice_home.html
+slug: john-r-ames

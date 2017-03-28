@@ -1,0 +1,20 @@
+---
+name: Rebecca J. Viagran
+address:
+- line1: P.O. Box 839966
+  city: San Antonio
+  state: TX
+  zip: '78283'
+phones:
+- "(210) 207-7064"
+urls:
+- http://www.sanantonio.gov/council/d3.aspx
+photoUrl: http://www.sanantonio.gov/portals/0/Images/Council/d3/viagran.png
+emails:
+- district3@sanantonio.gov
+channels:
+- type: Facebook
+  id: VoteforRebecca
+- type: Twitter
+  id: RebeccaViagran
+slug: rebecca-j-viagran

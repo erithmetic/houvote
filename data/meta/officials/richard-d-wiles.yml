@@ -1,0 +1,19 @@
+---
+name: Richard D. Wiles
+address:
+- line1: 3850 Justice
+  city: El Paso
+  state: TX
+  zip: '79938'
+phones:
+- "(915) 538-2292"
+urls:
+- http://www.epcounty.com/sheriff/
+emails:
+- epsheriff@epcounty.com
+channels:
+- type: Facebook
+  id: EPSHERIFF
+- type: Twitter
+  id: EPSHERIFF
+slug: richard-d-wiles

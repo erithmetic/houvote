@@ -1,0 +1,21 @@
+---
+name: Brian Babin
+address:
+- line1: 316 Cannon House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-1555"
+urls:
+- https://babin.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/D/D000399.jpg
+channels:
+- type: Facebook
+  id: RepBrianBabin
+- type: Twitter
+  id: RepBrianBabin
+- type: YouTube
+  id: UCPVEZgw-VbDRbLV1MRGVQNQ
+slug: brian-babin

@@ -1,0 +1,21 @@
+---
+name: Greg Abbott
+address:
+- line1: P.O. Box 12428
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-2000"
+urls:
+- http://www.governor.state.tx.us/
+photoUrl: http://gov.texas.gov/multimedia/photos/2015-GovernorAbbott-Portrait.jpg
+channels:
+- type: GooglePlus
+  id: '114575192028324795215'
+- type: Facebook
+  id: TexasGovernor
+- type: Twitter
+  id: TexGov
+slug: greg-abbott

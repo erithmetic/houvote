@@ -1,0 +1,16 @@
+---
+name: Jeff Williams
+address:
+- line1: P.O. Box 90231
+  city: Arlington
+  state: TX
+  zip: '76004'
+phones:
+- "(817) 459-6121"
+urls:
+- http://www.arlington-tx.gov/citycouncil/mayor/
+photoUrl: http://www.arlington-tx.gov/citycouncil/wp-content/uploads/sites/18/2014/05/City-Council-Member-Jeff-Williams.jpg
+channels:
+- type: YouTube
+  id: UCT4zonihZhdw2TqLZDA-q4w
+slug: jeff-williams

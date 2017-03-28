@@ -1,0 +1,18 @@
+---
+name: Ron Wright
+address:
+- line1: 100 E. Weatherford Street
+  city: Fort Worth
+  state: TX
+  zip: '76196'
+party: Republican
+phones:
+- "(817) 884-1100"
+urls:
+- http://access.tarrantcounty.com/en/tax.html?linklocation=supermenu&linkname=Tax%20Assessor-Collector
+channels:
+- type: Facebook
+  id: TarrantCountyTAC
+- type: Twitter
+  id: TarrantCoTax
+slug: ron-wright

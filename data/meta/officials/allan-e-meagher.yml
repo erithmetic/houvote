@@ -1,0 +1,15 @@
+---
+name: Allan E. Meagher
+address:
+- line1: 825 W. Irving Blvd.
+  city: Irving
+  state: TX
+  zip: '75060'
+phones:
+- "(972) 313-0808"
+urls:
+- http://cityofirving.org/210/Meet-Your-Mayor-and-Council
+photoUrl: http://cityofirving.org/ImageRepository/Document?documentID=8501
+emails:
+- ameagher@cityofirving.org
+slug: allan-e-meagher

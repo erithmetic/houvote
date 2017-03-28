@@ -1,0 +1,15 @@
+---
+name: Tano E. Tijerina
+address:
+- line1: 1000 Houston St
+  line2: 3rd flr
+  city: Laredo
+  state: TX
+  zip: '78040'
+phones:
+- "(956) 523-4600"
+urls:
+- http://www.webbcountytx.gov/CountyJudge/
+emails:
+- bgranado@webbcountytx.gov
+slug: tano-e-tijerina

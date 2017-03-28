@@ -1,0 +1,14 @@
+---
+name: Tony Martinez
+address:
+- line1: 1001 E Elizabeth St,
+  city: Brownsville
+  state: TX
+  zip: '78520'
+phones:
+- "(956) 548-6007"
+urls:
+- http://comission.cob.us/
+emails:
+- mayormartinez@cob.us
+slug: tony-martinez

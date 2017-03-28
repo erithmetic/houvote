@@ -1,0 +1,19 @@
+---
+name: David Stout
+address:
+- line1: 500 E. San Antonio
+  city: El Paso
+  state: TX
+  zip: '79901'
+phones:
+- "(915) 546-2111"
+urls:
+- http://www.epcounty.com/Comm2
+emails:
+- Commissioner2@epcounty.com
+channels:
+- type: Facebook
+  id: CommissionerDavidStout
+- type: Twitter
+  id: CommStout
+slug: david-stout

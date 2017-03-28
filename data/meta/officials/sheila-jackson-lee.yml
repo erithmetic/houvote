@@ -1,0 +1,23 @@
+---
+name: Sheila Jackson Lee
+address:
+- line1: 2187 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Democratic
+phones:
+- "(202) 225-3816"
+urls:
+- http://jacksonlee.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/J/J000032.jpg
+channels:
+- type: Facebook
+  id: CongresswomanSheilaJacksonLee
+- type: Twitter
+  id: JacksonLeeTX18
+- type: GooglePlus
+  id: '106458938968279783636'
+- type: YouTube
+  id: RepJacksonLee
+slug: sheila-jackson-lee

@@ -1,0 +1,15 @@
+---
+name: Mitzi Wohleking
+address:
+- line1: 2110 North A St
+  line2: Room 167
+  city: Midland
+  state: TX
+  zip: '79705'
+phones:
+- "(432) 688-4880"
+urls:
+- https://www.co.midland.tx.us/departments/treasurer/Pages/default.aspx
+emails:
+- mitzi_wohleking@co.midland.tx.us
+slug: mitzi-wohleking

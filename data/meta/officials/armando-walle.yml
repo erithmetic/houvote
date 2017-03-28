@@ -1,0 +1,19 @@
+---
+name: Armando Walle
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0924"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=140
+photoUrl: http://www.house.state.tx.us/photos/members/4930.jpg
+emails:
+- Armando.Walle@house.state.tx.us
+channels:
+- type: Twitter
+  id: RepWalle
+slug: armando-walle

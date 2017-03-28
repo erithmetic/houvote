@@ -1,0 +1,21 @@
+---
+name: Michael C. Burgess
+address:
+- line1: 2336 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-7772"
+urls:
+- http://burgess.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/B/B001248.jpg
+channels:
+- type: Facebook
+  id: michaelcburgess
+- type: Twitter
+  id: michaelcburgess
+- type: YouTube
+  id: MichaelCBurgessMD
+slug: michael-c-burgess

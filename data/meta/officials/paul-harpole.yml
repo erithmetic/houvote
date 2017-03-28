@@ -1,0 +1,13 @@
+---
+name: Paul Harpole
+address:
+- line1: City Hall
+  line2: "- 509 S.E. Seventh Avenue"
+  city: Amarillo
+  state: TX
+  zip: '79101'
+phones:
+- "(806) 378-3010"
+emails:
+- Mayor@amarillo.gov
+slug: paul-harpole

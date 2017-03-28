@@ -1,0 +1,18 @@
+---
+name: Nathaniel Moran
+address:
+- line1: 200 E. Ferguson
+  line2: Suite 100
+  city: Tyler
+  state: TX
+  zip: '75702'
+phones:
+- "(903) 590-4600"
+urls:
+- http://www.smith-county.com/Commissioners/Commissioner/Baker.aspx
+emails:
+- nmoran@smith-county.com
+channels:
+- type: Twitter
+  id: judgejoelbaker
+slug: nathaniel-moran

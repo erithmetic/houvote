@@ -1,0 +1,17 @@
+---
+name: Robert Chody
+address:
+- line1: 508 S. Rock St.
+  city: Georgetown
+  state: TX
+  zip: '78626'
+phones:
+- "(512) 943-1300"
+emails:
+- rchody@wilco.org
+channels:
+- type: Facebook
+  id: WilcoSheriffsOffice
+- type: Twitter
+  id: SheriffChody
+slug: robert-chody

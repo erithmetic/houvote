@@ -1,0 +1,19 @@
+---
+name: Cathy C. Talcott
+address:
+- line1: P.O. Box 659480
+  city: San Antonio
+  state: TX
+  zip: '78265'
+phones:
+- "(830) 221-1353"
+urls:
+- http://taxes.mycomalcounty.net/
+emails:
+- contact1@co.comal.tx.us
+channels:
+- type: Facebook
+  id: Comal-County-Tax-Office-219584744753609
+- type: Twitter
+  id: Comalcountytax
+slug: cathy-c-talcott

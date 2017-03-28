@@ -1,0 +1,16 @@
+---
+name: Mark W. Reynolds
+address:
+- line1: 3005 W. San Antonio St.
+  city: New Braunfels
+  state: TX
+  zip: '78130'
+party: Republican
+phones:
+- "(830) 620-3400"
+urls:
+- http://www.co.comal.tx.us/so/index.html
+channels:
+- type: Facebook
+  id: '262901413722765'
+slug: mark-w-reynolds

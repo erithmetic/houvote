@@ -1,0 +1,19 @@
+---
+name: Dennis Paul
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0734"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=129
+photoUrl: http://www.house.state.tx.us/photos/members/3090.jpg
+channels:
+- type: Facebook
+  id: Dennis.Paul.HD129
+- type: Twitter
+  id: dennispaul129
+slug: dennis-paul

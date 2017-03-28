@@ -1,0 +1,18 @@
+---
+name: Tiffinni A. Young
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5FN
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-4689"
+urls:
+- http://dallascityhall.com/government/citycouncil/district7/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district7/PublishingImages/Tiffinni-Young.jpg
+channels:
+- type: Facebook
+  id: TiffinniAYoung
+slug: tiffinni-a-young

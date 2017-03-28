@@ -1,0 +1,21 @@
+---
+name: Justin Rodriguez
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0669"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=125
+photoUrl: http://www.house.state.tx.us/photos/members/2550.jpg
+emails:
+- Justin.Rodriguez@house.state.tx.us
+channels:
+- type: Facebook
+  id: RepJRod
+- type: Twitter
+  id: RepJRod
+slug: justin-rodriguez

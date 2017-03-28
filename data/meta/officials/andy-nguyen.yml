@@ -1,0 +1,20 @@
+---
+name: Andy Nguyen
+address:
+- line1: 700 E. Abram St.,
+  city: Arlington
+  state: TX
+  zip: '76010'
+party: Republican
+phones:
+- "(817) 548-3900"
+urls:
+- http://access.tarrantcounty.com/en/commissioner-2.html
+emails:
+- precinct2@tarrantcounty.com
+channels:
+- type: Facebook
+  id: AndyNguyenTC
+- type: Twitter
+  id: andynguyennow
+slug: andy-nguyen

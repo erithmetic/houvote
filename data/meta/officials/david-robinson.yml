@@ -1,0 +1,21 @@
+---
+name: David Robinson
+address:
+- line1: 900 Bagby
+  line2: First Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(832) 393-3013"
+urls:
+- http://www.houstontx.gov/council/2/index.html
+photoUrl: http://www.houstontx.gov/council/2/images/robinson.jpg
+emails:
+- atlarge2@houstontx.gov
+channels:
+- type: Twitter
+  id: dwr4hou
+- type: Facebook
+  id: '222981821048163'
+slug: david-robinson

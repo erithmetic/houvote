@@ -1,0 +1,12 @@
+---
+name: John Fisher
+address:
+- line1: P.O. Box 768
+  city: Belton
+  state: TX
+  zip: '76513'
+phones:
+- "(254) 933-5104"
+urls:
+- http://www.bellcountytx.com/county_government/commissioners_court/precinct_4.php
+slug: john-fisher

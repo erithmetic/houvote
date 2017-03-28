@@ -1,0 +1,13 @@
+---
+name: Mary Horn
+address:
+- line1: 110 W. Hickory St.
+  line2: 2nd Floor
+  city: Denton
+  state: TX
+  zip: '76201'
+phones:
+- "(940) 349-2820"
+urls:
+- http://dentoncounty.com/Departments/Commissioners.aspx
+slug: mary-horn

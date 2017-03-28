@@ -1,0 +1,12 @@
+---
+name: Laverne Lusk
+address:
+- line1: P.O. Box 420
+  city: Rusk
+  state: TX
+  zip: '75785'
+phones:
+- "(903) 683-2350"
+urls:
+- http://www.co.cherokee.tx.us/ips/cms/countyoffices/countyClerk.html
+slug: laverne-lusk

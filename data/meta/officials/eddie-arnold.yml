@@ -1,0 +1,16 @@
+---
+name: Eddie Arnold
+address:
+- line1: 1149 Pearl Street
+  line2: 4th Floor
+  city: Beaumont
+  state: TX
+  zip: '77701'
+party: Unknown
+phones:
+- "(409) 434-5430"
+urls:
+- https://www.co.jefferson.tx.us/prct1/html/index.aspx
+emails:
+- eddiearnold@co.jefferson.tx.us
+slug: eddie-arnold

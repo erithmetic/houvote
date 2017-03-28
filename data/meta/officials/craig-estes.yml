@@ -1,0 +1,22 @@
+---
+name: Craig Estes
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0130"
+urls:
+- http://www.senate.texas.gov/member.php?d=30
+- http://craigestes.org/
+photoUrl: http://www.senate.texas.gov/members/d30/img/headshot.jpg
+emails:
+- craig.estes@senate.state.tx.us
+channels:
+- type: Facebook
+  id: estesfortexas
+- type: Twitter
+  id: EstesForTexas
+slug: craig-estes

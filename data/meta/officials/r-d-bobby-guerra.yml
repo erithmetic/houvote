@@ -1,0 +1,21 @@
+---
+name: R. D. "Bobby" Guerra
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0578"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=41
+photoUrl: http://www.house.state.tx.us/photos/members/2325.jpg
+emails:
+- bobby.guerra@house.state.tx.us
+channels:
+- type: Facebook
+  id: voteguerra
+- type: Twitter
+  id: RDBobbyGuerra
+slug: r-d-bobby-guerra

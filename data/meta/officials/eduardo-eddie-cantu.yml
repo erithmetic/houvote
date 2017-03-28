@@ -1,0 +1,19 @@
+---
+name: Eduardo "Eddie" Cantu
+address:
+- line1: 300 W. Hall Acres
+  city: Pharr
+  state: TX
+  zip: '78577'
+phones:
+- "(956) 787-1891"
+urls:
+- https://tx-hidalgocounty.civicplus.com/index.aspx?nid=1256
+emails:
+- commissioner2@co.hidalgo.tx.us
+channels:
+- type: Facebook
+  id: Cantufor2
+- type: Twitter
+  id: HCountyPct2
+slug: eduardo-eddie-cantu

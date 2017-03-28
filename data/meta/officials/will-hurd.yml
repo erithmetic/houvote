@@ -1,0 +1,23 @@
+---
+name: Will Hurd
+address:
+- line1: 317 Cannon House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-4511"
+urls:
+- https://hurd.house.gov/
+photoUrl: https://hurd.house.gov/sites/hurd.house.gov/files/styles/congress_featured_image/public/featured_image/official%20copy.jpg?itok=YyWx_zSI
+channels:
+- type: Facebook
+  id: HurdOnTheHill
+- type: Twitter
+  id: HurdOnTheHill
+- type: GooglePlus
+  id: '103100181749499088777'
+- type: YouTube
+  id: UCjWcn2lgGCZbwPs6lKxlziQ
+slug: will-hurd

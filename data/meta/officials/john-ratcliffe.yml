@@ -1,0 +1,19 @@
+---
+name: John Ratcliffe
+address:
+- line1: 325 Cannon House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-6673"
+urls:
+- https://ratcliffe.house.gov/
+photoUrl: https://ratcliffe.house.gov/sites/ratcliffe.house.gov/files/styles/congress_image_medium/public/wysiwyg_uploaded/JLR_Official_Photo_Cropped.jpg?itok=kcxluQZU
+channels:
+- type: Facebook
+  id: RepRatcliffe
+- type: Twitter
+  id: RepRatcliffe
+slug: john-ratcliffe

@@ -1,0 +1,15 @@
+---
+name: Billie Page
+address:
+- line1: P. O. Box 1344
+  city: Lufkin
+  state: TX
+  zip: '75902'
+party: Republican
+phones:
+- "(936) 634-8376"
+urls:
+- http://www.angelinacounty.net/departments/tax
+emails:
+- taxoffice@angelinacounty.net
+slug: billie-page

@@ -1,0 +1,14 @@
+---
+name: Barry Mahler
+address:
+- line1: 900 7th Street,
+  city: Wichita Falls
+  state: TX
+  zip: '76301'
+phones:
+- "(940) 766-8101"
+urls:
+- http://www.co.wichita.tx.us/Commissioner/pct3.html
+emails:
+- Barry.Mahler@co.wichita.tx.us
+slug: barry-mahler

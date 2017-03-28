@@ -1,0 +1,15 @@
+---
+name: Connie Wade
+address:
+- line1: 101 E. Methvin
+  line2: Suite 200
+  city: Longview
+  state: TX
+  zip: '75601'
+phones:
+- "(903) 236-8430"
+urls:
+- http://www.co.gregg.tx.us/county-clerk
+emails:
+- Gladyce.Carver@co.gregg.tx.us
+slug: connie-wade

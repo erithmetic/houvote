@@ -1,0 +1,17 @@
+---
+name: Ann Harris Bennett
+address:
+- line1: P.O. Box 4663
+  city: Houston
+  state: TX
+  zip: '77210'
+phones:
+- "(713) 274-8000"
+urls:
+- http://www.hctax.net/
+channels:
+- type: Facebook
+  id: HarrisCountyTACOffice
+- type: Twitter
+  id: HarrisCountyTAC
+slug: ann-harris-bennett

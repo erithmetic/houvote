@@ -1,0 +1,21 @@
+---
+name: Al Green
+address:
+- line1: 2347 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Democratic
+phones:
+- "(202) 225-7508"
+urls:
+- http://algreen.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/G/G000553.jpg
+channels:
+- type: Facebook
+  id: repalgreen
+- type: Twitter
+  id: RepAlGreen
+- type: YouTube
+  id: RepAlGreen
+slug: al-green

@@ -1,0 +1,14 @@
+---
+name: Bruce Archer
+address:
+- line1: P.O. Box 850137
+  city: Mesquite
+  state: TX
+  zip: '75185'
+phones:
+- "(972) 834-7099"
+urls:
+- http://www.cityofmesquite.com/directory.aspx?EID=5
+emails:
+- barcher@cityofmesquite.com
+slug: bruce-archer

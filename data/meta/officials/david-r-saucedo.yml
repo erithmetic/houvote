@@ -1,0 +1,14 @@
+---
+name: David R. Saucedo
+address:
+- line1: 500 Quarry Street,
+  city: Eagle Pass
+  state: TX
+  zip: '78852'
+phones:
+- "(830) 773-3824"
+urls:
+- http://www.co.maverick.tx.us/default.aspx?Maverick_County/County.Judge
+emails:
+- david.saucedo@co.maverick.tx.us
+slug: david-r-saucedo

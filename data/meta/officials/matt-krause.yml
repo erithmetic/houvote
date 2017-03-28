@@ -1,0 +1,21 @@
+---
+name: Matt Krause
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0562"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=93
+photoUrl: http://www.house.state.tx.us/photos/members/2465.jpg
+emails:
+- Matt.Krause@house.state.tx.us
+channels:
+- type: Twitter
+  id: repmattkrause
+- type: Facebook
+  id: KrauseforTexas
+slug: matt-krause

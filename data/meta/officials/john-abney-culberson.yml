@@ -1,0 +1,21 @@
+---
+name: John Abney Culberson
+address:
+- line1: 2161 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-2571"
+urls:
+- http://culberson.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/C/C001048.jpg
+channels:
+- type: Facebook
+  id: CongressmanCulberson
+- type: Twitter
+  id: johnculberson
+- type: YouTube
+  id: JohnCulbersonTX07
+slug: john-abney-culberson

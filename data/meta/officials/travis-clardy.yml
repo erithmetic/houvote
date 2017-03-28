@@ -1,0 +1,21 @@
+---
+name: Travis Clardy
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0592"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=11
+photoUrl: http://www.house.state.tx.us/photos/members/2355.jpg
+emails:
+- Travis.Clardy@house.state.tx.us
+channels:
+- type: Twitter
+  id: travisfortexas
+- type: Facebook
+  id: TravisforTexas
+slug: travis-clardy

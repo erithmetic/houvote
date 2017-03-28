@@ -1,0 +1,14 @@
+---
+name: Sherman Krause
+address:
+- line1: 100 Main Plaza
+  city: New Braunfels
+  state: TX
+  zip: '78130'
+phones:
+- "(830) 221-1105"
+urls:
+- http://www.co.comal.tx.us/County_Judge.htm
+emails:
+- krause@co.comal.tx.us
+slug: sherman-krause

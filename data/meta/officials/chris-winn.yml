@@ -1,0 +1,13 @@
+---
+name: Chris Winn
+address:
+- line1: 916 Main St,
+  city: Lubbock
+  state: TX
+  zip: '79401'
+party: Republican
+phones:
+- "(806) 775-1616"
+urls:
+- http://www.co.lubbock.tx.us/department/?fDD=27-0
+slug: chris-winn

@@ -1,0 +1,14 @@
+---
+name: Greg Simmons
+address:
+- line1: 1010 East 8th Street
+  city: Odessa
+  state: TX
+  zip: '79761'
+phones:
+- "(432) 498-4002"
+urls:
+- http://www.co.ector.tx.us/default.aspx?Ector_County/Commissioners.Court
+emails:
+- greg.simmons@ectorcountytx.gov
+slug: greg-simmons

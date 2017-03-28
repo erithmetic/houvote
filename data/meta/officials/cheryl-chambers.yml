@@ -1,0 +1,14 @@
+---
+name: Cheryl Chambers
+address:
+- line1: 101 W. Main St.
+  city: Waxahachie
+  state: TX
+  zip: '75165'
+phones:
+- "(972) 825-5127"
+urls:
+- http://www.co.ellis.tx.us/index.aspx?nid=78
+emails:
+- cheryl.chambers@co.ellis.tx.us
+slug: cheryl-chambers

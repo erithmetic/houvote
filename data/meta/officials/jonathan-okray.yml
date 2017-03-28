@@ -1,0 +1,14 @@
+---
+name: Jonathan Okray
+address:
+- line1: PO Box 1329
+  city: Killeen
+  state: TX
+  zip: '76540'
+phones:
+- "(254) 368-8966"
+urls:
+- http://www.killeentexas.gov/index.php?section=21
+emails:
+- jokray@killeentexas.gov
+slug: jonathan-okray

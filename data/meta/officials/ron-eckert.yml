@@ -1,0 +1,15 @@
+---
+name: Ron Eckert
+address:
+- line1: 300 North Grant
+  line2: Room 227
+  city: Odessa
+  state: TX
+  zip: '79761'
+phones:
+- "(432) 498-4100"
+urls:
+- http://www.co.ector.tx.us/default.aspx?Ector_County/County.Judge
+emails:
+- ron.eckert@ectorcountytx.gov
+slug: ron-eckert

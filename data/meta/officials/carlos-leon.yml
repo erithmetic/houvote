@@ -1,0 +1,17 @@
+---
+name: Carlos Leon
+address:
+- line1: 500 E. San Antonio
+  city: El Paso
+  state: TX
+  zip: '79901'
+phones:
+- "(915) 546-2014"
+urls:
+- http://www.epcounty.com/Comm1
+emails:
+- Commissioner1@epcounty.com
+channels:
+- type: Facebook
+  id: '155827997861915'
+slug: carlos-leon

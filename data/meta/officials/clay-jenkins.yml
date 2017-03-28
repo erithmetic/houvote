@@ -1,0 +1,15 @@
+---
+name: Clay Jenkins
+address:
+- line1: 411 Elm Street
+  city: Dallas
+  state: TX
+  zip: '75202'
+phones:
+- "(214) 653-7949"
+urls:
+- http://www.dallascounty.org/department/comcrt/jenkins/home.php
+channels:
+- type: Facebook
+  id: judgejenkins
+slug: clay-jenkins

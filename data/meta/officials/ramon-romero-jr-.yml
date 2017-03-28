@@ -1,0 +1,19 @@
+---
+name: Ramon Romero, Jr.
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0740"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=90
+photoUrl: http://www.house.state.tx.us/photos/members/3060.jpg
+channels:
+- type: Twitter
+  id: RamonRomeroJr90
+- type: Facebook
+  id: '371863612949631'
+slug: ramon-romero-jr-

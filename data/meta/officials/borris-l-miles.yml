@@ -1,0 +1,28 @@
+---
+name: Borris L. Miles
+address:
+- line1: P.O. Box 12068
+  line2: Capitol Station
+  line3: ''
+  city: Austin
+  state: TX
+  zip: '78711'
+- line1: 5302 Almeda
+  line2: Suite A
+  line3: ''
+  city: Houston
+  state: TX
+  zip: '77004'
+party: Democratic
+phones:
+- "(512) 463-0113"
+- "(713) 665-8322"
+urls:
+- http://www.senate.texas.gov/member.php?d=13
+photoUrl: http://www.senate.texas.gov/members/d13/img/miles-initial.jpg
+channels:
+- type: Twitter
+  id: BorrisLMiles
+- type: Facebook
+  id: RepBorrisMiles146
+slug: borris-l-miles

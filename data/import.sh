@@ -3,7 +3,7 @@
 export RAILS_ENV=${RAILS_ENV:-development}
 
 set -eo pipefail
-DBNAME=houvote_development
+DBNAME=houvote_$RAILS_ENV
 DBHOST=db
 
 export DATABASE_URL=postgres://postgres@db/houvote_$RAILS_ENV
@@ -68,12 +68,22 @@ function shp_import () {
   rm -rf out
 }
 
+
+# Map divisions to Google/VIP API IDs
+# ===================================
+# ruby init.rb
+
+
 # Create database
 # ===============
+
+set -x
 
 rake db:drop
 rake db:create
 rake db:migrate
+
+set +x
 
 
 # Import US States
@@ -297,7 +307,7 @@ shp_import \
 # Copy voting precincts to districts
 ssql <<SQL
 INSERT INTO divisions (
-  SELECT CONCAT('tx-precinct-', pctkey) AS slug,
+  SELECT CONCAT('tx-precinct-', REGEXP_REPLACE(pctkey, '[^\w]', '')) AS slug,
     'tx-county' AS government_slug,
     'Voting Precint' AS category,
     (SELECT CONCAT(INITCAP(LOWER(pd.county)), ' County Precinct ', prec)
@@ -389,7 +399,7 @@ shp_import \
 # Copy school districts to divisions
 ssql <<SQL
 INSERT INTO divisions (
-  SELECT CONCAT('tx-isd-', LOWER(name2), '-', district) AS slug,
+  SELECT CONCAT('tx-isd-', REGEXP_REPLACE(LOWER(name2), '[^\w]', '-', 'g'), '-', district) AS slug,
     'tx' AS government_slug,
     'School District' AS category,
     name,
@@ -434,16 +444,18 @@ SQL
 # http://data.ohouston.org/dataset/city-tax-increment-reinvestment-zones-tirz
 
 sql "\\COPY divisions TO divisions.csv CSV HEADER"
-cat divisions.csv | awk -F , '{ print $1; }' | tail -n +2 | xargs -I {} touch meta/divisions/{}.yml
+cat divisions.csv | awk -F , '{ print $1; }' | tail -n +2 | xargs -I {} touch 'meta/divisions/{}.yml'
+sql "\\COPY governments TO governments.csv CSV HEADER"
 
+ruby import_google_civic_api.rb
 
 # Harris County 2016 precinct results
 # ===================================
 
-wget --no-clobber http://www.harrisvotes.com/HISTORY/20161108/canvass/canvass.pdf
-pdftotext -layout canvass.pdf canvass.txt
-ruby parse_harris_election_results.rb harris/2016_11 canvass.txt
-ruby import_harris_candidates.rb harris/2016_11
+#wget --no-clobber http://www.harrisvotes.com/HISTORY/20161108/canvass/canvass.pdf
+#pdftotext -layout canvass.pdf canvass.txt
+#ruby parse_harris_election_results.rb harris/2016_11 canvass.txt
+#ruby import_harris_candidates.rb harris/2016_11
 # => elections.csv
 # => officials.csv
 # => terms.csv
@@ -453,3 +465,6 @@ ruby import_harris_candidates.rb harris/2016_11
 
 #wget --no-clobber http://results.enr.clarityelections.com/TX/Fort_Bend/64723/184359/reports/detailxls.zip
 #unzip detailxls.zip
+
+
+echo "DONE!!!"

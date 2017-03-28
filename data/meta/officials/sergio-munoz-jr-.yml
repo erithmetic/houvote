@@ -1,0 +1,21 @@
+---
+name: Sergio Munoz, Jr.
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0704"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=36
+photoUrl: http://www.house.state.tx.us/photos/members/2060.jpg
+emails:
+- Sergio.Munoz@house.state.tx.us
+channels:
+- type: Facebook
+  id: sergioforsouthtexas
+- type: Twitter
+  id: sergiomunozjr
+slug: sergio-munoz-jr-

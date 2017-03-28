@@ -1,0 +1,14 @@
+---
+name: Katie Lang
+address:
+- line1: 201 W. Bridge St.
+  city: Granbury
+  state: TX
+  zip: '76048'
+phones:
+- "(817) 579-3222 ext. 5621"
+urls:
+- http://www.co.hood.tx.us/211/County-Clerk
+emails:
+- klang@co.hood.tx.us
+slug: katie-lang

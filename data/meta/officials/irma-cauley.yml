@@ -1,0 +1,17 @@
+---
+name: Irma Cauley
+address:
+- line1: 200 S. Texas Ave.
+  city: Bryan
+  state: TX
+  zip: '77803'
+phones:
+- "(979) 361-4111"
+urls:
+- https://www.brazoscountytx.gov/index.aspx?NID=103
+emails:
+- icauley@brazoscountytx.gov
+channels:
+- type: Facebook
+  id: '128627473856163'
+slug: irma-cauley

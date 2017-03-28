@@ -1,0 +1,21 @@
+---
+name: Ryan Guillen
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0416"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=31
+photoUrl: http://www.house.state.tx.us/photos/members/3045.jpg
+emails:
+- ryan.guillen@house.state.tx.us
+channels:
+- type: Twitter
+  id: RyanGuillen
+- type: Facebook
+  id: representative.guillen
+slug: ryan-guillen

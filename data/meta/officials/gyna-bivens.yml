@@ -1,0 +1,18 @@
+---
+name: Gyna Bivens
+address:
+- line1: 1000 Throckmorton St.
+  city: Fort Worth
+  state: TX
+  zip: '76102'
+phones:
+- "(817) 392-8805"
+urls:
+- http://fortworthtexas.gov/district5
+photoUrl: http://fortworthtexas.gov/files/5_bivens_mug.jpg
+emails:
+- district5@fortworthtexas.gov
+channels:
+- type: Twitter
+  id: GynaB
+slug: gyna-bivens

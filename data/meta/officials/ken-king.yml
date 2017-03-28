@@ -1,0 +1,19 @@
+---
+name: Ken King
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0736"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=88
+photoUrl: http://www.house.state.tx.us/photos/members/2455.jpg
+emails:
+- Ken.King@house.state.tx.us
+channels:
+- type: Facebook
+  id: KingForTexas
+slug: ken-king

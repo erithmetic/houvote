@@ -1,0 +1,20 @@
+---
+name: Ed Gonzalez
+address:
+- line1: 1200 Baker St.
+  city: Houston
+  state: TX
+  zip: '77002'
+party: Democratic
+phones:
+- "(713) 755-6044"
+urls:
+- http://www.harriscountyso.org/
+emails:
+- webmaster@sheriff.hctx.net
+channels:
+- type: Facebook
+  id: HCSOTexas
+- type: Twitter
+  id: HCSOTexas
+slug: ed-gonzalez

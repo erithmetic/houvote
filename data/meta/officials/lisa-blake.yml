@@ -1,0 +1,16 @@
+---
+name: Lisa Blake
+address:
+- line1: City Hall
+  line2: "- 509 S.E. Seventh Avenue"
+  city: Amarillo
+  state: TX
+  zip: '79101'
+party: Nonpartisan
+phones:
+- "(806) 355-6330"
+urls:
+- http://amarillo.gov/?page_id=87
+emails:
+- Place2@amarillo.gov
+slug: lisa-blake

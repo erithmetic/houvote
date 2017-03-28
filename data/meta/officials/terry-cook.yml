@@ -1,0 +1,16 @@
+---
+name: Terry Cook
+address:
+- line1: 1801 East Old Settlers Blvd.
+  city: Round Rock
+  state: TX
+  zip: '78664'
+party: Democratic
+phones:
+- "(512) 244-8610"
+emails:
+- garry.brown@wilco.org
+channels:
+- type: GooglePlus
+  id: '110478342605371775844'
+slug: terry-cook

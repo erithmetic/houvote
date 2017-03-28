@@ -1,0 +1,15 @@
+---
+name: Gregory Johnson
+address:
+- line1: PO Box 1329
+  city: Killeen
+  state: TX
+  zip: '76540'
+party: Nonpartisan
+phones:
+- "(254) 247-8183"
+urls:
+- http://www.killeentexas.gov/index.php?section=21
+emails:
+- gdjohnson@killeentexas.gov
+slug: gregory-johnson

@@ -1,0 +1,15 @@
+---
+name: Tom Head
+address:
+- line1: 904 Broadway
+  line2: Suite 101
+  city: Lubbock
+  state: TX
+  zip: '79401'
+phones:
+- "(806) 775-1679"
+urls:
+- http://www.co.lubbock.tx.us/department/division.php?fDD=6-21
+emails:
+- thead@co.lubbock.tx.us
+slug: tom-head

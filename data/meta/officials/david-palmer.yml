@@ -1,0 +1,18 @@
+---
+name: David Palmer
+address:
+- line1: 825 W. Irving Blvd.
+  city: Irving
+  state: TX
+  zip: '75060'
+phones:
+- "(469) 401-0067"
+urls:
+- http://cityofirving.org/210/Meet-Your-Mayor-and-Council
+photoUrl: http://cityofirving.org/ImageRepository/Document?documentID=16250
+emails:
+- dpalmer@cityofirving.org
+channels:
+- type: Facebook
+  id: davidpalmerforcityofirving
+slug: david-palmer

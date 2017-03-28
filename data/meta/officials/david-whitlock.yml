@@ -1,0 +1,14 @@
+---
+name: David Whitlock
+address:
+- line1: 100 W. Houston
+  city: Sherman
+  state: TX
+  zip: '75090'
+phones:
+- "(903) 813-4325"
+urls:
+- http://www.co.grayson.tx.us/default.aspx?name=comp2.home
+emails:
+- whitlockd@co.grayson.tx.us
+slug: david-whitlock

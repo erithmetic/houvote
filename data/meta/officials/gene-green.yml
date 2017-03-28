@@ -1,0 +1,21 @@
+---
+name: Gene Green
+address:
+- line1: 2470 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Democratic
+phones:
+- "(202) 225-1688"
+urls:
+- http://green.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/G/G000410.jpg
+channels:
+- type: Facebook
+  id: RepGeneGreen
+- type: Twitter
+  id: RepGeneGreen
+- type: YouTube
+  id: RepGeneGreen
+slug: gene-green

@@ -1,0 +1,23 @@
+---
+name: Filemon Vela
+address:
+- line1: 437 Cannon House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Democratic
+phones:
+- "(202) 225-9901"
+urls:
+- http://vela.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/V/V000132.jpg
+channels:
+- type: Facebook
+  id: UsCongressmanFilemonVela
+- type: Twitter
+  id: RepFilemonVela
+- type: GooglePlus
+  id: '100148487472284435357'
+- type: YouTube
+  id: RepFilemonVela
+slug: filemon-vela

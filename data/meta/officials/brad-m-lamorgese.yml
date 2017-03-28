@@ -1,0 +1,20 @@
+---
+name: Brad M. LaMorgese
+address:
+- line1: 825 W. Irving Blvd.
+  city: Irving
+  state: TX
+  zip: '75060'
+phones:
+- "(214) 460-1990"
+urls:
+- http://cityofirving.org/210/Meet-Your-Mayor-and-Council
+photoUrl: http://cityofirving.org/ImageRepository/Document?documentID=8510
+emails:
+- blamorgese@cityofirving.org
+channels:
+- type: Twitter
+  id: bradlamorgese
+- type: Facebook
+  id: '189931087774858'
+slug: brad-m-lamorgese

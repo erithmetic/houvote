@@ -1,0 +1,15 @@
+---
+name: John C. Danish
+address:
+- line1: 825 W. Irving Blvd.
+  city: Irving
+  state: TX
+  zip: '75060'
+phones:
+- "(469) 507-9207"
+urls:
+- http://cityofirving.org/210/Meet-Your-Mayor-and-Council
+photoUrl: http://cityofirving.org/ImageRepository/Document?documentID=8500
+emails:
+- jcdanish@cityofirving.org
+slug: john-c-danish

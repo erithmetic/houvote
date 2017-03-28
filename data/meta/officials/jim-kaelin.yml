@@ -1,0 +1,15 @@
+---
+name: Jim Kaelin
+address:
+- line1: 901 Leopard Street
+  city: Corpus Christi
+  state: TX
+  zip: '78401'
+phones:
+- "(361) 887-2222"
+emails:
+- nueces.countysheriff@co.nueces.tx.us
+channels:
+- type: Facebook
+  id: '148347815233983'
+slug: jim-kaelin

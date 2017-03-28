@@ -1,0 +1,14 @@
+---
+name: Mike Carter
+address:
+- line1: 801 Hwy 8 S
+  city: New Boston
+  state: TX
+  zip: '75570'
+phones:
+- "(903) 628-2278"
+urls:
+- http://tools.cira.state.tx.us/default.aspx?Bowie_County/Commissioners.Court
+emails:
+- mike.carter@txkusa.org
+slug: mike-carter

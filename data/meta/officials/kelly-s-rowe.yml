@@ -1,0 +1,16 @@
+---
+name: Kelly S Rowe
+address:
+- line1: PO Box 10536
+  city: Lubbock
+  state: TX
+  zip: '79403'
+party: Republican
+phones:
+- "(806) 775-1400"
+urls:
+- http://www.lubbocksheriff.com/
+channels:
+- type: Facebook
+  id: LubbockCountySheriff
+slug: kelly-s-rowe

@@ -1,0 +1,21 @@
+---
+name: Lamar Smith
+address:
+- line1: 2409 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-4236"
+urls:
+- http://lamarsmith.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/S/S000583.jpg
+channels:
+- type: Facebook
+  id: LamarSmithTX21
+- type: Twitter
+  id: LamarSmithTX21
+- type: YouTube
+  id: lamarsmithtexas21
+slug: lamar-smith

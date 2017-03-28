@@ -1,0 +1,24 @@
+---
+name: Brian Birdwell
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0122"
+urls:
+- http://www.senate.texas.gov/member.php?d=22
+- http://brianbirdwell.net/
+photoUrl: http://www.senate.texas.gov/members/d22/img/headshot.jpg
+emails:
+- brian@brianbirdwell.net
+channels:
+- type: Facebook
+  id: BrianBirdwellForTexas
+- type: Twitter
+  id: senatorbirdwell
+- type: YouTube
+  id: SenatorBirdwell
+slug: brian-birdwell

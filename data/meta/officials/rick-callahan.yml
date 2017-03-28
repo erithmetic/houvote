@@ -1,0 +1,20 @@
+---
+name: Rick Callahan
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5FS
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-4052"
+urls:
+- http://dallascityhall.com/government/citycouncil/district5/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district5/PublishingImages/Pages/default/Rick%20Callahan%20District%205.jpg
+emails:
+- rick.callahan@dallascityhall.com
+channels:
+- type: Facebook
+  id: PhilipTKingston
+slug: rick-callahan

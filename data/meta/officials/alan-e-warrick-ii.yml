@@ -1,0 +1,20 @@
+---
+name: Alan E. Warrick II
+address:
+- line1: P.O. Box 839966
+  city: San Antonio
+  state: TX
+  zip: '78283'
+phones:
+- "(210) 207-7278"
+urls:
+- http://www.sanantonio.gov/council/d2.aspx
+photoUrl: http://www.sanantonio.gov/portals/0/Images/Council/d2/Warrick_Ban.jpg
+emails:
+- district2@sanantonio.gov
+channels:
+- type: Twitter
+  id: alanwarrickii
+- type: Facebook
+  id: '260106544113521'
+slug: alan-e-warrick-ii

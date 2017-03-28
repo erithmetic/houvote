@@ -1,0 +1,13 @@
+---
+name: Jack Morman
+address:
+- line1: 1001 Preston
+  line2: Rm. 924
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(713) 755-6220"
+emails:
+- jack.morman@pct2.hctx.net
+slug: jack-morman

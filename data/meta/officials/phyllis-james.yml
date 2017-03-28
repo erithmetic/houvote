@@ -1,0 +1,14 @@
+---
+name: Phyllis James
+address:
+- line1: 100 W. Houston
+  city: Sherman
+  state: TX
+  zip: '75090'
+phones:
+- "(903) 813-4317"
+urls:
+- http://www.co.grayson.tx.us/default.aspx?name=comp3.home
+emails:
+- jamesp@co.grayson.tx.us
+slug: phyllis-james

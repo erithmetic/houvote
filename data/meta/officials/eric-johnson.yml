@@ -1,0 +1,21 @@
+---
+name: Eric Johnson
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0586"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=100
+photoUrl: http://www.house.state.tx.us/photos/members/3345.jpg
+emails:
+- eric.johnson@house.state.tx.us
+channels:
+- type: Twitter
+  id: JohnsonForTexas
+- type: Facebook
+  id: johnsonfortexas
+slug: eric-johnson

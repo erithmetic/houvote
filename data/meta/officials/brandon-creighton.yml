@@ -1,0 +1,22 @@
+---
+name: Brandon Creighton
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0104"
+urls:
+- http://www.senate.texas.gov/member.php?d=4
+- http://brandoncreighton.com/
+photoUrl: http://www.senate.texas.gov/members/d04/img/headshot.jpg
+emails:
+- tommy.williams@senate.state.tx.us
+channels:
+- type: Facebook
+  id: CreightonForTX
+- type: Twitter
+  id: sencreighton
+slug: brandon-creighton

@@ -39,4 +39,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  if ENV['CACHE_STORE'] == 'file_store'
+    config.cache_store = :file_store, File.expand_path('../../../data/.cache', __FILE__)
+  end
 end

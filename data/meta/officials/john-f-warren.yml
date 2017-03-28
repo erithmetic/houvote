@@ -1,0 +1,15 @@
+---
+name: John F. Warren
+address:
+- line1: 509 Main Street
+  line2: 2nd Floor
+  line3: Suite 200
+  city: Dallas
+  state: TX
+  zip: '75202'
+party: Unknown
+phones:
+- "(214) 653-7099"
+urls:
+- http://www.dallascounty.org/department/countyclerk/countyclerk.php
+slug: john-f-warren

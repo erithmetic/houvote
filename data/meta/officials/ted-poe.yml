@@ -1,0 +1,21 @@
+---
+name: Ted Poe
+address:
+- line1: 2132 Rayburn House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-6565"
+urls:
+- http://poe.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/P/P000592.jpg
+channels:
+- type: Facebook
+  id: '106631626049851'
+- type: Twitter
+  id: JudgeTedPoe
+- type: YouTube
+  id: CongressmanTedPoe
+slug: ted-poe

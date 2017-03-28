@@ -1,0 +1,12 @@
+---
+name: Linda Little
+address:
+- line1: 135 S. Main St.
+  city: Rusk
+  state: TX
+  zip: '75785'
+phones:
+- "(903) 683-5478"
+urls:
+- http://www.co.cherokee.tx.us/ips/cms/countyoffices/taxAssessorCollector.html
+slug: linda-little

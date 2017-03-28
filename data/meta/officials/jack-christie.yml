@@ -1,0 +1,21 @@
+---
+name: Jack Christie
+address:
+- line1: 900 Bagby
+  line2: First Floor
+  city: Houston
+  state: TX
+  zip: '77002'
+phones:
+- "(832) 393-3017"
+urls:
+- http://www.houstontx.gov/council/5/index.html
+photoUrl: http://www.houstontx.gov/council/5/images/jackchristie150.jpg
+emails:
+- atlarge5@houstontx.gov
+channels:
+- type: Facebook
+  id: '134358762460'
+- type: Twitter
+  id: DrJackChristie
+slug: jack-christie

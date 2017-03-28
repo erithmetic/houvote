@@ -1,0 +1,18 @@
+---
+name: Vicente Gonzalez
+address:
+- line1: 113 Cannon House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Democratic
+phones:
+- "(202) 225-2531"
+urls:
+- https://gonzalez.house.gov/
+channels:
+- type: Facebook
+  id: USCongressmanVicenteGonzalez
+- type: Twitter
+  id: RepGonzalez
+slug: vicente-gonzalez

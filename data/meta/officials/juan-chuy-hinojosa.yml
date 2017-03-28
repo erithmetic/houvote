@@ -1,0 +1,22 @@
+---
+name: Juan "Chuy" Hinojosa
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Democratic
+phones:
+- "(512) 463-0120"
+urls:
+- http://www.senate.texas.gov/member.php?d=20
+- http://www.senatorhinojosa.com/
+photoUrl: http://www.senate.texas.gov/members/d20/img/Hinojosa_84-0784D-006.jpg
+emails:
+- juan.hinojosa@senate.state.tx.us
+channels:
+- type: Twitter
+  id: txchuy
+- type: Facebook
+  id: SenatorHinojosa
+slug: juan-chuy-hinojosa

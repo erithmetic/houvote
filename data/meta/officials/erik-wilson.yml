@@ -1,0 +1,18 @@
+---
+name: Erik Wilson
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5DN
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-4066"
+urls:
+- http://dallascityhall.com/government/citycouncil/district8/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district8/PublishingImages/Erik-Wilson.jpg
+channels:
+- type: Facebook
+  id: erik.wilson.988
+slug: erik-wilson

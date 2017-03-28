@@ -1,0 +1,17 @@
+---
+name: Mike Schofield
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0528"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=132
+photoUrl: http://www.house.state.tx.us/photos/members/3095.jpg
+channels:
+- type: Facebook
+  id: SchofieldForTexas
+slug: mike-schofield

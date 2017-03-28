@@ -1,0 +1,18 @@
+---
+name: Paul D Perry
+address:
+- line1: P.O. Box 396
+  city: Italy
+  state: TX
+  zip: '76651'
+party: Republican
+phones:
+- "(972) 825-5340"
+urls:
+- http://www.co.ellis.tx.us/index.aspx?NID=126
+emails:
+- paul.perry@co.ellis.tx.us
+channels:
+- type: Facebook
+  id: '599067106794558'
+slug: paul-d-perry

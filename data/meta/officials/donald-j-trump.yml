@@ -1,0 +1,24 @@
+---
+name: Donald J. Trump
+address:
+- line1: The White House
+  line2: 1600 Pennsylvania Avenue NW
+  city: Washington
+  state: DC
+  zip: '20500'
+party: Republican
+phones:
+- "(202) 456-1111"
+urls:
+- http://www.whitehouse.gov/
+photoUrl: https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg
+channels:
+- type: GooglePlus
+  id: "+whitehouse"
+- type: Facebook
+  id: whitehouse
+- type: Twitter
+  id: whitehouse
+- type: YouTube
+  id: whitehouse
+slug: donald-j-trump

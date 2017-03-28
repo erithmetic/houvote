@@ -1,0 +1,13 @@
+---
+name: Pauline Medrano
+address:
+- line1: 1201 Elm Street
+  line2: Suite 2300-A
+  city: Dallas
+  state: TX
+  zip: '75270'
+phones:
+- "(214) 653-7321"
+urls:
+- http://www.dallascounty.org/department/treasurer/treasurer_index.php
+slug: pauline-medrano

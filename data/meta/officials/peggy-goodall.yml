@@ -1,0 +1,13 @@
+---
+name: Peggy Goodall
+address:
+- line1: 125 N. Prairieville Street
+  city: Athens
+  state: TX
+  zip: '75751'
+party: Republican
+phones:
+- "(903) 675-6134"
+urls:
+- http://www.henderson-county.com/departments/county-tax-assessor-collector
+slug: peggy-goodall

@@ -1,0 +1,23 @@
+---
+name: Kevin Brady
+address:
+- line1: 1011 Longworth House Office Building
+  city: Washington
+  state: DC
+  zip: '20515'
+party: Republican
+phones:
+- "(202) 225-4901"
+urls:
+- http://kevinbrady.house.gov/
+photoUrl: http://bioguide.congress.gov/bioguide/photo/B/B000755.jpg
+channels:
+- type: Facebook
+  id: kevinbrady
+- type: Twitter
+  id: RepKevinBrady
+- type: YouTube
+  id: KBrady8
+- type: GooglePlus
+  id: '106506525690406973508'
+slug: kevin-brady

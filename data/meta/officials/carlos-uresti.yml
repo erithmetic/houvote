@@ -1,0 +1,24 @@
+---
+name: Carlos Uresti
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Democratic
+phones:
+- "(512) 463-0119"
+urls:
+- http://www.senate.texas.gov/member.php?d=19
+- http://www.carlosuresti.com/
+photoUrl: http://www.senate.texas.gov/members/d19/img/headshot.jpg
+emails:
+- carlos.uresti@senate.state.tx.us
+channels:
+- type: YouTube
+  id: UrestiCarlos
+- type: Facebook
+  id: carlosuresti
+- type: Twitter
+  id: Carlosuresti
+slug: carlos-uresti

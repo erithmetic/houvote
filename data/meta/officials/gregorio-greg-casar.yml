@@ -1,0 +1,19 @@
+---
+name: Gregorio "Greg" Casar
+address:
+- line1: P.O. Box 1088
+  city: Austin
+  state: TX
+  zip: '78767'
+party: Nonpartisan
+phones:
+- "(512) 974-2258"
+urls:
+- https://www.austintexas.gov/district4
+photoUrl: http://www.austintexas.gov/sites/default/files/images/10-one/Casar_Headshot.jpg
+channels:
+- type: Facebook
+  id: GregorioCasar
+- type: Twitter
+  id: GregorioCasar
+slug: gregorio-greg-casar

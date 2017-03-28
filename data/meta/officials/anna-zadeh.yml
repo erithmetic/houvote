@@ -1,0 +1,20 @@
+---
+name: Anna Zadeh
+address:
+- line1: 1000 Throckmorton St.
+  city: Fort Worth
+  state: TX
+  zip: '76102'
+phones:
+- "(817) 392-8809"
+urls:
+- http://fortworthtexas.gov/district9
+photoUrl: http://fortworthtexas.gov/files/zadeh-1.jpg
+emails:
+- district9@fortworthtexas.gov
+channels:
+- type: Twitter
+  id: AnnZadeh
+- type: Facebook
+  id: annzadehcampaign
+slug: anna-zadeh

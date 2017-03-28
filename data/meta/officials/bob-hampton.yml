@@ -1,0 +1,14 @@
+---
+name: Bob Hampton
+address:
+- line1: 900 7th Street
+  city: Wichita Falls
+  state: TX
+  zip: '76301'
+phones:
+- "(940) 766-8297"
+urls:
+- http://www.co.wichita.tx.us/Treasurer/
+emails:
+- Bob.Hampton@co.wichita.tx.us
+slug: bob-hampton

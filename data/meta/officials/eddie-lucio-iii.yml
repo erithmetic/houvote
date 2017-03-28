@@ -1,0 +1,21 @@
+---
+name: Eddie Lucio III
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Democratic
+phones:
+- "(512) 463-0606"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=38
+photoUrl: http://www.house.state.tx.us/photos/members/3610.jpg
+emails:
+- eddie.lucio_iii@house.state.tx.us
+channels:
+- type: Facebook
+  id: '27300796363'
+- type: Twitter
+  id: TXRepE3
+slug: eddie-lucio-iii

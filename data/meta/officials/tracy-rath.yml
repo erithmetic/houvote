@@ -1,0 +1,17 @@
+---
+name: Tracy Rath
+address:
+- line1: 222 N. Tennessee St.
+  city: McKinney
+  state: TX
+  zip: '75069'
+phones:
+- "(972) 547-7501"
+urls:
+- https://www.mckinneytexas.org/Directory.aspx?EID=615
+emails:
+- trath@mckinneytexas.org
+channels:
+- type: Facebook
+  id: TracyforMcKinney
+slug: tracy-rath

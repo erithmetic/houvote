@@ -1,0 +1,16 @@
+---
+name: Larry Phillips
+address:
+- line1: PO BOX 2910
+  city: Austin
+  state: TX
+  zip: '78768'
+party: Republican
+phones:
+- "(512) 463-0297"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=62
+photoUrl: http://www.house.state.tx.us/photos/members/4160.jpg
+emails:
+- Larry.Phillips@house.state.tx.us
+slug: larry-phillips

@@ -1,0 +1,12 @@
+---
+name: Marty Ruble
+address:
+- line1: 412 Vance Street
+  city: Taylor
+  state: TX
+  zip: '76574'
+phones:
+- "(512) 352-4181"
+emails:
+- mruble@wilco.org
+slug: marty-ruble

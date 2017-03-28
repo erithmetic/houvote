@@ -1,0 +1,22 @@
+---
+name: Adam Medrano
+address:
+- line1: Dallas City Hall
+  line2: 1500 Marilla Street
+  line3: Room 5FN
+  city: Dallas
+  state: TX
+  zip: 75201-6390
+phones:
+- "(214) 670-4048"
+urls:
+- http://dallascityhall.com/government/citycouncil/district2/Pages/default.aspx
+photoUrl: http://dallascityhall.com/government/citycouncil/district2/PublishingImages/Pages/default/Adam%20Medrano%20District%202.JPG
+emails:
+- adam.medrano@dallascityhall.com
+channels:
+- type: Twitter
+  id: VoteAdamMedrano
+- type: Facebook
+  id: VoteAdamMedrano
+slug: adam-medrano

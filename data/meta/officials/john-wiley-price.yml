@@ -1,0 +1,14 @@
+---
+name: John Wiley Price
+address:
+- line1: 411 Elm Street
+  line2: 2nd Floor
+  city: Dallas
+  state: TX
+  zip: '75202'
+party: Democratic
+phones:
+- "(214) 653-6671"
+urls:
+- http://www.dallascounty.org/department/comcrt/district3/price.php
+slug: john-wiley-price

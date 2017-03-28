@@ -1,0 +1,14 @@
+---
+name: Cindy Polley
+address:
+- line1: P.O. Box 250
+  city: Waxahachie
+  state: TX
+  zip: '75168'
+phones:
+- "(972) 825-5070"
+urls:
+- http://www.co.ellis.tx.us/index.aspx?NID=74
+emails:
+- cindy.polley@co.ellis.tx.us
+slug: cindy-polley

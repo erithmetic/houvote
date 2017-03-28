@@ -1,0 +1,14 @@
+---
+name: Teresa McCoy
+address:
+- line1: 1410 W Pearl St.
+  city: Granbury
+  state: TX
+  zip: '76048'
+phones:
+- "(817) 579-3295"
+urls:
+- http://www.co.hood.tx.us/293/Tax-Assessor
+emails:
+- tmccoy@co.hood.tx.us
+slug: teresa-mccoy

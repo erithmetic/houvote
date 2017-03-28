@@ -1,0 +1,15 @@
+---
+name: Randy H. Riggs
+address:
+- line1: P.O. Box 406
+  city: Waco
+  state: TX
+  zip: '76703'
+phones:
+- "(254) 757-5130"
+urls:
+- http://www.co.mclennan.tx.us/tax/index.aspx
+channels:
+- type: Facebook
+  id: '150849861723700'
+slug: randy-h-riggs

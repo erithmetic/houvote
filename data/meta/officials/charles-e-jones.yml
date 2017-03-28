@@ -1,0 +1,12 @@
+---
+name: Charles E. Jones
+address:
+- line1: 101 E. Central Avenue
+  city: Belton
+  state: TX
+  zip: '76513'
+phones:
+- "(254) 933-5251"
+urls:
+- http://www.bellcountytx.com/county_government/treasurer/index.php
+slug: charles-e-jones

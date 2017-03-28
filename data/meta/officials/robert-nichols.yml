@@ -1,0 +1,18 @@
+---
+name: Robert Nichols
+address:
+- line1: 329 NECHES ST,
+  city: Jacksonville
+  state: TX
+  zip: '75766'
+party: Republican
+phones:
+- "(903) 589-3003"
+urls:
+- http://www.senate.texas.gov/member.php?d=3
+- http://www.nicholsforsenate.com/
+photoUrl: http://www.senate.texas.gov/members/d03/img/headshot.jpg
+channels:
+- type: Facebook
+  id: SenatorRobertNichols
+slug: robert-nichols

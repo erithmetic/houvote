@@ -1,0 +1,12 @@
+---
+name: Gary Painter
+address:
+- line1: P.O. Box 11287
+  city: Midland
+  state: TX
+  zip: '79702'
+phones:
+- "(432) 688-4600"
+urls:
+- http://www.co.midland.tx.us/departments/so/Pages/default.aspx
+slug: gary-painter

@@ -1,0 +1,16 @@
+---
+name: Gina Hinojosa
+address:
+- line1: State Capitol
+  line2: Room E2.316
+  line3: P.O. Box 2910
+  city: Austin
+  state: TX
+  zip: 78768-2910
+party: Democratic
+phones:
+- "(512) 463-0668"
+urls:
+- http://www.house.state.tx.us/members/member-page/?district=49
+photoUrl: http://www.house.state.tx.us/photos/members/3210.jpg
+slug: gina-hinojosa

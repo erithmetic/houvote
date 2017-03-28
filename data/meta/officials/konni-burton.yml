@@ -1,0 +1,20 @@
+---
+name: Konni Burton
+address:
+- line1: PO BOX 12068
+  city: Austin
+  state: TX
+  zip: '78711'
+party: Republican
+phones:
+- "(512) 463-0110"
+urls:
+- http://www.senate.texas.gov/member.php?d=10
+- http://konniburton.com/
+photoUrl: http://www.senate.texas.gov/members/d10/img/action.jpg
+channels:
+- type: Twitter
+  id: KonniBurton
+- type: Facebook
+  id: KonniBurtonTX
+slug: konni-burton
