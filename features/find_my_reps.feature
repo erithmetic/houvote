@@ -10,3 +10,4 @@ Feature: Finding my reps
     And I fill in "location" with "410 Sul Ross St 77006"
     And I click on "Submit"
     Then I should see "Sylvester Turner"
+    And I should not see "Virg Bernero"

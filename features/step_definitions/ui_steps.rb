@@ -14,3 +14,6 @@ end
 Then %r{I should see "(.*)"} do |text|
   expect(page).to have_text(text)
 end
+Then %r{I should not see "(.*)"} do |text|
+  expect(page).to_not have_text(text)
+end

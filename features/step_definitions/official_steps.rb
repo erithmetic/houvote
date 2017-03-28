@@ -22,12 +22,12 @@ PLACES = {
 Given %r{"(.*)" is mayor of "(.*)"} do |name, place|
   official = Official.create slug: name.downcase.gsub(/\s+/, '-'), name: name
 
-  government = Government.create slug: 'houston', name: 'City of Houston'
+  Government.create name: place, slug: place.downcase
 
   division_slug = "#{place.downcase}-mayor"
   division = Division.create slug: division_slug,
     government_slug: 'houston',
-    name: "Mayor of #{place}"
+    name: "City of Houston"
 
   Division.connection.execute <<-SQL
     UPDATE divisions

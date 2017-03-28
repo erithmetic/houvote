@@ -14,20 +14,17 @@
 
 <% if @results %>
   <div class="list-group">
-    <% @results.each do |government, officials| %>
+    <% @results.each do |government, divisions| %>
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><%= government.name %></h3>
+          <h2 class="panel-title"><%= government.name %></h3>
         </div>
         <div class="panel-body">
-          <% officials.each do |official| %>
-						<div class="thumbnail">
-              <img src="<%= official.photo_url %>">
-							<div class="caption">
-                <h3><%= official.name %></h3>
-                <p><%= official.terms.current&.name %></p>
-							</div>
-						</div>
+          <% divisions.each do |division| %>
+            <h3><%= link_to division.name, division %></h3>
+            <% division.terms.each do |term| %>
+              <%= render partial: 'official/official', object: term.official %>
+            <% end %>
           <% end %>
         </div>
       </div>

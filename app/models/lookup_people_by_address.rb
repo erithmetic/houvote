@@ -12,13 +12,15 @@ class LookupPeopleByAddress
 
   def call
     if address && location
-      Official.
-        joins(terms: :government).
-        where("ST_Contains(governments.geom, ST_Transform(ST_SetSRID(ST_MakePoint(?,?), 4326), 4326))",
-              location[:longitude], location[:latitude]).
-        where('"terms"."start_date" < NOW() AND "terms"."end_date" > NOW()').
-        to_a.
-        group_by { |p| p.terms.first.government }
+      Government.joins(divisions: { terms: :official }).inject({}) do |hsh, government|
+        #where('"terms"."start_date" < NOW() AND "terms"."end_date" > NOW()').
+        hsh.merge(
+          government => government.divisions.for_point(
+            location[:latitude],
+            location[:longitude]
+          )
+        )
+      end
     else
       []
     end
@@ -39,7 +41,7 @@ class LookupPeopleByAddress
   end
 
   def location_cache_key
-    [address.house_number_and_street, address.city, address.postal_code].map do |s|
+    [address.house_number_and_street, address.city, address.postal_code].compact.map do |s|
       s.downcase.strip.gsub(/\s+/, ' ')
     end.join(' ')
   end
