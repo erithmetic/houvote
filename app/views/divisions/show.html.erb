@@ -1,23 +1,30 @@
-<div class="page-header">
-  <%= link_to governments_path, class: 'btn btn-default' do %>
-    <span class="glyphicon glyphicon-list-alt"></span>
-    Back
+<% content_for :head do %>
+  <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+
+  <style>
+    #map { height: 280px; }
+  </style>
+
+  <script type="text/javascript">
+    $(function() {
+      L.mapbox.accessToken = '<%= ENV.fetch('MAPBOX_API_KEY') %>'
+      var map = L.mapbox.map('map', 'mapbox.streets')
+
+      var geo = L.geoJSON(<%= @division.geom_geojson.html_safe %>).addTo(map)
+      map.fitBounds(geo.getBounds())
+    })
+  </script>
+<% end %>
+
+<h2><%= @division.name %></h2>
+
+<h3>Current <%= pluralize(@division.officials.length, 'officeholder') %></h3>
+
+<div class="panel-body">
+  <% @division.officials.each do |official| %>
+    <%= render partial: 'official/official', object: official %>
   <% end %>
-  <%= link_to edit_government_path(@government), class: 'btn btn-primary' do %>
-    <span class="glyphicon glyphicon-pencil"></span>
-    Edit
-  <% end %>
-  <h1>Show government</h1>
 </div>
 
-<dl class="dl-horizontal">
-  <dt>Slug:</dt>
-  <dd><%= @government.slug %></dd>
-
-  <dt>Name:</dt>
-  <dd><%= @government.name %></dd>
-
-  <dt>Level:</dt>
-  <dd><%= @government.level %></dd>
-
-</dl>
+<div id="map"></div>

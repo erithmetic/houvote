@@ -1,6 +1,7 @@
 class Division < ApplicationRecord
   self.primary_key = :slug
   has_many :terms, foreign_key: :division_slug
+  has_many :officials, through: :terms
 
   scope :voting_precincts_with_centroids, -> () {
     select(*(Division.attribute_names + ['ST_ASGEOJSON(ST_CENTROID(geom)) AS centroid'])).
