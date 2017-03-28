@@ -5,16 +5,6 @@
   <style>
     #map { height: 280px; }
   </style>
-
-  <script type="text/javascript">
-    $(function() {
-      L.mapbox.accessToken = '<%= ENV.fetch('MAPBOX_API_KEY') %>'
-      var map = L.mapbox.map('map', 'mapbox.streets')
-
-      var geo = L.geoJSON(<%= @division.geom_geojson.html_safe %>).addTo(map)
-      map.fitBounds(geo.getBounds())
-    })
-  </script>
 <% end %>
 
 <h2><%= @division.name %></h2>
@@ -28,3 +18,14 @@
 </div>
 
 <div id="map"></div>
+
+
+<script type="text/javascript">
+  $(function() {
+    L.mapbox.accessToken = '<%= ENV.fetch('MAPBOX_API_KEY') %>'
+    var map = L.mapbox.map('map', 'mapbox.streets')
+
+    var geo = L.geoJSON(<%= @division.geom_geojson.html_safe %>).addTo(map)
+    map.fitBounds(geo.getBounds())
+  })
+</script>
