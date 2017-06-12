@@ -4,34 +4,6 @@ Houvote
 
 Get info on elected and unelected government
 
-## Structure
-
-<pre>
-governments
-  slug
-  name  {special,city,county,Texas,US}
-
-divisions
-  slug
-  name
-  geom
-  start_date
-  end_date
-
-terms
-  division_slug
-  official_slug
-  name            # e.g. chair 1, optional
-  start_date
-  end_date
-
-officials
-  slug
-  name
-  photo_url
-  born
-</pre>
-
 
 ## Layers of government
 
